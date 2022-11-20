@@ -1,0 +1,19 @@
+@import url(header.css);
+@import url(section1.css);
+@import url(footer.css);
+.en {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ko {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.section {
+  background-color: #f5f2e1;
+}
+
+.w1640 {
+  width: 1640px;
+  margin: 0 auto;
+}

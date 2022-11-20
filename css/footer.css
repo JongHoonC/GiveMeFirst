@@ -1,0 +1,75 @@
+footer {
+  width: 100%;
+  height: 344px;
+  background-color: #625b3a;
+}
+
+.footer__wrap {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 77px;
+  box-sizing: border-box;
+}
+/* 로고 */
+.footer__logo {
+  border: 1px solid #000;
+  width: 160px;
+  height: 43px;
+}
+
+/* footer 가운데 컨텐츠 */
+.footer__text {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__text > ul > .en {
+  margin-bottom: 15px;
+}
+
+/* footer SNS 박스들 */
+
+.footer__joinMore {
+  display: flex;
+}
+
+/* SNS 박스 */
+.footer__SNS {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__SNS > div {
+  display: flex;
+  padding: 13px 30px;
+  box-sizing: border-box;
+  background-color: #cbc6ad;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+.footer__SNS > div > p {
+  display: block;
+  margin-left: 10px;
+}
+
+/* qr코드 */
+.QR {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  padding: 16px 26px;
+  box-sizing: border-box;
+  background-color: #cbc6ad;
+  border-radius: 10px;
+}
+
+.QR > p {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
