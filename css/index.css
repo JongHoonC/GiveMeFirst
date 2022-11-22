@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(section1.css);
+@import url(section2.css);
 @import url(footer.css);
 .en {
   font-family: 'Roboto', sans-serif;

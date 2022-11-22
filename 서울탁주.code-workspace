@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../../서울탁주"
+	},
+	{
+		"name": "GiveMeFirst",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "GiveMeFirst"
+  }
+}
