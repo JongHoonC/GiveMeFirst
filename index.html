@@ -10,6 +10,7 @@
     <!-- 풀페이지.js -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <title>서울 탁주</title>
   </head>
   <body>
@@ -97,7 +98,40 @@
           </div>
         </section>
       </div>
-      <div class="section">section2</div>
+      <div class="section">
+        <section class="section2">
+          <div class="padding-wrap">
+            <div class="area">
+              <div class="side-bg">
+                <img src="img/rice01.gif" alt="보리" />
+              </div>
+              <div class="contents-box">
+                <article class="font-box">
+                  <h2>대한민국 1등 막걸리</h2>
+                  <h1><span class="green">장수(長壽)</span>생막걸리</h1>
+                  <p>
+                    백미를 사용해 장기저온숙성 방식으로 만들어져 영양이 풍부하고
+                    <br />
+                    자연발효에 의한 탄산과 어울려 감칠맛과 청량감이 일품입니다.
+                  </p>
+                  <div class="btn-box">
+                    <a class="btn-more" href="">
+                      <span>더 알아보기</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </div>
+                </article>
+                <article class="img-box swiper mySwiper">
+                  <div class="img-slide swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/main_sec2_1.png" alt="막걸리" /></div>
+                    <div class="swiper-slide"><img src="img/1.jpg" alt="막걸리" /></div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
       <div class="section">Some section3333</div>
       <div class="section">Some section44</div>
       <div class="section">Some section5</div>
@@ -157,5 +191,10 @@
     responsiveWidth: 768,
   });
 </script>
+
+<!-- slide.js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/slide.js"></script>
+<script src="https://kit.fontawesome.com/1af51f8c7f.js" crossorigin="anonymous"></script>
 
 <script src="js/index.js"></script>
