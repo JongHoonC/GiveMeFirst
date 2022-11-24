@@ -84,7 +84,17 @@
             <ul>
               <li class="en"><a href="#">LOGIN</a></li>
             </ul>
-            <div class="h_right_menu"></div>
+            <div class="dropdown en">
+              <button onclick="myFunction()" class="dropbtn en">
+                <p>KOR</p>
+                <i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div id="myDropdown" class="dropdown-content en">
+                <a href="#home">KOR</a>
+                <a href="#about">ENG</a>
+              </div>
+            </div>
           </div>
         </div>
       </header>
@@ -94,7 +104,7 @@
           <div class="bgwrap">
             <div class="bgimg"></div>
             <!--섹션1 타이들 부분-->
-            <div class="sec1_title"></div>
+            <div class="sec1__title"></div>
           </div>
         </section>
       </div>
@@ -139,7 +149,7 @@
       <div class="section fp-auto-height-responsive fp-auto-height" id="footerheight">
         <footer>
           <!-- 1200으로 묶고 좌우패딩 77 -->
-          <div class="footer__wrap w1640">
+          <div class="footer__wrap">
             <!-- footer 로고 -->
             <div class="footer__logo"></div>
             <!-- footer 가운데 컨텐츠 -->
@@ -160,12 +170,11 @@
             <div class="footer__joinMore ko">
               <div class="footer__SNS">
                 <div class="facebook">
-                  <!-- 사진 임시 -->
-                  <img src="img/facebook.png" alt="" />
+                  <div class="facebook__img"></div>
                   <p>서울탁주 페이스북</p>
                 </div>
                 <div class="insta">
-                  <img src="img/instagram.png" alt="" />
+                  <i class="fa-brands fa-instagram"></i>
                   <p>서울탁주 인스타그램</p>
                 </div>
               </div>

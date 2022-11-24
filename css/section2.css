@@ -16,13 +16,13 @@ body {
   padding: 0 100px;
 }
 
-h2 {
+.font-box > h2 {
   font-size: 26px;
   color: #333333;
   line-height: 1.3;
 }
 
-h1 {
+.font-box > h1 {
   font-size: 50px;
   font-weight: bold;
   margin-top: 50px;
@@ -30,7 +30,7 @@ h1 {
   line-height: 1.3;
 }
 
-p {
+.font-box > p {
   margin-top: 50px;
   font-size: 16px;
   line-height: 1.6;

@@ -1,11 +1,12 @@
 /*메인 BGI*/
 .bgwrap {
   overflow: hidden;
+  position: relative;
 }
 .bgimg {
   width: 100%;
   height: 100vh;
-  background-image: url(../img/about1_bg_img1_edit1.jpg);
+  background-image: url(../img/main_se1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -14,6 +15,18 @@
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   z-index: 8000;
+}
+.sec1__title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 387px;
+  height: 140px;
+  background-image: url(../img/logo_wh.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 @keyframes scale {
   0% {

@@ -7,14 +7,14 @@ let gnb = document.getElementById('gnb');
 gnb.addEventListener('mouseover', event => {
   h_wrap.style.height = '180px';
   for (i = 0; i < conts.length; i++) {
-    conts[i].style.height = '20px';
+    conts[i].style.height = '100px';
   }
 });
 
 gnb.addEventListener('mouseleave', event => {
   h_wrap.style.height = '100px';
   for (i = 0; i < conts.length; i++) {
-    conts[i].style.height = '20px';
+    conts[i].style.height = '100px';
   }
 });
 
@@ -68,3 +68,21 @@ h_wrap.addEventListener('mouseover', event => {
 h_wrap.addEventListener('mouseleave', event => {
   h_wrap.classList.remove('active1');
 });
+
+// 드롭다운
+function myFunction() {
+  document.getElementById('myDropdown').classList.toggle('show');
+}
+
+window.onclick = function (event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName('dropdown-content');
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+};

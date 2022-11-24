@@ -18,3 +18,9 @@
   width: 1640px;
   margin: 0 auto;
 }
+
+@media (max-width: 1200px) {
+  .w1640 {
+    width: 100%;
+  }
+}
