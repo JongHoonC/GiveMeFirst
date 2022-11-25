@@ -109,3 +109,12 @@ footer {
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .footer__SNS > div {
+    padding: 13px 35px;
+  }
+  .QR {
+    padding: 16px 30px;
+  }
+}
