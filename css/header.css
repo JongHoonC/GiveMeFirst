@@ -70,7 +70,7 @@
   opacity: 0;
   width: 800px;
   position: absolute;
-  top: 80px;
+  top: 60px;
   left: 52%;
   transform: translateX(-50%);
   overflow: hidden;
@@ -292,7 +292,7 @@
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #333;
 }
 
 .sidenav .closebtn {

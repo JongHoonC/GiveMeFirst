@@ -5,7 +5,7 @@ let h_wrap = document.getElementById('h_wrap');
 let gnb = document.getElementById('gnb');
 
 gnb.addEventListener('mouseover', event => {
-  h_wrap.style.height = '180px';
+  h_wrap.style.height = '160px';
   for (i = 0; i < conts.length; i++) {
     conts[i].style.height = '100px';
   }
