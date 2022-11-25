@@ -32,3 +32,13 @@
   line-height: 1.6;
   color: #333333;
 }
+
+.section3 .side-bg {
+  position: absolute;
+  right: -360px;
+  top: 20px;
+}
+
+.section3 .side-bg img {
+  width: 40%;
+}
