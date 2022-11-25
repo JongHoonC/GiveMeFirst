@@ -39,6 +39,9 @@
 }
 
 /*네비게이션 바*/
+#gnb{
+  z-index: 9999;
+}
 #gnb > ul {
   width: 800px;
   display: flex;
@@ -70,10 +73,11 @@
   opacity: 0;
   width: 800px;
   position: absolute;
-  top: 60px;
-  left: 52%;
+  top: 100px;
+  left: 50%;
   transform: translateX(-50%);
   overflow: hidden;
+  z-index: 8000;
 }
 
 .cont > li {
@@ -85,7 +89,7 @@
   display: block;
   width: 100%;
   height: auto;
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
   box-sizing: border-box;
   transition: all 0.3s;
   color: #000;
