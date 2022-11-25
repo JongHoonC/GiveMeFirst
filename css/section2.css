@@ -16,13 +16,13 @@ body {
   padding: 0 100px;
 }
 
-.font-box > h2 {
+.section2 h2 {
   font-size: 26px;
   color: #333333;
   line-height: 1.3;
 }
 
-.font-box > h1 {
+.section2 h1 {
   font-size: 50px;
   font-weight: bold;
   margin-top: 50px;
@@ -30,7 +30,7 @@ body {
   line-height: 1.3;
 }
 
-.font-box > p {
+.section2 p {
   margin-top: 50px;
   font-size: 16px;
   line-height: 1.6;
@@ -55,7 +55,7 @@ img {
 
 .area {
   max-width: 1640px;
-  padding: 180px 80px 150px;
+  padding: 30px 80px;
 }
 
 .contents-box {
@@ -105,7 +105,7 @@ img {
   max-height: 568px;
 }
 
-.side-bg {
+.section2 .side-bg {
   position: absolute;
   top: -120px;
   right: 0px;
