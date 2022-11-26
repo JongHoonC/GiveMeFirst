@@ -35,10 +35,20 @@
 
 .section3 .side-bg {
   position: absolute;
+  left:60px;
+  top: 120px;
+}
+
+.section3 .right-bg {
+  position: absolute;
   right: -360px;
-  top: 20px;
+  top:0;
+}
+
+.section3 .right-bg img{
+width: 40%;
 }
 
 .section3 .side-bg img {
-  width: 40%;
+  width: 80%;
 }
