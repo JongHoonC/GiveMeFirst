@@ -42,6 +42,16 @@
   top:100px;
 }
 
+.section6 .side-sullsang {
+  position: absolute;
+  left: 400px;
+  bottom: -200px;
+}
+
+.section6 .side-sullsang img{
+  width: 50%;
+}
+
 .section6 .side-bg img {
   width: 60%;
 }
