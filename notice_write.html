@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/com/reset.css">
+  <link rel="stylesheet" href="css/notice_write.css">
+  <title>서울탁주</title>
+</head>
+<body>
+  <main>
+    <section class="notice-wrap">
+      <form method="post" action="/notice_body" class="notice_contents"> 
+        <input class="notice-title" type="text" name="name" placeholder="제목을 입력해주세요.">
+        <div>
+            <textarea class="notice_contentsTxt" name="content" placeholder="내용을 입력해주세요."></textarea>
+        </div>
+        <div class="notice-buttons">
+          <input class="notice__cancleBtn" type="button" value="취소">
+          <input class="notice__confirmBtn" type="submit" value="등록" >
+        </div>
+      </form>  
+    </section>
+  </main>
+
+  
+</body>
+</html>

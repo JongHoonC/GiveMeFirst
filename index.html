@@ -24,13 +24,13 @@
           <!--네비게이션-->
           <div id="gnb">
             <ul id="drop" class="ko">
-              <li class="over en" data-id="home">
+              <li class="over en home" id="notover" data-id="home">
                 <a href="#">HOME</a>
                 <ul class="cont" id="home">
                   <li><a href="#"></a></li>
                 </ul>
               </li>
-              <li class="over" data-id="range">
+              <li class="over overON" data-id="range">
                 <a href="#">제품소개</a>
                 <!--드롭다운 컨텐츠-->
                 <ul class="cont ko" id="range">
@@ -44,10 +44,10 @@
                   <li><a href="#">상표특허</a></li>
                 </ul>
               </li>
-              <li class="over" data-id="continuous">
+              <li class="over overON" data-id="continuous">
                 <a href="#">술익는 마을</a>
                 <!--드롭다운 컨텐츠-->
-                <ul class="cont" id="continuous">
+                <ul class="cont ko" id="continuous">
                   <li><a href="#">숨쉬는 막걸리를 만들다</a></li>
                   <li><a href="#">신선함을 사수하라</a></li>
                   <li><a href="#">37년 막걸리 인생</a></li>
@@ -56,18 +56,18 @@
                   <li><a href="#">막걸리 외길50년</a></li>
                 </ul>
               </li>
-              <li class="over" data-id="employment">
+              <li class="over overON" data-id="employment">
                 <a href="#">고객센터</a>
-                <ul class="cont" id="employment">
+                <ul class="cont ko" id="employment">
                   <li><a href="#">공지사항</a></li>
                   <li><a href="#">보도자료</a></li>
                   <li><a href="#">홍보자료</a></li>
                   <li><a href="#">고객의 소리</a></li>
                 </ul>
               </li>
-              <li class="over" data-id="inverstment">
+              <li class="over overON" data-id="inverstment">
                 <a href="#">서울탁주제조협회</a>
-                <ul class="cont" id="inverstment">
+                <ul class="cont ko" id="inverstment">
                   <li><a href="#">협회소개</a></li>
                   <li><a href="#">내려받기</a></li>
                   <li><a href="#">연혁</a></li>
@@ -126,7 +126,7 @@
           <div class="padding-wrap">
             <div class="area">
               <div class="side-bg">
-                <img src="img/rice01.gif" alt="보리" />
+                <img src="img/right-bori.png" alt="보리" />
               </div>
               <div class="contents-box">
                 <article class="font-box">
@@ -160,7 +160,10 @@
           <div class="padding-wrap">
             <div class="area">
               <div class="side-bg">
-                <img src="img/left-small-bori.png" alt="보리" />
+                <img src="img/move-bori.gif" alt="보리" />
+              </div>
+              <div class="right-bg">
+                <img src="img/back1.png" alt="보리" />
               </div>
               <div class="contents-box reverse">
                 <article class="font-box padding-left">
@@ -208,7 +211,8 @@
                       <h2>대충 뭐라고 쓸 예정</h2>
                     </div>
                     <div class="text-box">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum mollitia enim quasi. Amet molestias animi modi,</p>
+                      <p>주질향상을 위한 공정개선, 공정 및 제품관리 , 원·부재료 규격관리를 통해 품질개선 및 품질관리를 하고있으며 공정관리를 통해 작업환경 개선하여 HACCP 도입 준비를 하고 있습니다.
+                        품질개선 및 품질관리로 소비자 기호의 다양화와 고급화를 대비한 신제품 개발중에 있습니다.</p>
                     </div>
                     <div class="section4-img__box">
                       <img src="img/main-sec4-con1-2.png" alt="make" />
@@ -228,7 +232,8 @@
                       <h2>대충 뭐라고 쓸 예정</h2>
                     </div>
                     <div class="text-box">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum mollitia enim quasi. Amet molestias animi modi,</p>
+                      <p>생막걸리는 자연 탄산이 생성되어 톡 쏘는 맛이 있는 반면, 살균막걸리는 자연 탄산이 없습니다.
+                        생막걸리가 가진 유통기한의 한계는 뒤집어보면 매력이기도 합니다.</p>
                     </div>
                     <div class="section4-img__box">
                       <img src="img/main-sec4-con2-2.png" alt="make" />
@@ -265,7 +270,13 @@
           <div class="padding-wrap">
             <div class="area">
               <div class="side-bg">
-                <img src="img/rice01.gif" alt="보리" />
+                <img src="img/back2.png" alt="보리" />
+              </div>
+              <div class="road">
+                <img src="img/main5_road.png" alt="길">
+              </div>
+              <div class="bottles">
+                <img src="img/main-sec5-bottle.png" alt="막걸리통">
               </div>
               <div class="contents-box">
                 <article class="font-box">
@@ -276,15 +287,48 @@
                       <p>1980 서울탁주제조협회 명칭변경</p>
                       <p>1996 서울 장수 생막걸리 생산 보존기간 12개월의 살균탁주 쌀막걸리 제조</p>
                       <p>2000 보존기간 8개월의 살균탁주(탄산 주입) 쌀막걸리 제조(PET)</p>
+                      <p>2004 모법 납세자 표창(국세청)</p>
+                      <p>2007 국세청 주최 전통주품평회에서 명품주로 선정</p>
+                      <p>2008 (사)한국쌀가공식품협회 주관 10대 우수 쌀 가공식품 선정</p>
+                      <p>2009 산하법인 서울장수주식회사 설립</p>
+                      <p >2018 농업경쟁력강화를 통하여 국가 산업 발전에 이바지한 공로로 대통령 표창장 수상 </p>
                     </div>
                   </div>
                 </article>
-                <article class="img-box">
-                  <div class="img-slide">
-                    <img src="img/main_sec2_1.png" alt="막걸리" />
-                  </div>
-                </article>
               </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="section">
+        <section class="section6">
+          <div class="padding-wrap">
+            <div class="area">
+              <div class="side-sullsang">
+                <img src="img/main-sec4-sulsang.png" alt="술상">
+              </div>
+              <div class="side-bg">
+                <img src="img/back3.png" alt="보리">
+              </div>
+              <article>
+                <h1>공지사항</h1>
+              </article>
+              <article>
+                <div class="info-wrap">
+                  <table>
+                    <tr class="info-table">
+                      <td class="info-title" colspan="3"><a href="">서울탁주협회 60년</a></td>
+                      <td class="info-date" colspan="2">2022-04-27</td>
+                      <td class="info-author" colspan="2">서울탁주</td>
+                    </tr>
+                    <tr class="info-table">
+                      <td class="info-title" colspan="3"><a href="">서울탁주제조협회 60년…우리 막걸리 알릴 것</a></td>
+                      <td class="info-date" colspan="2">2022-04-27</td>
+                      <td class="info-author" colspan="2">서울탁주</td>
+                    </tr>
+                  </table>
+                </div>
+              </article>
             </div>
           </div>
         </section>
@@ -348,6 +392,8 @@
 <!-- slide.js -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script src="js/slide.js"></script>
+<!-- vertical.js -->
+<script src="js/vertical.js"></script>
+<!-- fontawesome kit -->
 <script src="https://kit.fontawesome.com/1af51f8c7f.js" crossorigin="anonymous"></script>
-
 <script src="js/index.js"></script>
