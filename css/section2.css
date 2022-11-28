@@ -65,7 +65,7 @@ img {
 .font-box {
   /* width: 50%; */
   margin-top: 100px;
-  padding-left:100px;
+  padding-left: 100px;
 }
 
 .btn-box {
@@ -109,9 +109,18 @@ img {
 .section2 .side-bg {
   position: absolute;
   left: -30px;
-  top:100px;
+  top: 100px;
 }
 
 .section2 .side-bg img {
   width: 20%;
+}
+
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 768px) {
 }

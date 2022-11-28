@@ -83,3 +83,12 @@
   opacity: 1;
   transform: translate(-50%, -78%);
 }
+
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 768px) {
+}
