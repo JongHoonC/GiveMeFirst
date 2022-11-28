@@ -6,12 +6,16 @@ let h_wrap = document.getElementById('h_wrap');
 let gnb = document.getElementById('gnb');
 let overON = document.querySelectorAll('.overON');
 
-gnb.addEventListener('mouseover', event => {
-  for (j = 0; j < overON.length; j++) {
-    overON[i].style.height = '160px';
-    overON[i].style.backgroundColor = '#fff';
-  }
-});
+// gnb.addEventListener('mouseover', event => {
+//   for (j = 0; j < overON.length; j++) {
+//     h_wrap.style.backgroundColor = '#fff';
+//   }
+// });
+// gnb.addEventListener('mouseleave', event => {
+//   for (j = 0; j < overON.length; j++) {
+//     h_wrap.style.backgroundColor = 'transparent';
+//   }
+// });
 
 gnb.addEventListener('mouseover', event => {
   h_wrap.style.height = '160px';
@@ -26,20 +30,6 @@ gnb.addEventListener('mouseleave', event => {
     conts[i].style.height = '60px';
   }
 });
-
-// h_wrap.addEventListener('mouseover', event => {
-//   h_wrap.style.backgroundColor = '#fff';
-//   for (i = 0; i < conts.length; i++) {
-//     conts[i].style.height = '100px';
-//   }
-// });
-
-// h_wrap.addEventListener('mouseleave', event => {
-//   h_wrap.style.backgroundColor = 'transparent';
-//   for (i = 0; i < conts.length; i++) {
-//     conts[i].style.height = '100px';
-//   }
-// });
 
 gnb.addEventListener('mouseover', e => {
   //dataset.id 는  data-id="" 를 의미한다.
