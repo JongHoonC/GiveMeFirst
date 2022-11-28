@@ -46,11 +46,12 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 .footer__SNS > div {
   display: flex;
-  padding: 13px 30px;
+  padding: 13px 0;
   box-sizing: border-box;
   background-color: #cbc6ad;
   border-radius: 10px;
@@ -96,13 +97,21 @@ footer {
   border-radius: 10px;
   justify-content: center;
 }
+.QR_img {
+  background-image: url(../img/qrcode.png);
+  width: 60px;
+  height: 60px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 .QR > p {
   margin-left: 10px;
   font-size: 14px;
   color: #333;
   font-weight: 600;
-  display: block;
 }
 
 @media (max-width: 1300px) {
@@ -128,11 +137,8 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .footer__SNS > div {
-    padding: 13px 35px;
-  }
   .QR {
-    padding: 16px 30px;
+    padding: 16px 0;
   }
   .QR > p {
     font-size: 12px;
@@ -147,5 +153,18 @@ footer {
     background-size: cover;
     width: 24px;
     height: 24px;
+  }
+  .QR_img {
+    background-image: url(../img/qrcode.png);
+    width: 50px;
+    height: 50px;
+  }
+  .facebook {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .insta {
+    width: 100%;
+    margin-top: 5px;
   }
 }
