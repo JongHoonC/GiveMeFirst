@@ -15,6 +15,10 @@ footer {
   align-items: center;
   box-sizing: border-box;
 }
+.w1280wrap {
+  width: 100%;
+  display: flex;
+}
 /* 로고 */
 .footer__logo {
   width: 160px;
@@ -39,8 +43,16 @@ footer {
 
 .footer__joinMore {
   display: flex;
+  width: 500px;
 }
-
+.facebook {
+  margin-bottom: 5px;
+  width: 100%;
+}
+.insta {
+  width: 100%;
+  margin-top: 5px;
+}
 /* SNS 박스 */
 .footer__SNS {
   display: flex;
@@ -114,12 +126,6 @@ footer {
   font-weight: 600;
 }
 
-@media (max-width: 1300px) {
-  .footer__wrap {
-    flex-direction: column;
-  }
-}
-
 @media (max-width: 1080px) {
   .footer__wrap {
     flex-direction: column;
@@ -133,14 +139,6 @@ footer {
   .footer__joinMore {
     margin-top: 20px;
     width: 100%;
-  }
-  .facebook {
-    margin-bottom: 5px;
-    width: 100%;
-  }
-  .insta {
-    width: 100%;
-    margin-top: 5px;
   }
 }
 
@@ -166,13 +164,5 @@ footer {
     background-image: url(../img/qrcode.png);
     width: 50px;
     height: 50px;
-  }
-  .facebook {
-    margin-bottom: 5px;
-    width: 100%;
-  }
-  .insta {
-    width: 100%;
-    margin-top: 5px;
   }
 }
