@@ -134,6 +134,14 @@ footer {
     margin-top: 20px;
     width: 100%;
   }
+  .facebook {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .insta {
+    width: 100%;
+    margin-top: 5px;
+  }
 }
 
 @media (max-width: 768px) {
