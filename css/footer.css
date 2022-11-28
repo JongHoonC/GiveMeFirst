@@ -73,6 +73,12 @@ footer {
   width: 24px;
   height: 24px;
 }
+.facebook {
+  width: 100%;
+}
+.insta {
+  width: 100%;
+}
 
 .insta > i {
   font-size: 27px;
