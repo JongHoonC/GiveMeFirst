@@ -104,11 +104,15 @@
   padding: 100px 0px;
 }
 
-.board-title {
+.section6 .flex-row {
+  display: flex;
+}
+
+.section6 .board-title {
   width: 33.3333%;
 }
 
-.board-list {
+.section6 .board-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,29 +120,42 @@
   width: 66.6667%;
 }
 
-.board-wrap {
+.section6 .board-wrap {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 60px 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  padding: 40px 0;
+  border-top: 3px solid #c2bfaf;
+  border-bottom: 3px solid #c2bfaf;
   position: relative;
 }
 
-.board-list__author {
-  font-size: 16px;
-  color: #555555;
+.section6 .board-wrap:not(:first-child) {
+  border-top: none;
 }
 
-.board-list__title {
+.board-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section6 .board-list__title {
   color: #222222;
-  font-size: 24px;
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 30px;
 }
 
-.board-list__date {
-  font-size: 16px;
+.section6 .board-list__date {
+  font-size: 18px;
   color: #777777;
+  margin-right: 30px;
+}
+
+.section6 .board-list__author {
+  font-size: 18px;
+  color: #555555;
+  margin-right: 30px;
 }
 
 .section6 .view-more {
@@ -185,7 +202,7 @@
     font-size: 44px;
   }
 
-  .board-list {
+  .section6 .board-list {
     width: 100%;
     margin-top: 50px;
   }
@@ -204,6 +221,18 @@
   }
 
   .info-author {
+    font-size: 14px;
+  }
+
+  .section6 .board-list__title {
+    font-size: 20px;
+  }
+
+  .section6 .board-list__date {
+    font-size: 14px;
+  }
+
+  .section6 .board-list__author {
     font-size: 14px;
   }
 
