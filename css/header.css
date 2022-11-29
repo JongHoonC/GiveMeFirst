@@ -8,7 +8,7 @@
   background: #fff;
 }
 
-.fp-viewing-1 > #h_wrap{
+.fp-viewing-1 > #h_wrap {
   border-bottom: none;
 }
 
@@ -25,8 +25,7 @@
   box-sizing: border-box;
   z-index: 9999;
   transition: 0.3s;
-  border-bottom:1px solid #cbc6ad;
-
+  border-bottom: 1px solid #cbc6ad;
 }
 
 /*로고*/
@@ -341,13 +340,16 @@
   }
 }
 
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
   #gnb {
     display: none;
   }
-}
+} */
 
-@media (max-width: 1280px) {
+@media (max-width: 1200px) {
+  #gnb {
+    display: none;
+  }
   #h_wrap {
     height: 60px;
     padding: 0 20px;
