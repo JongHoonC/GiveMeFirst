@@ -28,6 +28,14 @@
   margin: 0 auto;
 }
 
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .w1640 {
     width: 100%;
