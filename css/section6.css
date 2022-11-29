@@ -269,4 +269,19 @@
     margin-left: 0;
     margin-top: 20px;
   }
+
+  .section6 .side-sullsang {
+    bottom: -70px;
+  }
+
+  .section6 .side-sullsang img {
+    width: 30%;
+  }
+
+  .section6 .side-bg img {
+    width: 30%;
+  }
+  .section6 .side-bg {
+    right: -430px;
+  }
 }
