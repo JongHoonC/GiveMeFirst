@@ -8,6 +8,13 @@
   background: #fff;
 }
 
+.fp-viewing-1 > #h_wrap{
+  border-bottom: none;
+}
+#h_wrap{
+  border-bottom:1px solid #cbc6ad;
+}
+
 /*헤더*/
 #h_wrap {
   width: 100%;
@@ -55,7 +62,7 @@
   font-size: 18px;
   color: #333;
 }
-.fp-viewing-1 > #h_wrap > #gnb ul li a {
+/* .fp-viewing-1 > #h_wrap > #gnb ul li a {
   color: #fff;
 }
 .fp-viewing-2 > #h_wrap:hover {
@@ -75,7 +82,7 @@
 }
 .fp-viewing-7 > #h_wrap:hover {
   background-color: #f3edcc;
-}
+} */
 
 #drop > li {
   width: 100%;
