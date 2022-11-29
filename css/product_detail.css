@@ -1,0 +1,122 @@
+@import url(sub_header.css);
+@import url(footer.css);
+
+.en {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ko {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 26px;
+}
+main {
+  background-color: #f5f2e1;
+}
+
+.w1920 {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+/* 공통 */
+
+/* 섹션 묶기 */
+.detail-section__wrap {
+  padding: 254px 360px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 텍스트 굵기 */
+.detail-section__wrap > article > h1 {
+  font-weight: bold;
+  color: #333;
+}
+.detail-section__wrap > article > h2 {
+  font-weight: bold;
+  color: #333;
+  margin: 54px 0;
+}
+.detail-section__wrap > article > p {
+  font-weight: 500;
+  color: #333;
+}
+/* 사진 */
+.detail-section__img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 600px;
+}
+/* 여기서부터 */
+
+/* 섹션1 */
+.w1920 > .detail__section1-bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 1920px;
+  height: 583px;
+  background-color: #f00;
+}
+
+/* 섹션2 */
+.detail-section2__img {
+  background-image: url(../img/jangsu.jpg);
+}
+
+/* 섹션3 */
+.detail-section3__img {
+  background-image: url(../img/historyboxbg.jpg);
+}
+.detail-section__wrap.section3 {
+  flex-direction: row-reverse;
+}
+
+/* 섹션4 */
+.detail-section4__img {
+  background-image: url(../img/1.jpg);
+}
+
+/* 섹션5 */
+.detail-section5__img {
+  background-image: url(../img/사진없음);
+}
+.detail-section__wrap.section5 {
+  flex-direction: row-reverse;
+}
+
+/* 섹션6 */
+.detail-section6__img {
+  background-image: url(../img/302923_203210_231.jpg);
+}
+
+/* 섹션7 */
+.detail-section7__img {
+  background-image: url(../img/mosayKaBsR.jpg);
+}
+.detail-section__wrap.section7 {
+  flex-direction: row-reverse;
+}
+
+/* 섹션8 */
+.w1920 > .detail__section8-bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 1920px;
+  height: 569px;
+  background-image: url(../img/last.jpg);
+}
