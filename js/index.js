@@ -61,7 +61,7 @@ gnb.addEventListener('mouseleave', e => {
 
 window.addEventListener('resize', () => {
   const ww = window.innerWidth;
-  if (ww <= 1280) {
+  if (ww <= 1200) {
     h_wrap.style.height = '60px';
   } else {
     h_wrap.style.height = '100px';
