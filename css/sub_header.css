@@ -26,7 +26,7 @@
   z-index: 9999;
   transition: 0.3s;
   border-bottom:1px solid #cbc6ad;
-
+  background-color: #fff;
 }
 
 /*로고*/
@@ -61,10 +61,10 @@
   font-size: 18px;
   color: #333;
 }
-.fp-viewing-1 > #h_wrap > #gnb ul li a {
+/* .fp-viewing-1 > #h_wrap > #gnb ul li a {
   color: #fff;
 }
-/* .fp-viewing-2 > #h_wrap:hover {
+.fp-viewing-2 > #h_wrap:hover {
   background-color: #f3edcc;
 }
 .fp-viewing-3 > #h_wrap:hover {

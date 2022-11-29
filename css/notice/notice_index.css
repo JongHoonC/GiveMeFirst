@@ -1,0 +1,16 @@
+@import url(../sub_header.css);
+@import url(notice_edit.css);
+@import url(notice_page.css);
+@import url(notice_write.css);
+@import url(../footer.css);
+main{
+  margin-top: 180px;
+}
+
+.en {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ko {
+  font-family: 'Noto Sans KR', sans-serif;
+}

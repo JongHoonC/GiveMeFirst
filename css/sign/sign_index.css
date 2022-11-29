@@ -1,0 +1,17 @@
+@import url(../sub_header.css);
+@import url(login.css);
+@import url(join.css);
+@import url(../footer.css);
+
+
+main{
+  margin-top: 200px;
+}
+
+.en {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ko {
+  font-family: 'Noto Sans KR', sans-serif;
+}
