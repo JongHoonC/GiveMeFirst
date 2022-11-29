@@ -23,18 +23,22 @@
 
 .section5 .road {
   position: absolute;
-  right: 0;
-  top: 80px;
+  right: -250px;
+  bottom: -160px;
+}
+
+.section5 .road img {
+  width: 80%;
 }
 
 .section5 .bottles {
   position: absolute;
-  right: 0;
-  top: -270px;
+  right: -250px;
+  top: -130px;
 }
 
 .section5 .bottles img {
-  width: 100%;
+  width: 80%;
 }
 
 .section5 h2 {
@@ -72,36 +76,46 @@
   padding-top: 50px;
 }
 
-.swiper-container {
-  width: 10%;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  /* background: #fff; */
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
 @media screen and (max-width: 1600px) {
 }
 @media screen and (max-width: 1200px) {
+  .section5 h2 {
+    font-size: 20px;
+  }
+
+  .section5 h1 {
+    font-size: 45px;
+    margin-top: 30px;
+  }
+
+  .section5 p {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  .section5 .road {
+    right: -500px;
+    bottom: -150px;
+  }
+
+  .section5 .road img {
+    width: 60%;
+  }
+
+  .section5 .bottles {
+    top: 110px;
+    right: -500px;
+  }
+
+  .section5 .bottles img {
+    width: 60%;
+  }
 }
+
 @media screen and (max-width: 1000px) {
+  .section5 .bottles {
+    display: none;
+  }
 }
 @media screen and (max-width: 768px) {
 }

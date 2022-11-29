@@ -196,9 +196,8 @@
 @media screen and (max-width: 1000px) {
   .area {
     width: 100%;
-    max-width: 1630px;
-    padding-right: 15px;
-    padding-left: 15px;
+    max-width: 1600px;
+    padding: 50px 15px;
   }
 
   .section6-wrap {
@@ -235,6 +234,11 @@
     font-size: 13px;
     margin-right: 0;
     margin-left: 15px;
+  }
+
+  .btn-more {
+    font-size: 14px;
+    padding: 15px 40px;
   }
 
   .block {
