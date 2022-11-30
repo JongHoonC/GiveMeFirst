@@ -33,8 +33,8 @@
 
 .section6 .side-bg {
   position: absolute;
-  right: -300px;
-  top: 100px;
+  right: -400px;
+  top: -100px;
 }
 
 .section6 .side-sullsang {
@@ -48,7 +48,7 @@
 }
 
 .section6 .side-bg img {
-  width: 60%;
+  width: 40%;
 }
 
 .section6-wrap {
@@ -127,8 +127,8 @@
   }
 
   .section6 .side-bg {
-    right: -300px;
-    top: -150px;
+    right: -400px;
+    top: -50px;
   }
 
   .section6 .area {
@@ -183,6 +183,7 @@
 
   .section6 .side-bg {
     right: -360px;
+    top: -100px;
   }
 
   .section6 .side-sullsang img {
