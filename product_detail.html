@@ -1,299 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/common/reset.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/product_detail.css" />
+    <title>서울탁주</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/common/reset.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/product_detail.css" />
-  <title>서울탁주</title>
-</head>
-
-<body>
-  <header>
-    <div id="h_wrap">
-      <!-- 로고 -->
-      <h1 class="logoIMG"><a href=""></a></h1>
-      <!--네비게이션-->
-      <div id="gnb">
-        <ul id="drop" class="ko">
-          <li class="over en home" id="notover" data-id="home">
-            <a href="#">HOME</a>
-            <ul class="cont" id="home">
-              <li><a href="#"></a></li>
-            </ul>
-          </li>
-          <li class="over overON" data-id="range">
-            <a href="#">제품소개</a>
-            <!--드롭다운 컨텐츠-->
-            <ul class="cont ko" id="range">
-              <li><a href="#">장수 생막걸리</a></li>
-              <li><a href="#">월매 캔막걸리</a></li>
-              <li><a href="#">월매 쌀막걸리</a></li>
-              <li><a href="#">인생막걸리</a></li>
-              <li><a href="#">장홍삼 장수막걸리</a></li>
-              <li class="en"><a href="#">R&D</a></li>
-              <li><a href="#">제조공정</a></li>
-              <li><a href="#">상표특허</a></li>
-            </ul>
-          </li>
-          <li class="over overON" data-id="continuous">
-            <a href="#">술익는 마을</a>
-            <!--드롭다운 컨텐츠-->
-            <ul class="cont ko" id="continuous">
-              <li><a href="#">숨쉬는 막걸리를 만들다</a></li>
-              <li><a href="#">신선함을 사수하라</a></li>
-              <li><a href="#">37년 막걸리 인생</a></li>
-              <li><a href="#">막걸리 사이언스</a></li>
-              <li><a href="#">장수막걸리 추천맛집</a></li>
-              <li><a href="#">막걸리 외길50년</a></li>
-            </ul>
-          </li>
-          <li class="over overON" data-id="employment">
-            <a href="#">고객센터</a>
-            <ul class="cont ko" id="employment">
-              <li><a href="#">공지사항</a></li>
-              <li><a href="#">보도자료</a></li>
-              <li><a href="#">홍보자료</a></li>
-              <li><a href="#">고객의 소리</a></li>
-            </ul>
-          </li>
-          <li class="over overON" data-id="inverstment">
-            <a href="#">서울탁주제조협회</a>
-            <ul class="cont ko" id="inverstment">
-              <li><a href="#">협회소개</a></li>
-              <li><a href="#">내려받기</a></li>
-              <li><a href="#">연혁</a></li>
-              <li><a href="#">회원사 제조장</a></li>
-              <li><a href="#">전국대리점</a></li>
-              <li><a href="#">서울탁주 홍보영상</a></li>
-              <li><a href="#">찾아오시는 길</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!--헤더 오른쪽 네비게이션-->
-      <div class="h_right">
-        <ul>
-          <li class="en"><a href="#">LOGIN</a></li>
-        </ul>
-        <div class="dropdown en">
-          <button onclick="myFunction()" class="dropbtn en">
-            <p>KOR</p>
-            <i class="fa-solid fa-globe"></i>
-            <i class="fa-solid fa-chevron-down"></i>
-          </button>
-          <div id="myDropdown" class="dropdown-content en">
-            <a href="#home">KOR</a>
-            <a href="#about">ENG</a>
-          </div>
+  <body>
+    <header>
+      <div id="h_wrap">
+        <!-- 로고 -->
+        <h1 class="logoIMG"><a href=""></a></h1>
+        <!--네비게이션-->
+        <div id="gnb">
+          <ul id="drop" class="ko">
+            <li class="over en home" id="notover" data-id="home">
+              <a href="#">HOME</a>
+              <ul class="cont" id="home">
+                <li><a href="#"></a></li>
+              </ul>
+            </li>
+            <li class="over overON" data-id="range">
+              <a href="#">제품소개</a>
+              <!--드롭다운 컨텐츠-->
+              <ul class="cont ko" id="range">
+                <li><a href="#">장수 생막걸리</a></li>
+                <li><a href="#">월매 캔막걸리</a></li>
+                <li><a href="#">월매 쌀막걸리</a></li>
+                <li><a href="#">인생막걸리</a></li>
+                <li><a href="#">장홍삼 장수막걸리</a></li>
+                <li class="en"><a href="#">R&D</a></li>
+                <li><a href="#">제조공정</a></li>
+                <li><a href="#">상표특허</a></li>
+              </ul>
+            </li>
+            <li class="over overON" data-id="continuous">
+              <a href="#">술익는 마을</a>
+              <!--드롭다운 컨텐츠-->
+              <ul class="cont ko" id="continuous">
+                <li><a href="#">숨쉬는 막걸리를 만들다</a></li>
+                <li><a href="#">신선함을 사수하라</a></li>
+                <li><a href="#">37년 막걸리 인생</a></li>
+                <li><a href="#">막걸리 사이언스</a></li>
+                <li><a href="#">장수막걸리 추천맛집</a></li>
+                <li><a href="#">막걸리 외길50년</a></li>
+              </ul>
+            </li>
+            <li class="over overON" data-id="employment">
+              <a href="#">고객센터</a>
+              <ul class="cont ko" id="employment">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">보도자료</a></li>
+                <li><a href="#">홍보자료</a></li>
+                <li><a href="#">고객의 소리</a></li>
+              </ul>
+            </li>
+            <li class="over overON" data-id="inverstment">
+              <a href="#">서울탁주제조협회</a>
+              <ul class="cont ko" id="inverstment">
+                <li><a href="#">협회소개</a></li>
+                <li><a href="#">내려받기</a></li>
+                <li><a href="#">연혁</a></li>
+                <li><a href="#">회원사 제조장</a></li>
+                <li><a href="#">전국대리점</a></li>
+                <li><a href="#">서울탁주 홍보영상</a></li>
+                <li><a href="#">찾아오시는 길</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <div class="h_right_menu">
-          <div class="icon nav-icon-5">
-            <span></span>
-            <span></span>
-            <span></span>
-            <div id="mySidenav" class="sidenav">
-              <a href="#">About</a>
-              <a href="#">Services</a>
-              <a href="#">Clients</a>
-              <a href="#">Contact</a>
+        <!--헤더 오른쪽 네비게이션-->
+        <div class="h_right">
+          <ul>
+            <li class="en"><a href="#">LOGIN</a></li>
+          </ul>
+          <div class="dropdown en">
+            <button onclick="myFunction()" class="dropbtn en">
+              <p>KOR</p>
+              <i class="fa-solid fa-globe"></i>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div id="myDropdown" class="dropdown-content en">
+              <a href="#home">KOR</a>
+              <a href="#about">ENG</a>
+            </div>
+          </div>
+          <div class="h_right_menu">
+            <div class="icon nav-icon-5">
+              <span></span>
+              <span></span>
+              <span></span>
+              <div id="mySidenav" class="sidenav">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-  <!-- 메인 -->
-  <main>
-    <!-- 섹션1 -->
-    <section class="w1920">
-      <div class="detail__section1-bg"></div>
-    </section>
-    <!-- 섹션2 -->
-    <section>
-      <div class="detail-section__wrap section2 ko">
-        <article>
-          <h1>장수(長壽) 생막걸리</h1>
-          <h2>
-            장수(長壽) 생막걸리는 효모균이<br />
-            그대로 살아있습니다.
-          </h2>
-          <p>
-            주류의 종류 : 탁주<br />
-            주정도수 : 알코올 6도 기준<br />
-            사용원료 : 백미 90%, 이소말토올리고당 10%<br />
-            용량 및 포장 : 750㎖ 녹색의 PET<br />
-            품질유지기한 : 제조일로부터 냉장보관시 10일
-          </p>
-        </article>
-        <article class="detail-section2__img detail-section__img ko">
-          <p>보울라디<br>
-            효모 함유</p>
-        </article>
-      </div>
-      <div class="first-bori bori" data-aos="fade-up"
-      data-aos-anchor-placement="bottom-bottom">
-        <img src="img/right-bori.png" alt="">
-      </div>
-    </section>
-    <!-- 섹션3 -->
-    <section>
-      <div class="detail-section__wrap section3">
-        <article>
-          <h1>월매 쌀 막걸리</h1>
-          <h2>
-            저온에서 완전 숙성시킨 후 최첨단 설비로<br />
-            살균처리하고 천연탄산을 첨가했습니다.
-          </h2>
-          <p>
-            주류의 종류 : 살균탁주<br />
-            주정도수 : 알코올 6도 기준<br />
-            사용원료 : 백미 90%, 말토올리고당 10%<br />
-            용량 및 포장 : 350㎖ 알루미늄 캔, 1000㎖ 내열 내압 PET<br />
-            유통기한 : 제조일로부터 12개월
-          </p>
-        </article>
-        <article class="detail-section3__img detail-section__img"></article>
-      </div>
-    </section>
-    <!-- 섹션4  -->
-    <section>
-      <div class="detail-section__wrap section4">
-        <article>
-          <h1>인생 막걸리</h1>
-          <h2>
-            달달상큼 깔끔한 맛과 세대별 맞춤<br />
-            공감 디자인의 레트로풍 인생막걸리!
-          </h2>
-          <p>
-            주류의 종류 : 탁주<br />
-            주정도수 : 알코올 5도 기준<br />
-            사용원료 : 팽화밀가루, 팽화미<br />
-            용량 및 포장 : 750㎖ 투명 PET<br />
-            품질유지기한 : 제조일로부터 냉장보관시 30일
-          </p>
-        </article>
-        <article class="detail-section4__img detail-section__img"></article>
-      </div>
-    </section>
-    <!-- 섹션5 -->
-    <section>
-      <div class="detail-section__wrap section5">
-        <article>
-          <h1>Ee:FF -이프-</h1>
-          <h2>
-            달콤한 향과 맛에 청량감과 부드러움을 더해<br />
-            저알코올 음료로서 여성 및 젊은층을 <br />
-            타켓으로 한 신세대 막걸리입니다.
-          </h2>
-          <p>
-            주류의 종류 : 살균탁주<br />
-            주정도수 : 알코올 3도 기준<br />
-            사용원료 : 백미 90%(국내산), 말토올리고당 10%<br />
-            용량 및 포장 : 350ml<br />
-            유통기한 : 제조일로부터 12개월
-          </p>
-        </article>
-        <article class="detail-section5__img detail-section__img"></article>
-      </div>
-    </section>
-    <!-- 섹션6 -->
-    <section>
-      <div class="detail-section__wrap section6">
-        <article>
-          <h1>달빛 유자 막걸리</h1>
-          <h2>
-            향긋한 유자 향이 진한 여운을 남기고,<br />
-            입안 가득 풍기는 유자의 상쾌한 산미가<br />
-            특징입니다.
-          </h2>
-          <p>
-            주류의 종류 : 살균탁주<br />
-            주정도수 : 알코올 6도 기준<br />
-            사용원료 : 국내산 쌀, 고흥유자과즙<br />
-            용량 및 포장 : 750㎖ 투명 PET<br />
-            품질유지기한 : 제조일로부터 5개월
-          </p>
-        </article>
-        <article class="detail-section6__img detail-section__img"></article>
-      </div>
-    </section>
-    <!-- 섹션7 -->
-    <section>
-      <div class="detail-section__wrap section7">
-        <article>
-          <h1>장 홍삼 장수 막걸리</h1>
-          <br />
-          <h2>
-            전통 6년근 홍삼을 발효시킨 건강 지향성<br />
-            고급 웰빙 막걸리
-          </h2>
-          <p>
-            주류의 종류 : 살균탁주<br />
-            주정도수 : 알코올 6도 기준<br />
-            사용원료 :백미,말토올리고당,홍삼분말<br />
-            용량 및 포장 : 750ml<br />
-            유통기한 : 제조일로부터 12개월
-          </p>
-        </article>
-        <article class="detail-section7__img detail-section__img"></article>
-      </div>
-    </section>
-    <!-- 섹션8 -->
-    <section class="w1920">
-      <div class="detail__section8-bg"></div>
-    </section>
-  </main>
-  <footer>
-    <!-- 1200으로 묶고 좌우패딩 77 -->
-    <div class="footer__wrap">
-      <!-- footer 로고 -->
-      <div class="footer__logo"></div>
-      <!-- footer 가운데 컨텐츠 -->
-      <div class="footer__text">
-        <ul>
-          <li class="en">
-            <p>Copyright 2011 <span class="ko">(주)서울탁주제조협회</span> All Rights Reserved.</p>
-          </li>
-          <li>
-            <p class="ko">
-              서울 특별시 마포구 망원동 419-24 오일빌딩 3층, tel (02)3141-7611~6, fax (02)3141-7617<br />
-              <span class="en">Seoul, Mapo-Gu, Mangwon-Dong, 419-24 Oil bidg. 3rd flor</span>
+    </header>
+    <!-- 메인 -->
+    <main>
+      <!-- 섹션1 -->
+      <section class="w1920">
+        <div class="detail__section1-bg"></div>
+      </section>
+      <!-- 섹션2 -->
+      <section>
+        <div class="detail-section__wrap section2 ko">
+          <article>
+            <h1>장수(長壽) 생막걸리</h1>
+            <h2>
+              장수(長壽) 생막걸리는 효모균이<br />
+              그대로 살아있습니다.
+            </h2>
+            <p>
+              주류의 종류 : 탁주<br />
+              주정도수 : 알코올 6도 기준<br />
+              사용원료 : 백미 90%, 이소말토올리고당 10%<br />
+              용량 및 포장 : 750㎖ 녹색의 PET<br />
+              품질유지기한 : 제조일로부터 냉장보관시 10일
             </p>
-          </li>
-        </ul>
-      </div>
-      <!-- footer SNS 박스들 -->
-      <div class="footer__joinMore ko">
-        <div class="footer__SNS">
-          <div class="facebook">
-            <div class="facebook__img"></div>
-            <p>서울탁주 페이스북</p>
-          </div>
-          <div class="insta">
-            <i class="fa-brands fa-instagram"></i>
-            <p>서울탁주 인스타그램</p>
-          </div>
+          </article>
+          <article class="detail-section2__img detail-section__img ko">
+            <p>
+              보울라디<br />
+              효모 함유
+            </p>
+          </article>
         </div>
-        <aside class="QR">
-          <div class="QR_img"></div>
-          <p>모바일 환경에서도<br />편리하게 접속하세요!</p>
-        </aside>
+        <div class="first-bori bori" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+          <img src="img/right-bori.png" alt="" />
+        </div>
+      </section>
+      <!-- 섹션3 -->
+      <section>
+        <div class="detail-section__wrap section3">
+          <article>
+            <h1>월매 쌀 막걸리</h1>
+            <h2>
+              저온에서 완전 숙성시킨 후 최첨단 설비로<br />
+              살균처리하고 천연탄산을 첨가했습니다.
+            </h2>
+            <p>
+              주류의 종류 : 살균탁주<br />
+              주정도수 : 알코올 6도 기준<br />
+              사용원료 : 백미 90%, 말토올리고당 10%<br />
+              용량 및 포장 : 350㎖ 알루미늄 캔, 1000㎖ 내열 내압 PET<br />
+              유통기한 : 제조일로부터 12개월
+            </p>
+          </article>
+          <article class="detail-section3__img detail-section__img"></article>
+        </div>
+      </section>
+      <!-- 섹션4  -->
+      <section>
+        <div class="detail-section__wrap section4">
+          <article>
+            <h1>인생 막걸리</h1>
+            <h2>
+              달달상큼 깔끔한 맛과 세대별 맞춤<br />
+              공감 디자인의 레트로풍 인생막걸리!
+            </h2>
+            <p>
+              주류의 종류 : 탁주<br />
+              주정도수 : 알코올 5도 기준<br />
+              사용원료 : 팽화밀가루, 팽화미<br />
+              용량 및 포장 : 750㎖ 투명 PET<br />
+              품질유지기한 : 제조일로부터 냉장보관시 30일
+            </p>
+          </article>
+          <article class="detail-section4__img detail-section__img"></article>
+        </div>
+      </section>
+      <!-- 섹션5 -->
+      <section>
+        <div class="detail-section__wrap section5">
+          <article>
+            <h1>Ee:FF -이프-</h1>
+            <h2>
+              달콤한 향과 맛에 청량감과 부드러움을 더해<br />
+              저알코올 음료로서 여성 및 젊은층을 <br />
+              타켓으로 한 신세대 막걸리입니다.
+            </h2>
+            <p>
+              주류의 종류 : 살균탁주<br />
+              주정도수 : 알코올 3도 기준<br />
+              사용원료 : 백미 90%(국내산), 말토올리고당 10%<br />
+              용량 및 포장 : 350ml<br />
+              유통기한 : 제조일로부터 12개월
+            </p>
+          </article>
+          <article class="detail-section5__img detail-section__img"></article>
+        </div>
+      </section>
+      <!-- 섹션6 -->
+      <section>
+        <div class="detail-section__wrap section6">
+          <article>
+            <h1>달빛 유자 막걸리</h1>
+            <h2>
+              향긋한 유자 향이 진한 여운을 남기고,<br />
+              입안 가득 풍기는 유자의 상쾌한 산미가<br />
+              특징입니다.
+            </h2>
+            <p>
+              주류의 종류 : 살균탁주<br />
+              주정도수 : 알코올 6도 기준<br />
+              사용원료 : 국내산 쌀, 고흥유자과즙<br />
+              용량 및 포장 : 750㎖ 투명 PET<br />
+              품질유지기한 : 제조일로부터 5개월
+            </p>
+          </article>
+          <article class="detail-section6__img detail-section__img"></article>
+        </div>
+      </section>
+      <!-- 섹션7 -->
+      <section>
+        <div class="detail-section__wrap section7">
+          <article>
+            <h1>장 홍삼 장수 막걸리</h1>
+            <br />
+            <h2>
+              전통 6년근 홍삼을 발효시킨 건강 지향성<br />
+              고급 웰빙 막걸리
+            </h2>
+            <p>
+              주류의 종류 : 살균탁주<br />
+              주정도수 : 알코올 6도 기준<br />
+              사용원료 :백미,말토올리고당,홍삼분말<br />
+              용량 및 포장 : 750ml<br />
+              유통기한 : 제조일로부터 12개월
+            </p>
+          </article>
+          <article class="detail-section7__img detail-section__img"></article>
+        </div>
+      </section>
+      <!-- 섹션8 -->
+      <section class="w1920">
+        <div class="detail__section8-bg"></div>
+      </section>
+    </main>
+    <footer>
+      <!-- 1200으로 묶고 좌우패딩 77 -->
+      <div class="footer__wrap">
+        <!-- footer 로고 -->
+        <div class="footer__logo"></div>
+        <!-- footer 가운데 컨텐츠 -->
+        <div class="footer__text">
+          <ul>
+            <li class="en">
+              <p>Copyright 2011 <span class="ko">(주)서울탁주제조협회</span> All Rights Reserved.</p>
+            </li>
+            <li>
+              <p class="ko">
+                서울 특별시 마포구 망원동 419-24 오일빌딩 3층, tel (02)3141-7611~6, fax (02)3141-7617<br />
+                <span class="en">Seoul, Mapo-Gu, Mangwon-Dong, 419-24 Oil bidg. 3rd flor</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <!-- footer SNS 박스들 -->
+        <div class="footer__joinMore ko">
+          <div class="footer__SNS">
+            <div class="facebook">
+              <div class="facebook__img"></div>
+              <p>서울탁주 페이스북</p>
+            </div>
+            <div class="insta">
+              <i class="fa-brands fa-instagram"></i>
+              <p>서울탁주 인스타그램</p>
+            </div>
+          </div>
+          <aside class="QR">
+            <div class="QR_img"></div>
+            <p>모바일 환경에서도<br />편리하게 접속하세요!</p>
+          </aside>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+    <script src="https://kit.fontawesome.com/1af51f8c7f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
-<script src="https://kit.fontawesome.com/1af51f8c7f.js" crossorigin="anonymous"></script>
-<script>
-  AOS.init();
-</script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="js/index.js"></script>
