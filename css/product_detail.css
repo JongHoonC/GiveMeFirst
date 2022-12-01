@@ -132,6 +132,7 @@ main {
 
 /* 섹션1 */
 .w1920>.detail__section1-bg {
+  margin-top: 100px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -233,35 +234,58 @@ main {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  max-width: 300px;
+  width: 300px;
   height: 300px;
+  transition: all 0.3s;
+}
+.bori>img{
+  display: block;
+  height: auto;
+  width: 100%;
+  opacity: 50%;
+  height: 100%;
   transition: all 0.3s;
 }
 .first-bori{
   position: absolute;
   z-index: 1;
   left: -20px;
-  top: 1400px;
+  top: 700px;
   transition: all 0.3s;
 }
 
-.first-bori>img{
-  display: block;
-  height: auto;
-  width: 100%;
-  opacity: 50%;
-  transition: all 0.3s;
-}
 .second-bori{
   position: absolute;
   right: 0;
+  top: 1500px;
   display: block;
+  z-index: 1;
 }
-.second-bori>img{
-  display: block;
-  height: auto;
-  width: 100%;
-  opacity: 50%;
+
+.third-bori{
+  position: absolute;
+  z-index: 1;
+  left: -20px;
+  top: 2900px;
+  transition: all 0.3s;
+}
+.third-bori>img{
+  transform:rotate(90deg);
+       transform: scaleX(-1);   
+       filter: FlipH;
+}
+.fourth-bori{
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 5000px;
+  transition: all 0.3s;
+}
+.fivth-bori{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 7000px;
   transition: all 0.3s;
 }
 
@@ -273,7 +297,16 @@ main {
   }
   .first-bori{
     left: -20px;
-    top: 1200px;
+    top: 700px;
+  }
+  .w1920>.detail__section1-bg {
+    margin-top: 60px;
+  }
+  .third-bori{
+    top: 2400px;
+  }
+  .fourth-bori{
+    top: 4000px;
   }
 }
 
@@ -283,6 +316,6 @@ main {
     height: 150px;
   }
   .first-bori{
-    top: 1400px;
+    top: 700px;
   }
 }
