@@ -87,6 +87,26 @@
 @media screen and (max-width: 1600px) {
 }
 @media screen and (max-width: 1200px) {
+  .section4-text__box {
+    display: none;
+  }
+
+  .section4-img__box:nth-child(2n) {
+    display: none;
+  }
+
+  .section4 .hover-box {
+    position: static;
+
+    transform: translate(0);
+    background-color: #f5f2e1;
+    width: 100%;
+    opacity: 1;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  }
 }
 @media screen and (max-width: 1000px) {
 }
