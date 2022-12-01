@@ -1,10 +1,12 @@
 @import url(../sub_header.css);
 @import url(notice_edit.css);
+@import url(notice_style.css);
 @import url(notice_page.css);
 @import url(notice_write.css);
 @import url(../footer.css);
-main{
-  margin-top: 180px;
+
+main {
+  /* margin-top: 180px; */
 }
 
 .en {
@@ -13,4 +15,31 @@ main{
 
 .ko {
   font-family: 'Noto Sans KR', sans-serif;
+}
+
+main {
+  width: 100%;
+  background-color: #F5F2E1;
+  color: #333333;
+  padding: 200px 0;
+}
+
+a {
+  color: #333333;
+}
+
+.p10 {
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.swiper {
+  overflow: none;
 }

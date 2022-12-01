@@ -1,28 +1,4 @@
-.notice-page__wrap {
-  max-width: 1000px;
-  margin: 0 auto;
-  height: 100vh;
-  padding: 170px 0;
-  box-sizing: border-box;
-}
-
-.notice-page__title {
-  text-align: center;
-}
-
-h1 {
-  font-size: 50px;
-}
-
-h2 {
-  font-size: 26px;
-}
-
-p {
-  font-size: 16px;
-}
-
-.notice-page__contents {
+*/ .notice-page__contents {
   margin-top: 70px;
 }
 
