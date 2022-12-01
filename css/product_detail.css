@@ -252,6 +252,18 @@ main {
   opacity: 50%;
   transition: all 0.3s;
 }
+.second-bori{
+  position: absolute;
+  right: 0;
+  display: block;
+}
+.second-bori>img{
+  display: block;
+  height: auto;
+  width: 100%;
+  opacity: 50%;
+  transition: all 0.3s;
+}
 
 @media(max-width:1200px){
   .bori{
