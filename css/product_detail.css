@@ -70,7 +70,7 @@ main {
   align-items: center;
   width: 1200px;
   margin: 0 auto;
-  border-bottom: 1px solid #625b3a;
+  border-bottom: 1px solid rgba(193, 190, 174, 0.8);
 }
 .detail-section__wrap>* {
   z-index: 5000;
@@ -308,6 +308,12 @@ main {
   .fourth-bori{
     top: 4000px;
   }
+  .fivth-bori{
+    top: 4800px;
+ }
+ .detail__section8-bg{
+  display: none;
+ }
 }
 
 @media(max-width:768px){
