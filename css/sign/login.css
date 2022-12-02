@@ -1,0 +1,111 @@
+.login-page__wrap {
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.login-page__title h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+.login-page__idpw>input {
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.login-id {
+  margin-bottom: 5px;
+}
+
+.securityBtn {
+  background: transparent;
+  border: none;
+  font-size: 13px;
+  color: #333;
+  margin: 10px 0;
+}
+
+button {
+  padding: 0;
+}
+
+.securityBtn>span {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url(../../img/security.png);
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.loginBtn {
+  background-color: #CBC6AD;
+  width: 100%;
+  height: 45px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.login__sub-button {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.login__sub-button>button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  color: #333;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.findID {
+  position: relative;
+}
+
+.findID::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: #333;
+  position: absolute;
+  right: -4px;
+  top: 4px;
+}
+
+.findPW {
+  position: relative;
+}
+
+.findPW::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: #333;
+  position: absolute;
+  right: -4px;
+  top: 4px;
+}
+
+
+.backgroun__bori img {
+  width: 60%;
+  opacity: 0.3;
+  position: absolute;
+  display: block;
+  right: -280px;
+  bottom: -200px;
+}
