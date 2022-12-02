@@ -5,6 +5,7 @@
 .joinPage__wrap {
   max-width: 800px;
   margin: 0 auto;
+  position: relative;
 }
 
 
@@ -49,16 +50,12 @@
 }
 
 .joinComfirm_Btn {
-  text-align: center;
-  margin: 40px 0 30px;
-}
-
-.joinComfirm_Btn a {
   background-color: #CBC6AD;
+  border: none;
   padding: 10px;
   height: 30px;
   line-height: 30px;
-  width: 168px;
+  width: 300px;
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -358,7 +355,7 @@ tr {
 }
 
 .agree_wrap {
-  margin: 50px 0 0;
+  margin: 50px 0 50px;
   padding: 0 95px;
   box-sizing: border-box;
 }
@@ -470,6 +467,15 @@ tr {
 
 .overlayer.is-open {
   display: block;
+}
+
+.background__bori {
+  width: 15%;
+  opacity: 0.3;
+  position: absolute;
+  display: block;
+  right: 20px;
+  bottom: -600px;
 }
 
 @media (max-width: 1023px) {
@@ -594,6 +600,3 @@ tr {
     margin: 0 0 0 5px;
   }
 }
-
-
-/* */
