@@ -12,8 +12,8 @@
 /* footer */
 @import url(footer.css);
 body {
-	cursor: url(../img/curser.png), auto !important;
-    }
+  cursor: url(../img/curser.png), auto !important;
+}
 .en {
   font-family: 'Roboto', sans-serif;
 }
@@ -51,8 +51,6 @@ p {
   font-size: 16px;
 }
 
-
-
 @media (max-width: 1200px) {
   .w1640 {
     width: 100%;
@@ -71,7 +69,7 @@ p {
   }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 35px;
   }

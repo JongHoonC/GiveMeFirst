@@ -37,14 +37,14 @@
 .notice__cancleBtn {
   width: 66px;
   height: 30px;
-  border: 1px solid #CBC6AD;
+  border: 1px solid #cbc6ad;
   background-color: transparent;
 }
 
 .notice__confirmBtn {
   width: 66px;
   height: 30px;
-  background-color: #CBC6AD;
+  background-color: #cbc6ad;
   border: none;
   margin-top: 20px;
 }

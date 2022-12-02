@@ -1,22 +1,22 @@
-.notice-wrap{
+.notice-wrap {
   max-width: 1000px;
   margin: 0 auto;
   height: 100vh;
   padding: 150px 0;
   box-sizing: border-box;
 }
-.notice_contents{
+.notice_contents {
   width: 100%;
 }
-.notice-title{
+.notice-title {
   width: 100%;
   margin-bottom: 10px;
-  padding:10px;
+  padding: 10px;
   box-sizing: border-box;
   border-radius: 3px;
   border: 1px solid #333;
 }
-.notice_contentsTxt{
+.notice_contentsTxt {
   width: 100%;
   height: 400px;
   padding: 10px;
@@ -24,18 +24,20 @@
   border: 1px solid rgba(51, 51, 51, 0.5);
   border-radius: 3px;
 }
-.notice-buttons{
+.notice-buttons {
   float: right;
   margin-top: 20px;
   font-size: 12px;
 }
-.notice__cancleBtn{
-  width: 66px; height: 30px;
-  border: 1px solid #CBC6AD;
+.notice__cancleBtn {
+  width: 66px;
+  height: 30px;
+  border: 1px solid #cbc6ad;
   background-color: transparent;
 }
-.notice__confirmBtn{
-  width: 66px; height: 30px;
-  background-color: #CBC6AD;
+.notice__confirmBtn {
+  width: 66px;
+  height: 30px;
+  background-color: #cbc6ad;
   border: none;
 }

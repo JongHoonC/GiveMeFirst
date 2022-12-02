@@ -5,7 +5,6 @@
 @import url(notice_write.css);
 @import url(../footer.css);
 
-
 .en {
   font-family: 'Roboto', sans-serif;
 }
@@ -16,7 +15,7 @@
 
 main {
   width: 100%;
-  background-color: #F5F2E1;
+  background-color: #f5f2e1;
   color: #333333;
   padding: 200px 0;
 }

@@ -8,7 +8,6 @@
   position: relative;
 }
 
-
 .joinPage__container {
   width: 100%;
 }
@@ -50,7 +49,7 @@
 }
 
 .joinComfirm_Btn {
-  background-color: #CBC6AD;
+  background-color: #cbc6ad;
   border: none;
   padding: 10px;
   height: 30px;
@@ -80,7 +79,7 @@
   text-align: right;
 }
 
-.form_txtInput .checkbox_wrap input[type="checkbox"] {
+.form_txtInput .checkbox_wrap input[type='checkbox'] {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -91,7 +90,7 @@
   border: 0;
 }
 
-.form_txtInput .checkbox_wrap input[type="checkbox"]+label {
+.form_txtInput .checkbox_wrap input[type='checkbox'] + label {
   display: inline-block;
   line-height: 14px;
   position: relative;
@@ -104,7 +103,7 @@
   -ms-user-select: none;
 }
 
-.form_txtInput .checkbox_wrap input[type="checkbox"]+label:before {
+.form_txtInput .checkbox_wrap input[type='checkbox'] + label:before {
   content: '';
   position: absolute;
   top: 0px;
@@ -116,17 +115,17 @@
   border: 1px solid #c2c2c2;
 }
 
-.form_txtInput .checkbox_wrap input[type="checkbox"]+label:active:before,
-.checkbox_wrap input[type="checkbox"]:checked+label:active:before {
+.form_txtInput .checkbox_wrap input[type='checkbox'] + label:active:before,
+.checkbox_wrap input[type='checkbox']:checked + label:active:before {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.form_txtInput .checkbox_wrap input[type="checkbox"]:checked+label:before {
+.form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:before {
   background: #fff;
   border-color: #ddd;
 }
 
-.form_txtInput .checkbox_wrap input[type="checkbox"]:checked+label:after {
+.form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:after {
   content: '✓';
   color: rgba(51, 51, 51, 0.8);
   position: absolute;
@@ -154,7 +153,7 @@
 .star span:after {
   content: '*';
   font-size: 16px;
-  color: #625B3A;
+  color: #625b3a;
   position: absolute;
   top: 0;
   left: -10px;
@@ -209,7 +208,6 @@
 }
 
 .join_form table input.my_detailAdress {
-
   margin-bottom: 5px;
 }
 
@@ -232,7 +230,7 @@
 }
 
 .join_form.idpwFind table input.email2 {
-  width: 263px
+  width: 263px;
 }
 
 .join_form.idpwFind table input.phone {
@@ -257,7 +255,7 @@
 .join_form table th span:after {
   content: '*';
   font-size: 13px;
-  color: #625B3A;
+  color: #625b3a;
   position: absolute;
   top: 0;
   right: 0px;
@@ -267,7 +265,6 @@
 td,
 tr {
   vertical-align: top;
-
 }
 
 .join_form table th {
@@ -282,7 +279,6 @@ tr {
   padding: 6px 0;
   position: relative;
 }
-
 
 .join_form.idpwFind table th span:after {
   content: none;
@@ -319,7 +315,6 @@ tr {
 .join_form table td a.btn_confirm.send {
   background: transparent;
   border: 1px solid rgba(203, 198, 173, 0.3);
-
 }
 
 .join_form.idpwFind table td select {
@@ -383,7 +378,6 @@ tr {
   float: left;
 }
 
-
 .explan_txt {
   margin: 3px 0 0 22px;
 }
@@ -420,7 +414,7 @@ tr {
 }
 
 .popWrap .pop_txt_con .pop_exTxt span {
-  color: #254ee9
+  color: #254ee9;
 }
 
 .popWrap .pop_btnWrap {
@@ -483,8 +477,6 @@ tr {
     margin: 30px auto;
   }
 
-
-
   .join_form {
     max-width: 90vw;
   }
@@ -502,7 +494,6 @@ tr {
     border: 1px solid #ececec;
     font-size: 14px;
     color: rgba(51, 51, 51, 0.3);
-    ;
     height: 37px;
     padding: 10px;
     width: 100%;
@@ -535,7 +526,7 @@ tr {
   }
 
   .join_form.idpwFind table input.email2 {
-    width: 53%
+    width: 53%;
   }
 
   .join_form.idpwFind table input.phone {
@@ -552,9 +543,8 @@ tr {
   }
 
   .star {
-    margin: 0 0 25px 0px
+    margin: 0 0 25px 0px;
   }
-
 
   .btn_wrap a,
   .btn_wrap a.wide {
@@ -596,7 +586,7 @@ tr {
     margin: 5px 0 0;
   }
 
-  .join_form table input.send_number+a {
+  .join_form table input.send_number + a {
     margin: 0 0 0 5px;
   }
 }

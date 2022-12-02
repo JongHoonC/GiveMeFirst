@@ -2,7 +2,6 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-
 .aboutUs-page {
   background-color: #f5f2e1;
   width: 100%;
@@ -10,23 +9,23 @@
 }
 
 .aboutUs-page H1 {
-  font-size: 50PX;
+  font-size: 50px;
   font-weight: bold;
   margin-bottom: 50px;
 }
 
 .aboutUs-page H2 {
-  font-size: 26PX;
+  font-size: 26px;
   margin-bottom: 50px;
 }
 
 .aboutUs-page P {
-  font-size: 16PX;
+  font-size: 16px;
 }
 
 .aboutUs-img {
   width: 100%;
-  background-image: url(../img/ddd\ \(1\).jpg);
+  /* background-image: url(../img/ddd\\(1\).jpg); */
   padding-bottom: 50%;
   background-size: cover;
   background-position: center center;
@@ -38,10 +37,10 @@
   width: 100%;
   padding: 25px 0;
   box-sizing: border-box;
-  background-color: #CBC6AD;
+  background-color: #cbc6ad;
 }
 
-.aboutUs-subNav>ul {
+.aboutUs-subNav > ul {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -49,16 +48,9 @@
   justify-content: space-between;
 }
 
-.aboutUs-subNav>ul>li {
+.aboutUs-subNav > ul > li {
   font-size: 18px;
 }
-
-
-
-
-
-
-
 
 .seoultakju-logo img {
   position: absolute;
@@ -72,7 +64,6 @@
   padding: 200px 0;
   box-sizing: border-box;
   border-bottom: 2px solid rgba(194, 191, 175, 0.7);
-  ;
 }
 
 .aboutUs-intro {
@@ -81,7 +72,7 @@
   justify-content: space-between;
 }
 
-.aboutUs-intro>div {
+.aboutUs-intro > div {
   width: calc(50% - 30px);
 }
 

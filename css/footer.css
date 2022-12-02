@@ -125,11 +125,11 @@ footer {
   color: #333;
   font-weight: 600;
 }
-fp-enabled{
+fp-enabled {
   overflow: hidden;
 }
 
-@media(max-width:1345px){
+@media (max-width: 1345px) {
   .footer__wrap {
     flex-direction: column;
   }
@@ -146,8 +146,6 @@ fp-enabled{
 }
 
 @media (max-width: 1080px) {
-
-
 }
 
 @media (max-width: 768px) {
