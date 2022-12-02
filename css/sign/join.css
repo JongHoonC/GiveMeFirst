@@ -5,6 +5,7 @@
 .joinPage__wrap {
   max-width: 800px;
   margin: 0 auto;
+  position: relative;
 }
 
 
@@ -19,7 +20,7 @@
 }
 
 .p200 {
-  padding: 200px 0 200px;
+  padding: 250px 0 200px;
   box-sizing: border-box;
 }
 
@@ -49,16 +50,12 @@
 }
 
 .joinComfirm_Btn {
-  text-align: center;
-  margin: 40px 0 30px;
-}
-
-.joinComfirm_Btn a {
   background-color: #CBC6AD;
+  border: none;
   padding: 10px;
   height: 30px;
   line-height: 30px;
-  width: 168px;
+  width: 300px;
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -202,7 +199,7 @@
 }
 
 .join_form table input.my_adress {
-  width: 130px;
+  width: 200px;
 }
 
 .join_form table input.my_adress2 {
@@ -296,7 +293,7 @@ tr {
   width: 130px;
   height: 57px;
   box-sizing: border-box;
-  background: #CBC6AD;
+  background: rgba(203, 198, 173, 0.3);
   margin-left: 10px;
   text-align: center;
   vertical-align: top;
@@ -309,7 +306,7 @@ tr {
   width: 130px;
   height: 57px;
   box-sizing: border-box;
-  background: #CBC6AD;
+  background: rgba(203, 198, 173, 0.3);
   border: none;
   margin-left: 10px;
   text-align: center;
@@ -321,7 +318,7 @@ tr {
 
 .join_form table td a.btn_confirm.send {
   background: transparent;
-  border: 1px solid #cbc6ad;
+  border: 1px solid rgba(203, 198, 173, 0.3);
 
 }
 
@@ -358,7 +355,7 @@ tr {
 }
 
 .agree_wrap {
-  margin: 50px 0 0;
+  margin: 50px 0 50px;
   padding: 0 95px;
   box-sizing: border-box;
 }
@@ -470,6 +467,15 @@ tr {
 
 .overlayer.is-open {
   display: block;
+}
+
+.background__bori img {
+  width: 15%;
+  opacity: 0.3;
+  position: absolute;
+  display: block;
+  right: 200px;
+  bottom: -590px;
 }
 
 @media (max-width: 1023px) {
@@ -594,6 +600,3 @@ tr {
     margin: 0 0 0 5px;
   }
 }
-
-
-/* */
