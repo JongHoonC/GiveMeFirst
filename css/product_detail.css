@@ -57,6 +57,9 @@ h2 {
 main {
   background-color: #f5f2e1;
 }
+section{
+  overflow: hidden;
+}
 
 
 /* 공통 */
