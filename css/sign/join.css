@@ -469,13 +469,13 @@ tr {
   display: block;
 }
 
-.background__bori {
+.background__bori img {
   width: 15%;
   opacity: 0.3;
   position: absolute;
   display: block;
-  right: 20px;
-  bottom: -600px;
+  right: 200px;
+  bottom: -590px;
 }
 
 @media (max-width: 1023px) {
