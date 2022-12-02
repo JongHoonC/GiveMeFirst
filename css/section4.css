@@ -81,7 +81,8 @@
 
 .hover-box:hover {
   opacity: 1;
-  transform: translate(-50%, -78%);
+  transition: all 0.2s;
+  transform: translate(-50%, -73%);
 }
 
 .img-block {
@@ -200,5 +201,17 @@
 @media screen and (max-width: 768px) {
   .section4 .hover-box {
     flex-direction: column-reverse;
+  }
+
+  .section4 .hover-box h2 {
+    text-align: center;
+  }
+
+  .section4 .padding-big {
+    padding-left: 0px;
+  }
+
+  .section4 .padding-small {
+    padding-left: 0px;
   }
 }
