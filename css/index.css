@@ -11,7 +11,9 @@
 
 /* footer */
 @import url(footer.css);
-
+body {
+	cursor: url(../img/curser.png), auto !important;
+    }
 .en {
   font-family: 'Roboto', sans-serif;
 }
