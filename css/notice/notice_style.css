@@ -2,11 +2,11 @@
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  position: relative;
 }
 
 .notice-page__wrap h2 {
   font-weight: bold;
-  padding-bottom: 50%;
 
 }
 
@@ -15,19 +15,26 @@
 }
 
 .notice-list {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .notice-list li {
-  width: 313px;
-  height: 313px;
+  width: calc(33% - 10px);
+  max-height: 315px;
   background-color: #cbc6ad;
-  padding: 20px;
+  padding: 20px 20px 250px;
   box-sizing: border-box;
   margin-top: 30px;
   position: relative;
+}
+
+.notice-list li h2 {
+  /* max-width: 300px; */
+  padding-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .notice-date {
@@ -55,7 +62,7 @@
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: -90px;
+  bottom: -40px;
 }
 
 :root {
@@ -65,7 +72,7 @@
 .notice_bori__left {
   position: absolute;
   opacity: 0.3;
-  left: 210px;
+  left: 150px;
   top: 250px;
   width: 15%;
 }
@@ -73,24 +80,73 @@
 .notice_bori__right {
   position: absolute;
   opacity: 0.3;
-  right: 220px;
+  right: 100px;
   bottom: -200px;
   width: 15%;
   transform: rotate(30deg);
 }
 
+@media (max-width: 1600px) {
+  .notice_bori__left {
+    left: 100px;
+  }
+
+  .notice_bori__right {
+    right: 100px;
+  }
+
+}
+
+@media (max-width: 1400px) {
+  .notice_bori__left {
+    left: 50px;
+  }
+
+  .notice_bori__right {
+    right: 50px;
+  }
+
+}
 
 
-@media (max-width: 1000px) {
-  .notice-list {
-    flex-wrap: wrap;
-    padding: 0 20px;
+
+@media (max-width: 1200px) {
+  .notice-main {
+    padding: 200px 40px;
     box-sizing: border-box;
   }
 
-  .notice-list li {
-    width: 450px;
-    height: 450px;
+  .notice-list {
+    flex-wrap: wrap;
+  }
 
+  .notice-list li {
+    width: calc(50% - 10px);
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: -440px;
+  }
+
+  .notice_bori__left {
+    left: 50px;
+    top: 150px;
+  }
+
+  .notice_bori__right {
+    display: none;
+  }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
   }
 }
