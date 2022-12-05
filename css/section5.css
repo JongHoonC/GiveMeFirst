@@ -66,14 +66,42 @@
 .section5 .font-box {
   margin-top: 0;
   padding-left: 0;
+  position: relative;
 }
 
 .section5 .font-box p {
   margin-top: 20px;
+  height: 31px;
 }
 
 .road-wrap {
   padding-top: 50px;
+}
+
+.road-container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* .road-container p {
+  margin-top: 50px;
+  font-size: 14px;
+  line-height: 1.6;
+} */
+
+.section5 .swiper-wrapper {
+  flex-direction: column;
+}
+
+.section5 .swiper {
+  margin: 50px 0;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 14px;
+  /* background: rgb(221, 13, 13); */
 }
 
 @media screen and (max-width: 1600px) {
@@ -118,4 +146,7 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .section5 .road {
+    display: none;
+  }
 }

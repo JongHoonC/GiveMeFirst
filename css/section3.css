@@ -173,11 +173,12 @@
 }
 @media screen and (max-width: 768px) {
   .section3 .side-bg {
-    left: -30px;
+    left: -20px;
+    top: 400px;
   }
 
   .section3 .side-bg img {
-    width: 60%;
+    width: 40%;
   }
 
   .section3 .right-bg {
