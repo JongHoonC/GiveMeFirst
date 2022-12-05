@@ -3,7 +3,7 @@
 }
 
 .joinPage__wrap {
-  max-width: 800px;
+  max-width: 628px;
   margin: 0 auto;
   position: relative;
 }
@@ -19,7 +19,7 @@
 }
 
 .p200 {
-  padding: 250px 0 200px;
+  padding: 150px 0 200px;
   box-sizing: border-box;
 }
 
@@ -90,7 +90,7 @@
   border: 0;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']+label {
+.form_txtInput .checkbox_wrap input[type='checkbox'] + label {
   display: inline-block;
   line-height: 14px;
   position: relative;
@@ -103,7 +103,7 @@
   -ms-user-select: none;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']+label:before {
+.form_txtInput .checkbox_wrap input[type='checkbox'] + label:before {
   content: '';
   position: absolute;
   top: 0px;
@@ -115,17 +115,17 @@
   border: 1px solid #c2c2c2;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']+label:active:before,
-.checkbox_wrap input[type='checkbox']:checked+label:active:before {
+.form_txtInput .checkbox_wrap input[type='checkbox'] + label:active:before,
+.checkbox_wrap input[type='checkbox']:checked + label:active:before {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']:checked+label:before {
+.form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:before {
   background: #fff;
   border-color: #ddd;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']:checked+label:after {
+.form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:after {
   content: '✓';
   color: rgba(51, 51, 51, 0.8);
   position: absolute;
@@ -184,7 +184,7 @@
 }
 
 .join_form table input.my_number {
-  width: 80px;
+  width: 60%;
   display: inline-block;
 }
 
@@ -199,7 +199,7 @@
 }
 
 .join_form table input.my_adress {
-  width: 200px;
+  width: 150px;
 }
 
 .join_form table input.my_adress2 {
@@ -213,7 +213,6 @@
 }
 
 .join_form table input.email {
-  width: 150px;
   display: inline-block;
 }
 
@@ -244,7 +243,7 @@
 }
 
 .join_form table input.send_number {
-  width: 335px;
+  width: 30%;
 }
 
 .join_form table th span {
@@ -351,7 +350,6 @@ tr {
 
 .agree_wrap {
   margin: 50px 0 50px;
-  padding: 0 95px;
   box-sizing: border-box;
 }
 
@@ -471,3 +469,72 @@ tr {
   right: 200px;
   bottom: -590px;
 }
+
+/* 수정영역 */
+th {
+}
+tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+td {
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .form_txtInput {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .join_form table input {
+    font-size: 13px;
+    color: #4c4c4c;
+    height: 35px;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  .mar10 {
+    margin: 14px 5px 0 10px;
+    display: inline-block;
+    padding: 0;
+    float: left;
+  }
+  .join_form table td a.btn_confirm.send {
+    height: 35px;
+    width: 30%;
+    line-height: 35px;
+    background: transparent;
+
+    border: 1px solid rgba(203, 198, 173, 0.3);
+  }
+  .join_form table td a.btn_confirm {
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    box-sizing: border-box;
+    background: rgba(203, 198, 173, 0.3);
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 35px;
+    font-size: 13px;
+  }
+  .join_form table td input.btn_findPost {
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    box-sizing: border-box;
+    background: rgba(203, 198, 173, 0.3);
+    border: none;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 13px;
+    color: #333;
+  }
+}
+
+/* 수정영역 */
