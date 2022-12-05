@@ -31,9 +31,9 @@ var main02Swiper = new Swiper('.img-box.swiper-container', {
   speed: 500,
   loop: true,
   loopAdditionalSlides: 1,
-  navigation: {nextEl: '.sect-02 .swiper-button-next', prevEl: '.sect-02 .swiper-button-prev'},
+  navigation: {nextEl: '.section3 .swiper-button-next', prevEl: '.sect-02 .swiper-button-prev'},
   pagination: {
-    el: '.sect-02 .swiper-pagination',
+    el: '.section3 .swiper-pagination',
     clickable: true,
     type: 'fraction',
     renderFraction: function (currentClass, totalClass) {

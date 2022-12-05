@@ -14,7 +14,7 @@
 .section5 .side-bg {
   position: absolute;
   left: 0;
-  top: -50px;
+  top: 100px;
 }
 
 .section5 .side-bg img {
@@ -23,8 +23,8 @@
 
 .section5 .road {
   position: absolute;
-  right: -240px;
-  bottom: -130px;
+  right: -245px;
+  bottom:0px;
 }
 
 .section5 .road img {
@@ -34,7 +34,7 @@
 .section5 .bottles {
   position: absolute;
   right: -250px;
-  top: -70px;
+  top: 40px;
 }
 
 .section5 .bottles img {
@@ -50,7 +50,7 @@
 .section5 h1 {
   font-size: 50px;
   font-weight: bold;
-  margin-top: 50px;
+  padding: 150px 0 50px;
   color: #333333;
   line-height: 1.3;
 }
@@ -70,7 +70,7 @@
 }
 
 .section5 .font-box p {
-  margin-top: 20px;
+  margin-top: 0px;
   height: 31px;
 }
 
@@ -80,7 +80,7 @@
 
 .road-container {
   width: 50%;
-  height: 100%;
+  height: 600px;
   margin: 0 auto;
 }
 
@@ -95,7 +95,8 @@
 }
 
 .section5 .swiper {
-  margin: 50px 0;
+  margin: 20px 0;
+  width: 100%;
 }
 
 .swiper-slide {
@@ -122,8 +123,8 @@
   }
 
   .section5 .road {
-    right: -500px;
-    bottom: -30px;
+    right: -490px;
+    bottom: -10px;
   }
 
   .section5 .road img {
@@ -131,8 +132,8 @@
   }
 
   .section5 .bottles {
-    top: 30px;
-    right: -500px;
+    top: 300px;
+    right: -490px;
   }
 
   .section5 .bottles img {
@@ -148,5 +149,17 @@
 @media screen and (max-width: 768px) {
   .section5 .road {
     display: none;
+  }
+
+  .section5 p {
+    font-size: 12px;
+  }
+
+  .contents-box {
+    justify-content: center;
+  }
+
+  .swiper-slide.swiper-slide-duplicate-pre {
+    height:28px;
   }
 }

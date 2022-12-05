@@ -1,4 +1,4 @@
-var swiper = new Swiper('.road-wrap .swiper .road-container', {
+var swiper = new Swiper('.swiper.road-container', {
   direction: 'vertical',
   slidesPerView: 9,
   autoplay: {
