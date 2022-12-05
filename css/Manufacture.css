@@ -1,0 +1,225 @@
+@import url(sub_header.css);
+@import url(footer.css);
+
+.en {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ko {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+@media (max-width: 1200px) {
+  .w1640 {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+main {
+  background-color: #f5f2e1;
+}
+section {
+  overflow: hidden;
+}
+
+/* 공통 */
+
+/* 섹션 묶기 */
+.manufacture-section__wrap {
+  padding: 254px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(193, 190, 174, 0.8);
+}
+.manufacture-section__wrap > * {
+  z-index: 5000;
+}
+
+@media (max-width: 1200px) {
+  .manufacture-section__wrap {
+    width: 100%;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+}
+
+
+/* 텍스트 굵기 */
+.manufacture-section__wrap > article > h1 {
+  font-weight: bold;
+  color: #333;
+  margin: 54px 0;
+
+}
+
+.manufacture-section__wrap > article > h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+.manufacture-section__wrap > article > p {
+  font-weight: 500;
+  color: #333;
+}
+@media (max-width: 1200px) {
+  .manufacture-section__wrap > article {
+    text-align: center;
+  }
+
+  .manufacture-section__wrap > article > h1 {
+    margin: 30px 0;
+  }
+}
+
+/* 사진 */
+.manufacture-section__img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+
+@media (max-width: 1200px) {
+  .manufacture-section__img {
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+  }
+}
+
+
+/* 섹션1 */
+.manufacture__section1-bg{
+  margin-top: 100px;
+  background-image: url(../img/right-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+}
+
+/* 섹션2 */
+.manufacture-section2__img{
+  background-image: url(../img/img_17063_5\ \(1\).jpg);
+}
+
+/* 섹션3 */
+.manufacture-section3__img{
+  background-image: url(../img/sub-sec3.jpg);
+  width: 561px;
+  height: 561px;
+}
+/* 섹션4 */
+.manufacture-section4__img{
+  background-image: url(../img/mitsool.jpg);
+}
+/* 섹션5 */
+.manufacture-section5__img{
+  background-image: url(../img/286801393_1686415348376943_38524004765327719_n.jpg);
+}
+/* 섹션6 */
+.manufacture-section6__img{
+  background-image: url(../img/business_01.jpg);
+}
+/* 섹션7 */
+.manufacture-section7__img{
+  background-image: url(../img/manufacture7.JPG);
+}
+/* 섹션8 */
+.manufacture-section8__img{
+  background-image: url(../img/manufacture8.JPG);
+}
+
+@media(max-width:1200px){
+  .manufacture__section1-bg{
+    margin-top: 60px;
+    height: 300px;
+  }
+  
+}
+
+.atech{
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.atech--bg{
+  background-image: url(../img/atech.JPG);
+  width: 1200px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+/* 텍스트 굵기 */
+.atech> article > h1 {
+  font-weight: bold;
+  color: #333;
+  margin: 54px 0;
+
+}
+
+.atech> article > h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+.atech> article > p {
+  font-weight: 500;
+  color: #333;
+}
+@media (max-width: 1200px) {
+  .atech > article {
+    text-align: center;
+  }
+
+  .atech > article > h1 {
+    margin: 30px 0;
+  }
+}

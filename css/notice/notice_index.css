@@ -40,3 +40,22 @@ h2 {
 .swiper {
   overflow: none;
 }
+
+p {
+  font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

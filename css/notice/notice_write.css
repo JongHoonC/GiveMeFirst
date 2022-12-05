@@ -1,8 +1,6 @@
 .notice-wrap {
   max-width: 1000px;
   margin: 0 auto;
-  height: 100vh;
-  padding: 150px 0;
   box-sizing: border-box;
 }
 
@@ -46,5 +44,12 @@
   height: 30px;
   background-color: #cbc6ad;
   border: none;
-  margin-top: 20px;
+}
+
+
+@media (max-width: 1200px) {
+  .notice-write {
+    padding: 200px 40px;
+    box-sizing: border-box;
+  }
 }

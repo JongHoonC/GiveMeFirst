@@ -8,7 +8,6 @@
 .ko {
   font-family: 'Noto Sans KR', sans-serif;
 }
-
 p {
   font-size: 16px;
 }
@@ -249,7 +248,7 @@ section {
 .first-bori {
   position: absolute;
   z-index: 1;
-  left: -20px;
+  left: -35px;
   top: 700px;
   transition: all 0.3s;
 }

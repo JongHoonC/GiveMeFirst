@@ -11,9 +11,16 @@
 .fp-viewing-1 > #h_wrap {
   border-bottom: none;
 }
+.fp-viewing-1 > #h_wrap {
+  border-bottom: none;
+}
+.fp-viewing-1 > #h_wrap {
+  background-color: transparent;
+}
 
 /*헤더*/
 #h_wrap {
+  background-color: #f5f2e1;
   width: 100%;
   position: fixed;
   left: 0;
