@@ -97,8 +97,86 @@
 
 .subu::after {
   content: '●';
-  absolute:
-    bottom: 30px;
+  font-size: 20px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: #333;
+}
+
+.dobong {
+  position: absolute;
+  top: 30px;
+  right: 410px;
+}
+
+.dobong::after {
+  content: '●';
+  font-size: 20px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: #333;
+}
+
+.taereung {
+  position: absolute;
+  top: 200px;
+  right: 290px;
+}
+
+.taereung::after {
+  content: '●';
+  font-size: 20px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  color: #333;
+}
+
+.guro {
+  position: absolute;
+  bottom: 210px;
+  left: 240px;
+}
+
+.guro::after {
+  content: '●';
+  font-size: 20px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  color: #333;
+}
+
+.seongdong {
+  position: absolute;
+  bottom: 310px;
+  right: 380px;
+}
+
+.seongdong::after {
+  content: '●';
+  font-size: 20px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  color: #333;
+}
+
+.gangdong {
+  position: absolute;
+  bottom: 272px;
+  right: 140px;
+}
+
+.gangdong::after {
+  content: '●';
+  font-size: 20px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  color: #333;
 }
 
 strong {
@@ -122,5 +200,47 @@ strong {
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
+  z-index: 10;
   display: none;
+}
+
+/* .factory-adress p {
+  font-size: 16px;
+} */
+
+.subu-adress {
+  position: absolute;
+  top: 40px;
+  left: 355px;
+}
+
+.dobong-adress {
+  position: absolute;
+  top: -110px;
+  right: 380px;
+
+}
+
+.taereung-adress {
+  position: absolute;
+  top: 60px;
+  right: 250px;
+}
+
+.guro-adress {
+  position: absolute;
+  bottom: 65px;
+  left: 190px;
+}
+
+.seongdong-adress {
+  position: absolute;
+  bottom: 165px;
+  right: 340px;
+}
+
+.gangdong-adress {
+  position: absolute;
+  right: 100px;
+  bottom: 125px;
 }
