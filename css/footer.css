@@ -86,6 +86,9 @@ footer {
   width: 24px;
   height: 24px;
 }
+.footer__SNS>.facebook>p{
+  margin-left: 20px;
+}
 .facebook {
   width: 100%;
 }
