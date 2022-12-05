@@ -1,3 +1,7 @@
+.notice-edit {
+  box-sizing: border-box;
+}
+
 .notice-wrap {
   max-width: 1000px;
   margin: 0 auto;
@@ -44,4 +48,10 @@
   height: 30px;
   background-color: #cbc6ad;
   border: none;
+}
+
+@media (max-width: 1200px) {
+  .notice-edit {
+    padding: 200px 40px;
+  }
 }
