@@ -244,3 +244,38 @@ strong {
   right: 100px;
   bottom: 125px;
 }
+
+.takju-youtube h1 {
+  text-align: center;
+}
+
+.youtube-thumbnail {
+  width: 100%;
+}
+
+.yuja-thumbnail {
+  width: 100%;
+  padding: 200px 0;
+  box-sizing: border-box;
+  background-image: url(../img/video-img2.jpg);
+  background-position: center center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.youtube-thumbnail__list {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.youtube-thumbnail__list>div {
+  width: calc(33% - 10px);
+  height: 215px;
+  background-color: aliceblue;
+  border-radius: 7px;
+}
+
+.takju-location h1 {
+  text-align: center;
+}
