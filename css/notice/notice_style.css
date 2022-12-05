@@ -6,6 +6,8 @@
 
 .notice-page__wrap h2 {
   font-weight: bold;
+  padding-bottom: 50%;
+
 }
 
 .notice-page__title {
@@ -46,4 +48,49 @@
   border: 2px solid #cbc6ad;
   background-color: transparent;
   margin-top: 15px;
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -90px;
+}
+
+:root {
+  --swiper-theme-color: #333;
+}
+
+.notice_bori__left {
+  position: absolute;
+  opacity: 0.3;
+  left: 210px;
+  top: 250px;
+  width: 15%;
+}
+
+.notice_bori__right {
+  position: absolute;
+  opacity: 0.3;
+  right: 220px;
+  bottom: -200px;
+  width: 15%;
+  transform: rotate(30deg);
+}
+
+
+
+@media (max-width: 1000px) {
+  .notice-list {
+    flex-wrap: wrap;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .notice-list li {
+    width: 450px;
+    height: 450px;
+
+  }
 }

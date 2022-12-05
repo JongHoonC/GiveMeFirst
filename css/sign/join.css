@@ -90,7 +90,7 @@
   border: 0;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox'] + label {
+.form_txtInput .checkbox_wrap input[type='checkbox']+label {
   display: inline-block;
   line-height: 14px;
   position: relative;
@@ -103,7 +103,7 @@
   -ms-user-select: none;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox'] + label:before {
+.form_txtInput .checkbox_wrap input[type='checkbox']+label:before {
   content: '';
   position: absolute;
   top: 0px;
@@ -115,17 +115,17 @@
   border: 1px solid #c2c2c2;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox'] + label:active:before,
-.checkbox_wrap input[type='checkbox']:checked + label:active:before {
+.form_txtInput .checkbox_wrap input[type='checkbox']+label:active:before,
+.checkbox_wrap input[type='checkbox']:checked+label:active:before {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:before {
+.form_txtInput .checkbox_wrap input[type='checkbox']:checked+label:before {
   background: #fff;
   border-color: #ddd;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:after {
+.form_txtInput .checkbox_wrap input[type='checkbox']:checked+label:after {
   content: '✓';
   color: rgba(51, 51, 51, 0.8);
   position: absolute;
@@ -175,11 +175,12 @@
   border: 1px solid rgba(51, 51, 51, 0.2);
   font-size: 14px;
   color: #4c4c4c;
-  height: 35px;
-  padding: 10px;
+  height: 55px;
   width: 100%;
+  padding: 10px;
   float: left;
   background-color: transparent;
+  box-sizing: border-box;
 }
 
 .join_form table input.my_number {
@@ -287,7 +288,7 @@ tr {
 .join_form table td a.btn_confirm {
   display: inline-block;
   width: 130px;
-  height: 57px;
+  height: 55px;
   box-sizing: border-box;
   background: rgba(203, 198, 173, 0.3);
   margin-left: 10px;
@@ -297,17 +298,16 @@ tr {
   font-size: 13px;
 }
 
-.join_form table td button.btn_findPost {
+.join_form table td input.btn_findPost {
   display: inline-block;
   width: 130px;
-  height: 57px;
+  height: 55px;
   box-sizing: border-box;
   background: rgba(203, 198, 173, 0.3);
   border: none;
   margin-left: 10px;
   text-align: center;
   vertical-align: top;
-  line-height: 56px;
   font-size: 13px;
   color: #333;
 }
@@ -470,123 +470,4 @@ tr {
   display: block;
   right: 200px;
   bottom: -590px;
-}
-
-@media (max-width: 1023px) {
-  .joinPage__wrap {
-    margin: 30px auto;
-  }
-
-  .join_form {
-    max-width: 90vw;
-  }
-
-  .join_form table th span {
-    text-indent: 0;
-    font-size: 13px;
-  }
-
-  .join_form table {
-    width: 100%;
-  }
-
-  .join_form table input {
-    border: 1px solid #ececec;
-    font-size: 14px;
-    color: rgba(51, 51, 51, 0.3);
-    height: 37px;
-    padding: 10px;
-    width: 100%;
-  }
-
-  .join_form table input.email {
-    width: 30%;
-    display: inline-block;
-  }
-
-  .join_form table input.email2 {
-    width: 60%;
-  }
-
-  .join_form.idpwFind table input {
-    width: 100%;
-  }
-
-  .join_form.idpwFind table tr.email input {
-    float: left;
-  }
-
-  .mar10 {
-    margin: 5px 2% 0 2%;
-    float: left;
-  }
-
-  .join_form.idpwFind table input.email {
-    width: 36%;
-  }
-
-  .join_form.idpwFind table input.email2 {
-    width: 53%;
-  }
-
-  .join_form.idpwFind table input.phone {
-    width: 30%;
-    margin: 0 4% 0 4%;
-  }
-
-  .join_form.idpwFind table input.phone2 {
-    width: 31%;
-  }
-
-  .join_form table input.send_number {
-    width: 53%;
-  }
-
-  .star {
-    margin: 0 0 25px 0px;
-  }
-
-  .btn_wrap a,
-  .btn_wrap a.wide {
-    width: auto;
-    margin: 0;
-  }
-
-  .btn_wrap {
-    overflow: hidden;
-  }
-
-  .join_form.idpwFind table td select {
-    width: 30%;
-    height: 37px;
-    float: left;
-  }
-
-  .join_form.idpwFind table tr.email input:after,
-  .mar10:after,
-  .join_form.idpwFind table td select:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  .popWrap {
-    right: auto;
-    max-width: 80vw;
-    margin: 30px auto 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .join_form table td a.btn_confirm {
-    width: 100px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 12px;
-    margin: 5px 0 0;
-  }
-
-  .join_form table input.send_number + a {
-    margin: 0 0 0 5px;
-  }
 }

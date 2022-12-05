@@ -156,6 +156,7 @@
             </div>
         </div>
     </header>
+
     <main class="ko">
         <section class="notice-page__wrap">
             <div class="">
@@ -417,8 +418,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="swiper-pagination"></div>
                 </div>
+                <div class="swiper-pagination"></div>
 
             </div>
             <div>
@@ -427,7 +428,12 @@
 
 
         </section>
+        <div class="notice-backgroungImg">
+            <img class="notice_bori__left" src="img/move-bori.gif" alt="">
+            <img class="notice_bori__right" src="img/move-bori_5.gif" alt="">
+        </div>
     </main>
+
     <footer>
         <!-- 1200으로 묶고 좌우패딩 77 -->
         <div class="footer__wrap">
@@ -473,16 +479,9 @@
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper(".notice-swiper", {
-        cssMode: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
         pagination: {
             el: ".swiper-pagination",
         },
-        mousewheel: true,
-        keyboard: true,
     });
 </script>
 

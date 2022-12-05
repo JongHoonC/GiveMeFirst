@@ -98,11 +98,11 @@
             <span></span>
             <span></span>
             <span></span>
-            
+
           </div>
           <div id="mySidenav" class="sidenav ko">
             <ul>
-            
+
               <li>
                 <a href=""> 제품소개</a>
                 <ul class="underMenu">
@@ -117,7 +117,7 @@
                 </ul>
               </li>
               <li>
-                <a href="">술익는 마을</a> 
+                <a href="">술익는 마을</a>
                 <ul class="underMenu">
                   <li><a href="#">숨쉬는 막걸리를 만들다</a></li>
                   <li><a href="#">신선함을 사수하라</a></li>
@@ -128,7 +128,7 @@
                 </ul>
               </li>
               <li>
-                <a href="">고객센터</a> 
+                <a href="">고객센터</a>
                 <ul class="underMenu">
                   <li><a href="#">공지사항</a></li>
                   <li><a href="#">보도자료</a></li>
@@ -211,9 +211,13 @@
                   <th><span>주소</span></th>
                   <td>
                     <input type="text" class="my_adress" id="postcode" readonly>
-                    <button type="button" onclick="open_Postcode()" class="btn_findPost ko">우편번호 찾기</button>
-                    <input type="text" id="road_adress" readonly>
+                    <input type="button" class="btn_findPost ko" id="postcode_button" style="margin-bottom: 10px"
+                      onclick="open_Postcode()" value="우편번호 찾기"><br>
+                    <input type="text" id="road_adress" style="margin-bottom: 10px" readonly>
                     <input class="my_detailAdress" type="text" id="detail_adress" placeholder="상세주소를 입력해주세요."><br>
+
+
+
                   </td>
                 </tr>
               </tbody>
