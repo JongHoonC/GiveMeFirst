@@ -18,3 +18,7 @@ main {
 .ko {
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+input{
+  outline: none;
+}

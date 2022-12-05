@@ -277,6 +277,7 @@ tr {
 
 .join_form table td {
   padding: 6px 0;
+  
   position: relative;
 }
 
@@ -314,6 +315,7 @@ tr {
 .join_form table td a.btn_confirm.send {
   background: transparent;
   border: 1px solid rgba(203, 198, 173, 0.3);
+  background-color: rgba(203, 198, 173, 0.3);
 }
 
 .join_form.idpwFind table td select {
