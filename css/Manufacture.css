@@ -75,7 +75,7 @@ section {
   border-bottom: 1px solid rgba(193, 190, 174, 0.8);
 }
 
-.manufacture-section__wrap>* {
+.manufacture-section__wrap > * {
   z-index: 5000;
 }
 
@@ -88,28 +88,28 @@ section {
 }
 
 /* 텍스트 굵기 */
-.manufacture-section__wrap>article>h1 {
+.manufacture-section__wrap > article > h1 {
   font-weight: bold;
   color: #333;
   margin: 54px 0;
 }
 
-.manufacture-section__wrap>article>h2 {
+.manufacture-section__wrap > article > h2 {
   font-weight: bold;
   color: #333;
 }
 
-.manufacture-section__wrap>article>p {
+.manufacture-section__wrap > article > p {
   font-weight: 500;
   color: #333;
 }
 
 @media (max-width: 1200px) {
-  .manufacture-section__wrap>article {
+  .manufacture-section__wrap > article {
     text-align: center;
   }
 
-  .manufacture-section__wrap>article>h1 {
+  .manufacture-section__wrap > article > h1 {
     margin: 30px 0;
   }
 }
@@ -159,8 +159,13 @@ section {
   background-image: url(../img/mitsool.jpg);
 }
 
-manufacture-section__wrap.section4 {
+.manufacture-section__wrap.section4 {
   flex-direction: row-reverse;
+}
+@media (max-width: 1200px) {
+  .manufacture-section__wrap.section4 {
+    flex-direction: column;
+  }
 }
 
 /* 섹션5 */
@@ -172,6 +177,14 @@ manufacture-section__wrap.section4 {
 .manufacture-section6__img {
   background-image: url(../img/business_01.jpg);
 }
+.manufacture-section__wrap.section6 {
+  flex-direction: row-reverse;
+}
+@media (max-width: 1200px) {
+  .manufacture-section__wrap.section6 {
+    flex-direction: column;
+  }
+}
 
 /* 섹션7 */
 .manufacture-section7__img {
@@ -181,6 +194,14 @@ manufacture-section__wrap.section4 {
 /* 섹션8 */
 .manufacture-section8__img {
   background-image: url(../img/manufacture8.JPG);
+}
+.manufacture-section__wrap.section8 {
+  flex-direction: row-reverse;
+}
+@media (max-width: 1200px) {
+  .manufacture-section__wrap.section8 {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -207,28 +228,28 @@ manufacture-section__wrap.section4 {
 }
 
 /* 텍스트 굵기 */
-.atech>article>h1 {
+.atech > article > h1 {
   font-weight: bold;
   color: #333;
   margin: 54px 0;
 }
 
-.atech>article>h2 {
+.atech > article > h2 {
   font-weight: bold;
   color: #333;
 }
 
-.atech>article>p {
+.atech > article > p {
   font-weight: 500;
   color: #333;
 }
 
 @media (max-width: 1200px) {
-  .atech>article {
+  .atech > article {
     text-align: center;
   }
 
-  .atech>article>h1 {
+  .atech > article > h1 {
     margin: 30px 0;
   }
 
