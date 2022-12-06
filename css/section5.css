@@ -118,12 +118,6 @@
   margin: 0 auto;
 }
 
-/* .road-container p {
-  margin-top: 50px;
-  font-size: 14px;
-  line-height: 1.6;
-} */
-
 .section5 .swiper-wrapper {
   flex-direction: column;
 }
@@ -146,9 +140,7 @@
 }
 
 .swiper-slide {
-  /* text-align: center; */
   font-size: 14px;
-  /* background: rgb(221, 13, 13); */
 }
 
 @media screen and (max-width: 1600px) {
@@ -204,6 +196,13 @@
     margin-top: 30px;
     font-size: 13px;
   }
+
+  .section5 .side-bg {
+    position: absolute;
+    left: 0;
+    top: -20px;
+  }
+
   .section5 .bottles {
     display: none;
   }
