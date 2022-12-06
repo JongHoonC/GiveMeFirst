@@ -83,7 +83,8 @@ section {
   .manufacture-section__wrap {
     width: 100%;
     flex-direction: column;
-    padding: 50px 0;
+    padding: 50px 20px;
+    box-sizing: border-box;
   }
 }
 
@@ -155,6 +156,13 @@ section:nth-child(2) {
   background-image: url(../img/sub-sec3.jpg);
   width: 561px;
   height: 561px;
+}
+@media(max-width:768px){
+.manufacture-section3__img {
+  background-image: url(../img/sub-sec3.jpg);
+  width: 361px;
+  height: 361px;
+}
 }
 
 /* 섹션4 */
@@ -300,14 +308,14 @@ section:nth-child(9) {
   position: absolute;
   z-index: 1;
   left: -35px;
-  top: 4000px;
+  top: 700px;
   transition: all 0.3s;
 }
 
 .second-bori {
   position: absolute;
   right: 0;
-  top: 1500px;
+  top: 1450px;
   display: block;
   z-index: 1;
 }
@@ -335,7 +343,7 @@ section:nth-child(9) {
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 6000px;
+  top: 5500px;
   transition: all 0.3s;
 }
 
@@ -347,13 +355,13 @@ section:nth-child(9) {
   }
   .first-bori {
     left: -20px;
-    top: 4700px;
+    top: 500px;
   }
   .second-bori {
-    top: 700px;
+    top: 1200px;
   }
   .third-bori {
-    top: 2400px;
+    top: 2000px;
   }
   .fourth-bori {
     top: 4000px;
