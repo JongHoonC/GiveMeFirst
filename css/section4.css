@@ -199,8 +199,10 @@
   } */
 }
 @media screen and (max-width: 768px) {
+  .section4 ul li {
+    padding: 40px 0;
+  }
 
-  
   .section4 .hover-box {
     align-items: center;
     justify-content: center;
