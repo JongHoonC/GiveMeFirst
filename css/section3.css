@@ -53,6 +53,10 @@
   width: 80%;
 }
 
+.section3 .br-none {
+  display: none;
+}
+
 @media screen and (max-width: 1600px) {
   .section3 .side-bg {
     top: 100px;
@@ -68,6 +72,11 @@
 
   .section3 .right-bg img {
     width: 30%;
+  }
+  .section3 .br-none {
+    display: block;
+  }
+  @media screen and (max-width: 1300px) {
   }
 }
 @media screen and (max-width: 1200px) {
@@ -108,19 +117,17 @@
     font-size: 14px;
     padding: 15px 40px;
   }
-
-  .section3 .br-none {
-    display: none;
-  }
 }
 @media screen and (max-width: 1000px) {
   .section3 h1 {
     font-size: 35px;
     margin-top: 20px;
+    text-align: center;
   }
 
   .section3 h2 {
     font-size: 15px;
+    text-align: center;
   }
 
   .section3 p {

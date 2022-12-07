@@ -161,7 +161,7 @@
 
   .section4 ul li {
     width: 100%;
-    padding: 0;
+    padding: 60px 0;
     border-top: 2px solid #333333;
     border-bottom: 2px solid #333333;
     align-items: center;
@@ -178,12 +178,18 @@
 
   .section4 .hover-box {
     align-items: center;
-    justify-content: center;
     flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  .section4 .section4-img__box {
+    width: 25%;
   }
 
   .section4 .text-box {
-    text-align: center;
+    width: 75%;
+    text-align: left;
+    padding-left: 20px;
   }
 
   /* .section4 .padding-big {
@@ -207,6 +213,19 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .section4 .section4-img__box {
+    width: 100%;
+  }
+
+  .section4 .text-box {
+    width: 100%;
+  }
+
+  .section4 .text-box {
+    text-align: center;
+    padding-left: 0;
   }
   /* .section4 .hover-box {
     flex-direction: column-reverse;
