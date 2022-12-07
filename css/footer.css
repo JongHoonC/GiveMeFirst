@@ -86,7 +86,7 @@ footer {
   width: 24px;
   height: 24px;
 }
-.footer__SNS>.facebook>p{
+.footer__SNS > .facebook > p {
   margin-left: 20px;
 }
 .facebook {
@@ -178,5 +178,8 @@ fp-enabled {
   .footer__text {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.6);
+  }
+  .footer__wrap {
+    padding: 0 10px;
   }
 }
