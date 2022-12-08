@@ -105,13 +105,14 @@ img {
 
 .img-box img {
   width: 100%;
-  max-height: 680px;
+  max-height: 720px;
 }
 
 .section2 .side-bg {
   position: absolute;
   left: -30px;
   top: 100px;
+  transition: all 0.4s;
 }
 
 .section2 .side-bg img {
@@ -216,9 +217,19 @@ img {
   .section2 .none {
     display: block;
   }
+
+  .section2 .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-box img {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 768px) {
-  /* .section2 .br-none {
-    display: none;
-  } */
+  .img-box img {
+    width: 90%;
+  }
 }
