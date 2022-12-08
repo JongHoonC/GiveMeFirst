@@ -15,6 +15,7 @@
   position: absolute;
   left: 0;
   top: 100px;
+  transition: all 0.2s;
 }
 
 .section5 .side-bg img {
@@ -25,6 +26,7 @@
   position: absolute;
   right: -240px;
   bottom: -20px;
+  transition: all 0.4s;
 }
 
 .section5 .road img {
@@ -35,6 +37,7 @@
   position: absolute;
   right: -250px;
   top: 20px;
+  transition: all 0.4s;
 }
 
 .section5 .bottles img {
@@ -93,7 +96,7 @@
   z-index: 1;
 }
 .section5 .swiper-slide.swiper-slide-active::after {
-  transform: translateY(-5%);
+  transform: translateY(-10%);
   opacity: 1;
 }
 
@@ -109,6 +112,7 @@
 
 .road-wrap__list {
   padding-left: 30px;
+  box-sizing: border-box;
   width: 10%;
 }
 
@@ -131,12 +135,12 @@
   content: '';
   position: absolute;
   width: 3px;
-  height: 91%;
+  height: 90%;
   background-color: #333;
   left: 6px;
-  top: 47%;
+  top: 46%;
   z-index: -1;
-  transform: translateY(-50%);
+  transform: translateY(-49%);
 }
 
 .swiper-slide {
@@ -160,6 +164,10 @@
     font-size: 14px;
   }
 
+  .section5 .side-bg {
+    top: 50px;
+  }
+
   .section5 .road {
     right: -490px;
     bottom: -10px;
@@ -170,7 +178,7 @@
   }
 
   .section5 .bottles {
-    top: 300px;
+    top: 260px;
     right: -490px;
   }
 
@@ -198,9 +206,7 @@
   }
 
   .section5 .side-bg {
-    position: absolute;
-    left: 0;
-    top: -20px;
+    top: -40px;
   }
 
   .section5 .bottles {

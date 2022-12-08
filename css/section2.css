@@ -112,6 +112,7 @@ img {
   position: absolute;
   left: -30px;
   top: 100px;
+  transition: all 0.4s;
 }
 
 .section2 .side-bg img {

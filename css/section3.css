@@ -37,12 +37,14 @@
   position: absolute;
   left: 60px;
   top: 120px;
+  transition: all 0.4s;
 }
 
 .section3 .right-bg {
   position: absolute;
   right: -360px;
   bottom: 40px;
+  transition: all 0.4s;
 }
 
 .section3 .right-bg img {
