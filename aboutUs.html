@@ -8,6 +8,7 @@
   <title>ABOUT US</title>
   <link rel="stylesheet" href="css/common/reset.css" />
   <link rel="stylesheet" href="css/aboutUs.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
 
     <!-- 서울탁주제조협회 소개 -->
     <section class="aboutUs-intro aboutUs-wrap">
-      <div class="aboutUs-intro__txt ko">
+      <div class="aboutUs-intro__txt ko" data-aos="fade-right" data-aos-duration="700">
         <h1>서울탁주제조협회</h1>
         <h2>1962년 2월 1일에 설립된 국내탁주업계 최대(最大), 최고(最古)의 탁주제조업 단체입니다.</h2>
         <p>
@@ -50,14 +51,14 @@
         </p>
         <p>서울탁주는 앞으로도 우리민족의 전통주의 계승은 물론, 신세대의 입맛에 맞는 신제품을 연구, 개발해 나아갈 것을 약속드리며 21세기를 향해 새롭게 도약할 것 입니다.</p>
       </div>
-      <div class="aboutUs-intro__img">
+      <div class="aboutUs-intro__img" data-aos="zoom-in" data-aos-duration="1500">
         <img src="img/about_sec2.jpg" alt="" />
       </div>
     </section>
 
     <!-- 서울탁주제조협회 제조장 -->
     <section class="aboutUs-wrap takju-factoryMap">
-      <h1>서울탁주제조협회<br />회원사 제조장</h1>
+      <h1 data-aos="fade-down" data-aos-duration="700">서울탁주제조협회<br />회원사 제조장</h1>
       <div class="factory-map">
         <div class="factory-map__img">
           <img src="img/map.jpg" alt="">
@@ -179,4 +180,8 @@
 
 </html>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="js/aboutUs.js"></script>
