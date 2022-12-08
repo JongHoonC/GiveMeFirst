@@ -38,16 +38,15 @@
   width: 80%;
 }
 
-.section5 .bottles {
+/* .section5 .bottles {
   position: absolute;
   right: -250px;
   top: 20px;
-  transition: all 0.4s;
 }
 
 .section5 .bottles img {
   width: 80%;
-}
+} */
 
 .section5 h2 {
   font-size: 26px;
@@ -152,6 +151,36 @@
   font-size: 14px;
 }
 
+.bottle-on {
+  position: absolute;
+  transition: all 0.4s;
+}
+
+.bottle-on img {
+  width: 70%;
+}
+
+.bottle1 {
+  right: 0;
+  top: 140px;
+}
+.bottle2 {
+  right: 180px;
+  top: 210px;
+}
+.bottle3 {
+  right: 40px;
+  top: 370px;
+}
+.bottle4 {
+  right: 260px;
+  bottom: 140px;
+}
+.bottle5 {
+  right: 500px;
+  bottom: 30px;
+}
+
 @media screen and (max-width: 1600px) {
 }
 @media screen and (max-width: 1200px) {
@@ -190,6 +219,31 @@
   .section5 .bottles img {
     width: 60%;
   }
+
+  .bottle-on img {
+    width: 60%;
+  }
+
+  .bottle1 {
+    right: -20px;
+    top: 330px;
+  }
+  .bottle2 {
+    right: 100px;
+    top: 390px;
+  }
+  .bottle3 {
+    right: 0px;
+    top: 500px;
+  }
+  .bottle4 {
+    right: 160px;
+    bottom: 100px;
+  }
+  .bottle5 {
+    right: 320px;
+    bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -221,6 +275,10 @@
   .section5 .contents-box {
     flex-direction: row;
     justify-content: center;
+  }
+
+  .bottle-on {
+    display: none;
   }
 }
 @media screen and (max-width: 768px) {
