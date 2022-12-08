@@ -1,3 +1,6 @@
+/* 기본 셋팅 */
+
+
 .ko {
   font-family: 'Noto Sans KR', sans-serif;
 }
@@ -23,6 +26,15 @@
   font-size: 16px;
 }
 
+strong {
+  font-weight: 500;
+
+}
+
+
+/* aboutUs 메인이미지 */
+
+
 .aboutUs-img {
   width: 100%;
   background-image: url(../img/aboutUs_img.jpg);
@@ -33,6 +45,15 @@
   position: relative;
 }
 
+
+.seoultakju-logo img {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+
+
+/* aboutUs sub-nav  */
 .aboutUs-subNav {
   width: 100%;
   padding: 25px 0;
@@ -50,13 +71,25 @@
 
 .aboutUs-subNav>ul>li {
   font-size: 18px;
+  position: relative;
 }
 
-.seoultakju-logo img {
+.aboutUs-subNav>ul>li::after {
+  display: inline-block;
+  content: '';
+  width: 1px;
+  height: 17px;
+  background-color: #333;
   position: absolute;
-  top: 45%;
-  left: 25%;
+  right: -90px;
+  top: 5px;
 }
+
+.aboutUs-subNav>ul>li:last-child::after {
+  display: none;
+}
+
+
 
 .aboutUs-wrap {
   max-width: 1200px;
@@ -65,6 +98,11 @@
   box-sizing: border-box;
   border-bottom: 2px solid rgba(194, 191, 175, 0.7);
 }
+
+
+
+
+/*  서울탁주제조협회 소개  */
 
 .aboutUs-intro {
   display: flex;
@@ -79,6 +117,11 @@
 .aboutUs-intro__txt p {
   margin-bottom: 25px;
 }
+
+
+
+
+/* 서울탁주제조협회 제조장  */
 
 .factory-map__img {
   text-align: center;
@@ -179,10 +222,7 @@
   color: #333;
 }
 
-strong {
-  font-weight: 500;
 
-}
 
 .foctory-title {
   display: inline-block;
@@ -201,12 +241,9 @@ strong {
   padding: 20px;
   box-sizing: border-box;
   z-index: 10;
-  display: none;
 }
 
-/* .factory-adress p {
-  font-size: 16px;
-} */
+
 
 .subu-adress {
   position: absolute;
@@ -245,6 +282,11 @@ strong {
   bottom: 125px;
 }
 
+
+
+
+/* 서울탁주 홍보영상 */
+
 .takju-youtube h1 {
   text-align: center;
 }
@@ -253,14 +295,39 @@ strong {
   width: 100%;
 }
 
-.yuja-thumbnail {
+.youtube-mainThumbnail {
   width: 100%;
   padding: 200px 0;
   box-sizing: border-box;
-  background-image: url(../img/video-img2.jpg);
+  background-image: url(../img/video-img.jpg);
   background-position: center center;
   border-radius: 7px;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.youtube-mainThumbnail .playBtn__large {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.youtube-mainThumbnail .playBtn__large::after {
+  content: '';
+  display: block;
+  border-left: 10px solid rgba(0, 0, 0, 0.7);
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-45%, -50%);
 }
 
 .youtube-thumbnail__list {
@@ -272,9 +339,76 @@ strong {
 .youtube-thumbnail__list>div {
   width: calc(33% - 10px);
   height: 215px;
-  background-color: aliceblue;
   border-radius: 7px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
 }
+
+.youtube-thumbnail__list>div:nth-child(1) {
+  background-image: url(../img/video-img2.jpg);
+}
+
+.youtube-thumbnail__list>div:nth-child(2) {
+  background-image: url(../img/video-img3.jpg);
+}
+
+.youtube-thumbnail__list>div:nth-child(3) {
+  background-image: url(../img/video-img4.jpg);
+}
+
+
+.youtube-thumbnail__list .playBtn__small {
+  display: block;
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.youtube-thumbnail__list .playBtn__small::after {
+  content: '';
+  display: block;
+  border-left: 10px solid rgba(0, 0, 0, 0.7);
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-45%, -50%);
+}
+
+
+
+/* 찾아오시는 길 */
+.location-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-map {
+  width: 65%;
+  max-width: 750px;
+}
+
+.location-info {
+  width: 35%;
+}
+
+.location-wrap .font-14px {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.bus-info {
+  margin-bottom: 80px;
+}
+
 
 .takju-location h1 {
   text-align: center;
