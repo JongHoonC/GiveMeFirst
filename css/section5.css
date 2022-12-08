@@ -2,6 +2,11 @@
   position: relative;
 }
 
+.section5 .padding-wrap {
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
 .section5 .area {
   padding: 100px 0 0px;
 }

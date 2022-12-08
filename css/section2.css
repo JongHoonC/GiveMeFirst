@@ -217,9 +217,19 @@ img {
   .section2 .none {
     display: block;
   }
+
+  .section2 .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-box img {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 768px) {
-  /* .section2 .br-none {
-    display: none;
-  } */
+  .img-box img {
+    width: 90%;
+  }
 }

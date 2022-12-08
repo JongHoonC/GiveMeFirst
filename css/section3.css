@@ -179,6 +179,10 @@
   .reverse {
     flex-direction: column;
   }
+
+  .section3 .swiper-slide {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 768px) {
   .section3 .side-bg {
