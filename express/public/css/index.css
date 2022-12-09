@@ -11,16 +11,22 @@
 
 /* footer */
 @import url(footer.css);
+
+@import url(aboutUs.css);
+@import url(Manufacture.css);
+@import url(product_detail.css);
+@import url(sub_header.css);
+
 body {
   cursor: url(../img/curser.png), auto !important;
 }
-a{
+a {
   cursor: url(../img/curser.png), auto !important;
 }
 .en {
   font-family: 'Roboto', sans-serif;
 }
-*{
+* {
   cursor: url(../img/curser.png), auto !important;
 }
 

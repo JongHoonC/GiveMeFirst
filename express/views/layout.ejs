@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/notice/notice_index.css" />
+    <link rel="stylesheet" href="css/sign/sign_index.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <title>서울 탁주 짱</title>
   </head>
@@ -20,7 +22,7 @@
     <div id="fullpage">
       <div id="header"><%- include('header') %></div>
       <main>
-        <%- body %> <% if(fullPages == true){ %>
+        <% if( fullPages == true ){ %> <%- body %>
         <script>
           fullpages();
         </script>
