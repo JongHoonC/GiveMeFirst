@@ -1,3 +1,14 @@
+@import url(sub_header.css);
+@import url(login.css);
+@import url(join.css);
+@import url(footer.css);
+@import url(header.css);
+
+
+
+
+
+
 /* 기본 셋팅 */
 
 
@@ -43,6 +54,7 @@ strong {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+  margin-top: 100px
 }
 
 
@@ -105,6 +117,7 @@ strong {
 /*  서울탁주제조협회 소개  */
 
 .aboutUs-intro {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -118,6 +131,13 @@ strong {
   margin-bottom: 25px;
 }
 
+.aboutUs-intro__img {
+  background-image: url(../img/about_sec2.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 60%;
+  width: 100%;
+}
 
 
 
