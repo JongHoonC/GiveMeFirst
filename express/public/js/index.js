@@ -77,7 +77,7 @@ icons.forEach(icon => {
     h_wrap.classList.toggle('hamberger');
   });
 });
-
+// AOS.init(); // AOS initiation
 h_wrap.addEventListener('mouseover', event => {
   h_wrap.classList.add('active1');
 });
