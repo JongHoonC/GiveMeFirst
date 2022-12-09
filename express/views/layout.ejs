@@ -22,7 +22,7 @@
     <div id="fullpage">
       <div id="header"><%- include('header') %></div>
       <main>
-        <% if( fullpages == true ){ %> <%- body %>
+        <% if(fullpages == true){ %> <%- body %>
         <script>
           fullpages();
         </script>
@@ -30,5 +30,8 @@
       </main>
       <div id="footer"><%- include('footer') %></div>
     </div>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
