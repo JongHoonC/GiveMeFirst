@@ -22,7 +22,7 @@
     <div id="fullpage">
       <div id="header"><%- include('header') %></div>
       <main>
-        <% if(fullpages == true){ %> <%- body %>
+        <%- body %> <% if(fullpages == true){ %>
         <script>
           fullpages();
         </script>
