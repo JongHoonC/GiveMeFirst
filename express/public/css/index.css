@@ -20,12 +20,15 @@
 body {
   cursor: url(../img/curser.png), auto !important;
 }
+
 a {
   cursor: url(../img/curser.png), auto !important;
 }
+
 .en {
   font-family: 'Roboto', sans-serif;
 }
+
 * {
   cursor: url(../img/curser.png), auto !important;
 }

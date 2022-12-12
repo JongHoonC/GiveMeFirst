@@ -18,15 +18,15 @@
     <!-- aboutUs sub-nav -->
     <div class="aboutUs-subNav">
       <ul>
-        <li>서울탁주제조협회</li>
-        <li>회원사제조장</li>
-        <li>서울탁주 홍보영상</li>
-        <li>찾아오시는 길</li>
+        <li><a class="subNav" href="#aboutUs-intro"></a>서울탁주제조협회</li>
+        <li><a class="subNav" href="#takju-factoryMap"></a>회원사제조장</li>
+        <li><a class="subNav" href="#takju-youtube"></a>서울탁주 홍보영상</li>
+        <li><a class="subNav" href="#takju-location"></a>찾아오시는 길</li>
       </ul>
     </div>
 
     <!-- 서울탁주제조협회 소개 -->
-    <section class="aboutUs-intro aboutUs-wrap">
+    <section id="aboutUs-intro" class="aboutUs-intro aboutUs-wrap">
       <div class="aboutUs-intro__txt ko" data-aos="fade-right" data-aos-duration="700">
         <h1>서울탁주제조협회</h1>
         <h2>1962년 2월 1일에 설립된 국내탁주업계 최대(最大), 최고(最古)의 탁주제조업 단체입니다.</h2>
@@ -49,11 +49,11 @@
     </section>
 
     <!-- 서울탁주제조협회 제조장 -->
-    <section class="aboutUs-wrap takju-factoryMap">
+    <section id="takju-factoryMap " class="aboutUs-wrap takju-factoryMap">
       <h1 data-aos="fade-down" data-aos-duration="700">서울탁주제조협회<br />회원사 제조장</h1>
       <div class="factory-map">
-        <div class="factory-map__img">
-          <img src="img/map.jpg" alt="">
+        <div class="factory-map__img" data-aos="fade-up" data-aos-duration="700">
+          <img src="img/map.jpg" alt="" style="opacity: 0.3;">
         </div>
         <div class="subu-factory">
           <button class="subu foctory-title ko" type="button">서부 연합 제조장</button>
@@ -120,22 +120,34 @@
     </section>
 
     <!-- 서울탁주 홍보영상 -->
-    <section class="aboutUs-wrap takju-youtube">
+    <section id="takju-youtube" class="aboutUs-wrap takju-youtube">
       <h1>서울탁주 홍보영상</h1>
-      <div class="youtube-thumbnail">
-        <div class="youtube-mainThumbnail">
-          <span class="playBtn__large"></span>
+      <div class="youtube-thumbnail popupVideo" data-aos="fade-up" data-aos-duration="700">
+        <a data-video="6Ol5qHVECVY">
+          <div class="youtube-mainThumbnail">
+            <span class="playBtn__large"></span>
+          </div>
+        </a>
+        <div class="youtube-thumbnail__list" data-aos="fade-up" data-aos-duration="1000">
+          <a data-video="aZaw018RWLs" class="smallThumbnail-img1">
+            <span class=" playBtn__small"></span>
+          </a>
+          <a data-video="0S1AIony7o4" class="smallThumbnail-img2">
+            <span class="playBtn__small"></span>
+          </a>
+          <a data-video="X1t-_BDMwMI" class="smallThumbnail-img3">
+            <span class="playBtn__small"></span>
+          </a>
         </div>
-        <div class="youtube-thumbnail__list">
-          <div><span class="playBtn__small"></span></div>
-          <div><span class="playBtn__small"></span></div>
-          <div><span class="playBtn__small"></span></div>
-        </div>
+
+      </div>
+      <div class="video-popup">
+        <div class="video-popup-closer"></div>
       </div>
     </section>
 
     <!-- 찾아오시는 길 -->
-    <section class="aboutUs-wrap takju-location">
+    <section id="takju-location" class="aboutUs-wrap takju-location">
       <h1>찾아오시는 길</h1>
       <div class="location-wrap">
         <div class="location-map">
@@ -169,6 +181,7 @@
   </main>
 
 
-</body>
 
-</html>
+  </body>
+
+  </html>
