@@ -11,7 +11,7 @@
   padding: 100px 0 0px;
 }
 
-.section5 article {
+.section5 .contents-box>article {
   width: 100%;
   z-index: 1;
 }

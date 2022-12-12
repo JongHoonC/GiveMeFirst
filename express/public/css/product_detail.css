@@ -76,6 +76,7 @@ section {
   z-index: 5000;
 }
 
+
 @media (max-width: 1200px) {
   .detail-section__wrap {
     width: 100%;
