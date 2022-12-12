@@ -37,7 +37,7 @@ body {
   color: #0b7c3a;
 }
 
-.section2 .contents-box> article {
+.section2 .contents-box > article {
   width: 50%;
 }
 
@@ -199,7 +199,7 @@ img {
     padding-left: 0;
   }
 
-  .section2 article {
+  .section2 .contents-box > article {
     width: 100%;
   }
 
