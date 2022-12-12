@@ -55,3 +55,9 @@ var swiper03 = new Swiper('.hover-box .mo-box .swiper-container', {
   loopAdditionalSlides: 1,
   pagination: {el: '.hover-box .swiper-pagination', clickable: true},
 });
+
+var swiperNotice = new Swiper('.swiper.notice-swiper', {
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
