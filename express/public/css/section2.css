@@ -232,4 +232,8 @@ img {
   .img-box img {
     width: 90%;
   }
+
+  .btn-more {
+    pointer-events: none;
+  }
 }
