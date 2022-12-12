@@ -1,4 +1,4 @@
-.section3 .contents-box> article {
+.section3 .contents-box > article {
   width: 50%;
 }
 
@@ -148,7 +148,7 @@
     padding-left: 0;
   }
 
-  .section3 article {
+  .section3 .contents-box > article {
     width: 100%;
   }
 
