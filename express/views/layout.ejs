@@ -22,11 +22,13 @@
     <div id="fullpage">
       <div id="header"><%- include('header') %></div>
 
-      <%- body %> <% if(fullpages == true){ %> <%- include('footer') %>
+      <%- body %> <%- include('footer') %> <% if(fullpages == true){ %> 
+        
       <script>
         fullpages();
       </script>
       <% } %>
+      
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

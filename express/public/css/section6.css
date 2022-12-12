@@ -2,11 +2,11 @@
   position: relative;
 }
 
-.section6 article:first-child {
+.section6 .contents-box> article:first-child {
   width: 30%;
 }
 
-.section6 article:last-child {
+.section6 .contents-box> article:last-child {
   width: 70%;
   margin: 0 auto;
 }
@@ -112,15 +112,15 @@
 }
 
 @media screen and (max-width: 1600px) {
-  .section6 article {
+  .section6 .contents-box> article {
     width: 100%;
   }
 
-  .section6 article:first-child {
+  .section6 .contents-box> article:first-child {
     width: 100%;
   }
 
-  .section6 article:last-child {
+  .section6 .contents-box> article:last-child {
     width: 100%;
   }
 
