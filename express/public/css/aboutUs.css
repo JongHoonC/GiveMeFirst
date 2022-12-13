@@ -4,13 +4,7 @@
 @import url(footer.css);
 @import url(header.css);
 
-
-
-
-
-
 /* 기본 셋팅 및 배경보리 */
-
 
 .ko {
   font-family: 'Noto Sans KR', sans-serif;
@@ -42,7 +36,6 @@ strong {
   font-weight: 500;
 }
 
-
 .aboutUs-wrap {
   max-width: 1200px;
   margin: 0 auto;
@@ -51,10 +44,9 @@ strong {
   border-bottom: 2px solid rgba(194, 191, 175, 0.7);
 }
 
-
 /* 보리 */
 
-.aboutUs-background__bori>img:nth-child(1) {
+.aboutUs-background__bori > img:nth-child(1) {
   position: absolute;
   width: 15%;
   top: 1300px;
@@ -62,7 +54,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(2) {
+.aboutUs-background__bori > img:nth-child(2) {
   position: absolute;
   width: 13%;
   top: 2100px;
@@ -70,7 +62,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(3) {
+.aboutUs-background__bori > img:nth-child(3) {
   position: absolute;
   width: 15%;
   top: 3600px;
@@ -78,7 +70,7 @@ strong {
   opacity: 0.2;
 }
 
-.aboutUs-background__bori>img:nth-child(4) {
+.aboutUs-background__bori > img:nth-child(4) {
   position: absolute;
   width: 15%;
   bottom: 600px;
@@ -86,7 +78,7 @@ strong {
   opacity: 0.3;
 }
 
-.aboutUs-background__bori>img:nth-child(5) {
+.aboutUs-background__bori > img:nth-child(5) {
   position: absolute;
   width: 15%;
   left: 20px;
@@ -94,12 +86,7 @@ strong {
   opacity: 0.2;
 }
 
-
-
-
-
 /* aboutUs 메인이미지 */
-
 
 .aboutUs-img {
   width: 100%;
@@ -109,16 +96,14 @@ strong {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  margin-top: 100px
+  margin-top: 100px;
 }
-
 
 .seoultakju-logo img {
   position: absolute;
   top: 45%;
   left: 25%;
 }
-
 
 /* aboutUs sub-nav  */
 .aboutUs-subNav {
@@ -128,7 +113,7 @@ strong {
   background-color: #cbc6ad;
 }
 
-.aboutUs-subNav>ul {
+.aboutUs-subNav > ul {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -136,12 +121,12 @@ strong {
   justify-content: space-between;
 }
 
-.aboutUs-subNav>ul>li {
+.aboutUs-subNav > ul > li {
   font-size: 18px;
   position: relative;
 }
 
-.aboutUs-subNav>ul>li::after {
+.aboutUs-subNav > ul > li::after {
   display: inline-block;
   content: '';
   width: 1px;
@@ -152,19 +137,13 @@ strong {
   top: 5px;
 }
 
-.aboutUs-subNav>ul>li:last-child::after {
+.aboutUs-subNav > ul > li:last-child::after {
   display: none;
 }
-
-
-
 
 .aboutUs-wrap:last-child {
   border: none;
 }
-
-
-
 
 /*  서울탁주제조협회 소개  */
 
@@ -175,7 +154,7 @@ strong {
   justify-content: space-between;
 }
 
-.aboutUs-intro>div {
+.aboutUs-intro > div {
   width: calc(50% - 30px);
 }
 
@@ -190,8 +169,6 @@ strong {
   padding-bottom: 60%;
   width: 100%;
 }
-
-
 
 /* 서울탁주제조협회 제조장  */
 
@@ -304,81 +281,91 @@ strong {
   color: #333;
   font-weight: bold;
   z-index: 1;
+  /* border: 1px solid #000; */
 }
 
 .factory-adress {
-  display: inline-block;
-  background-color: #CBC6AD;
+  background-color: #cbc6ad;
+  width: 200px;
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
   z-index: 10;
-  display: none;
+  transition: all 0.3s;
 }
-
-/* 
-.subu:hover+.subu-adress {
-  display: block;
-  opacity: 1;
-} */
 
 .active .subu-adress {
   opacity: 1;
+  visibility: visible;
 }
 
 .subu-adress {
   position: absolute;
-  top: 40px;
-  left: 340px;
+  top: -200px;
+  left: -5px;
   opacity: 0;
-  /* visibility: hidden;
-  transition: all 1s; */
+  visibility: hidden;
 }
-
 
 .dobong-adress {
   position: absolute;
-  top: -110px;
-  right: 360px;
-  display: none;
+  top: -200px;
+  left: -5px;
+  opacity: 0;
+  visibility: hidden;
 }
-
+.active .dobong-adress {
+  opacity: 1;
+  visibility: visible;
+}
 
 .taereung-adress {
   position: absolute;
-  top: 60px;
-  right: 240px;
-  display: none;
+  top: -200px;
+  left: -5px;
+  opacity: 0;
+  visibility: hidden;
 }
-
+.active .taereung-adress {
+  opacity: 1;
+  visibility: visible;
+}
 
 .guro-adress {
   position: absolute;
-  bottom: -25px;
-  left: 200px;
-  display: none;
+  top: -230px;
+  left: -5px;
+  opacity: 0;
+  visibility: hidden;
 }
-
-
+.active .guro-adress {
+  opacity: 1;
+  visibility: visible;
+}
 
 .seongdong-adress {
   position: absolute;
-  bottom: 165px;
-  right: 325px;
-  display: none;
+  top: 60px;
+  left: -5px;
+  opacity: 0;
+  visibility: hidden;
 }
 
-
+.active .seongdong-adress {
+  opacity: 1;
+  visibility: visible;
+}
 .gangdong-adress {
   position: absolute;
-  right: 100px;
-  bottom: 125px;
-  display: none;
+  top: 60px;
+  left: -5px;
+  opacity: 0;
+  visibility: hidden;
 }
-
-
-
-
+.active .gangdong-adress {
+  opacity: 1;
+  visibility: visible;
+}
 
 /* 서울탁주 홍보영상 */
 
@@ -428,10 +415,9 @@ strong {
 .youtube-thumbnail__list {
   display: flex;
   justify-content: space-between;
-
 }
 
-.youtube-thumbnail__list>a {
+.youtube-thumbnail__list > a {
   display: inline-block;
   width: calc(33% - 10px);
   height: 215px;
@@ -441,11 +427,9 @@ strong {
   position: relative;
 }
 
-
 .smallThumbnail-img1 {
   background-image: url(../img/video-img2.jpg);
 }
-
 
 .smallThumbnail-img2 {
   background-image: url(../img/video-img3.jpg);
@@ -454,7 +438,6 @@ strong {
 .smallThumbnail-img3 {
   background-image: url(../img/video-img4.jpg);
 }
-
 
 .youtube-thumbnail__list .playBtn__small {
   display: block;
@@ -489,14 +472,14 @@ strong {
   bottom: 0;
   justify-content: center;
   align-items: center;
-  z-index: 9
+  z-index: 9;
 }
 
 .video-popup .video-wrapper {
   position: relative;
   width: 60%;
   padding-bottom: 30%;
-  z-index: 10
+  z-index: 10;
 }
 
 .video-popup .video-wrapper iframe {
@@ -511,10 +494,9 @@ strong {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, .5);
-  z-index: 9
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9;
 }
-
 
 /* 찾아오시는 길 */
 .location-wrap {
@@ -525,7 +507,7 @@ strong {
 
 .location-map {
   width: 65%;
-  background: url(../img/location.jpg) 50%/cover;
+  background: url(../img/location.jpg) 50% / cover;
 }
 
 .location-info {
@@ -542,26 +524,19 @@ strong {
   margin-bottom: 80px;
 }
 
-
 .takju-location h1 {
   text-align: center;
 }
 
-
-
-
 /* 반응형 */
 
 @media (max-width: 1600px) {
-
-  .aboutUs-background__bori>img:nth-child(1) {
+  .aboutUs-background__bori > img:nth-child(1) {
     top: 900px;
   }
 }
 
 @media (max-width: 1200px) {
-
-
   .aboutUs-page H1 {
     font-size: 36px;
     margin-bottom: 50px;
@@ -577,26 +552,24 @@ strong {
     box-sizing: border-box;
   }
 
-  .aboutUs-background__bori>img:nth-child(2) {
+  .aboutUs-background__bori > img:nth-child(2) {
     top: 1900px;
   }
 
-  .aboutUs-background__bori>img:nth-child(3) {
+  .aboutUs-background__bori > img:nth-child(3) {
     top: 3150px;
     left: -40px;
   }
 
-  .aboutUs-background__bori>img:nth-child(4) {
+  .aboutUs-background__bori > img:nth-child(4) {
     bottom: 470px;
   }
 
-  .aboutUs-background__bori>img:nth-child(5) {
+  .aboutUs-background__bori > img:nth-child(5) {
     display: none;
   }
 
   .aboutUs-img {
     margin-top: 60px;
   }
-
-
 }
