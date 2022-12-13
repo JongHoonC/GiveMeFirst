@@ -11,7 +11,7 @@
   padding: 100px 0 0px;
 }
 
-.section5 .contents-box>article {
+.section5 .contents-box > article {
   width: 100%;
   z-index: 1;
 }
@@ -25,6 +25,7 @@
 
 .section5 .side-bg img {
   width: 40%;
+  opacity: 0.5;
 }
 
 .section5 .road {
@@ -37,16 +38,6 @@
 .section5 .road img {
   width: 80%;
 }
-
-/* .section5 .bottles {
-  position: absolute;
-  right: -250px;
-  top: 20px;
-}
-
-.section5 .bottles img {
-  width: 80%;
-} */
 
 .section5 h2 {
   font-size: 26px;
@@ -200,6 +191,10 @@
 
   .section5 .side-bg {
     top: 50px;
+  }
+
+  .section5 .side-bg img {
+    width: 30%;
   }
 
   .section5 .road {

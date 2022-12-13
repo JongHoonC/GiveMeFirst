@@ -57,6 +57,7 @@ main {
 }
 #product_detail section {
   overflow: hidden;
+  position: relative;
 }
 
 /* 공통 */
@@ -76,7 +77,6 @@ main {
 #product_detail .detail-section__wrap > * {
   z-index: 5000;
 }
-
 
 @media (max-width: 1200px) {
   #product_detail .detail-section__wrap {
@@ -260,14 +260,14 @@ main {
   position: absolute;
   z-index: 1;
   left: -35px;
-bottom: 0;
+  bottom: 0;
   transition: all 0.3s;
 }
 
 #product_detail .second-bori {
   position: absolute;
   right: 0;
-    bottom: 0;
+  bottom: 0;
   display: block;
   z-index: 1;
 }
