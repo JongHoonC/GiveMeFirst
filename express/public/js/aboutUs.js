@@ -53,18 +53,17 @@ scrollLink.forEach((link) => {
 let factory = document.querySelectorAll('.factory-title');
 let adress = document.querySelectorAll('.factory-adress');
 
-for(let i = 0; i < factory.length; i++){
-console.log(factory[i])
+for (let i = 0; i < factory.length; i++) {
+  console.log(factory[i])
 
-  factory[i].addEventListener('mouseenter',()=>{
-    for(let j = 0; j<adress.length; j++){
+  factory[i].addEventListener('mouseenter', () => {
+    for (let j = 0; j < adress.length; j++) {
       adress[j].classList.add('active');
     }
   })
-  factory[i].addEventListener('mouseleave',()=>{
-    for(let j = 0; j<adress.length; j++){
+  factory[i].addEventListener('mouseleave', () => {
+    for (let j = 0; j < adress.length; j++) {
       adress[j].classList.remove('active');
     }
   })
 }
-
