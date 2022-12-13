@@ -318,4 +318,24 @@ main {
     max-width: 150px;
     height: 150px;
   }
+
+  #product_detail .first-bori {
+    left: -20px;
+    top: 0;
+  }
+
+  #product_detail .second-bori {
+    right: -20px;
+    top: 0;
+  }
+
+  #product_detail .third-bori {
+    top: 0;
+  }
+  #product_detail .fourth-bori {
+    top: 0;
+  }
+  #product_detail .fivth-bori {
+    top: 0;
+  }
 }
