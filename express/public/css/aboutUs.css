@@ -316,10 +316,14 @@ strong {
   display: none;
 }
 
+/* 
 .subu:hover+.subu-adress {
   display: block;
   opacity: 1;
-  visibility: visible;
+} */
+
+.active .subu-adress {
+  opacity: 1;
 }
 
 .subu-adress {
@@ -327,13 +331,10 @@ strong {
   top: 40px;
   left: 340px;
   opacity: 0;
-  visibility: hidden;
-  transition: all 1s;
+  /* visibility: hidden;
+  transition: all 1s; */
 }
 
-.dobong:hover+.dobong-adress {
-  display: block;
-}
 
 .dobong-adress {
   position: absolute;
@@ -342,9 +343,6 @@ strong {
   display: none;
 }
 
-.taereung:hover+.taereung-adress {
-  display: block;
-}
 
 .taereung-adress {
   position: absolute;
@@ -353,10 +351,6 @@ strong {
   display: none;
 }
 
-.guro:hover+.guro-adress {
-  display: block;
-
-}
 
 .guro-adress {
   position: absolute;
@@ -365,9 +359,7 @@ strong {
   display: none;
 }
 
-.seongdong:hover+.seongdong-adress {
-  display: block;
-}
+
 
 .seongdong-adress {
   position: absolute;
@@ -376,9 +368,6 @@ strong {
   display: none;
 }
 
-.gangdong:hover+.gangdong-adress {
-  display: block;
-}
 
 .gangdong-adress {
   position: absolute;
