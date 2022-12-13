@@ -45,3 +45,19 @@ scrollLink.forEach((link) => {
     })
   })
 });
+
+
+
+
+
+let factory = document.querySelectorAll('.factory-title');
+let adress = document.querySelectorAll('.factory-adress');
+
+for (i = 0; i < factory.length; i++) {
+  factory.addEventListener('mouseover', () => {
+    adress[i].classList.add('active');
+  })
+  factory.addEventListener('mouseleave', () => {
+    adress[i].classList.remove('active');
+  })
+}
