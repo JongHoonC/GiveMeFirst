@@ -11,7 +11,7 @@
   margin-bottom: 15px;
 }
 
-.login-page__idpw>input {
+.login-page__idpw > input {
   width: 100%;
   height: 45px;
   background-color: transparent;
@@ -36,7 +36,7 @@ button {
   padding: 0;
 }
 
-.securityBtn>span {
+.securityBtn > span {
   display: inline-block;
   width: 13px;
   height: 13px;
@@ -45,7 +45,8 @@ button {
   margin-right: 5px;
 }
 
-.loginBtn {
+.loginBtn > a {
+  display: block;
   background-color: #cbc6ad;
   width: 100%;
   height: 45px;
@@ -53,6 +54,12 @@ button {
   box-sizing: border-box;
   font-size: 16px;
   color: #333;
+  text-align: center;
+  line-height: 45px;
+  transition: all 0.5s;
+}
+.loginBtn > a:hover {
+  background-color: #a6a28e;
 }
 
 .login__sub-button {
@@ -60,7 +67,7 @@ button {
   margin: 20px 0;
 }
 
-.login__sub-button>button {
+.login__sub-button > button {
   background-color: transparent;
   border: none;
   font-size: 14px;
@@ -112,15 +119,14 @@ button {
   bottom: -210px;
 }
 
-
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .backgroun__bori img {
     width: 45%;
     right: -170px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .backgroun__bori img {
     display: none;
   }
