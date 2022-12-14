@@ -48,6 +48,7 @@ scrollLink.forEach(link => {
 
   window.scrollTo({
     left: 0,
-    top: secTop + 100,
+    top: secTop + 300,
+    behavior: 'smooth',
   });
 });
