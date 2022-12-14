@@ -311,7 +311,7 @@
   background-color: #fff;
 }
 
-/* hambuger */
+/* hamburger */
 
 #mySidenav.SlideNav {
   width: 100%;
@@ -330,6 +330,7 @@
   margin-top: 100px;
   padding-top: 60px;
   text-align: center;
+  white-space: nowrap;
 }
 
 #mySidenav > ul {
