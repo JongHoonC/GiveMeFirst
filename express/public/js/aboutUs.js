@@ -1,3 +1,6 @@
+//비디오팝업
+
+
 $('.popupVideo a').click(function () {
     $('.video-popup').addClass('reveal'),
       $('.video-popup .video-wrapper').remove(),
@@ -9,15 +12,12 @@ $('.popupVideo a').click(function () {
     $('.video-popup .video-wrapper').remove(), $('.video-popup').removeClass('reveal');
   });
 
-// let sec2 = document.querySelector('#aboutUs-intro');
-// console.log(sec2);
 
-// let sec2off = sec2.offsetTop;
-// // console.log(sec2off);
-// const fNav = document.querySelector('.subnav');
-// const navHeight = fNav.getBoundingClientRect().height; //태그 안에 값을 찾을 때 get~~
-// //nav의 height 값을 찾아 주는고
-// console.log(navHeight);
+
+
+
+
+//스크롤이벤트
 
 let scrollLink = document.querySelectorAll('.subNav');
 
@@ -39,13 +39,15 @@ scrollLink.forEach(link => {
 
   window.scrollTo({
     left: 0,
-    top: secTop + 200,
+    top: secTop + 100,
   });
 });
 
 
 
 
+
+//마우스이벤트
 
 
 
@@ -63,17 +65,3 @@ factory.forEach(item => {
     item.classList.remove('active');
   });
 });
-
-// for (let i = 0; i < factory.length; i++) {
-//   console.log(factory[i]);
-//   factory[i].addEventListener('mouseenter', () => {
-//     for (let j = 0; j < adress.length; j++) {
-//       adress[j].classList.add('active');
-//     }
-//   });
-//   factory[i].addEventListener('mouseleave', () => {
-//     for (let j = 0; j < adress.length; j++) {
-//       adress[j].classList.remove('active');
-//     }
-//   });
-// }
