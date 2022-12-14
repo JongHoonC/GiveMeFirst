@@ -39,7 +39,7 @@ strong {
 .aboutUs-wrap {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 200px 0;
+  padding: 150px 0;
   box-sizing: border-box;
   border-bottom: 2px solid rgba(194, 191, 175, 0.7);
 }
@@ -128,7 +128,6 @@ strong {
 
 .aboutUs-subNav>ul>li>a {
   display: block;
-  background-color: aqua;
 }
 
 .aboutUs-subNav>ul>li::after {

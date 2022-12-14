@@ -17,6 +17,9 @@
 @import url(product_detail.css);
 @import url(sub_header.css);
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   cursor: url(../img/curser.png), auto !important;
 }

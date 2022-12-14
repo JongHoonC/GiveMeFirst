@@ -30,26 +30,9 @@ factory.forEach(item => {
 
 //스크롤이벤트
 
-let scrollLink = document.querySelectorAll('.subNav');
+// let scrollLink = document.querySelectorAll('.subNav');
 
-scrollLink.forEach(link => {
-  link.addEventListener('click', e => {
-    e.preventDefault();
-  })
-});
-
-//     const id = e.currentTarget.getAttribute('href');
-
-//     const sec = document.querySelectorAll('.aboutUs-event');
-//     for (let j = 0; j < sec.length; j++) {
-//       sec[j].addEventListener('click', () => {});
-//     }
-//   });
-
-//   const secTop = sec.offsetTop;
-
-//   window.scrollTo({
-//     left: 0,
-//     top: secTop + 100,
-//   });
-// });
+// scrollLink.forEach(link => {
+//   link.addEventListener('click', e => {
+//     e.preventDefault();
+//   })
