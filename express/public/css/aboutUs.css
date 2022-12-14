@@ -559,6 +559,46 @@ strong {
     top: 900px;
   }
 
+  .subu {
+    left: 340px;
+  }
+
+  .dobong {
+
+    top: 30px;
+    right: 370px;
+  }
+
+  .taereung {
+    top: 100px;
+  }
+
+  .guro {
+
+    left: 200px;
+  }
+
+  .seongdong {
+
+    right: 340px;
+  }
+
+  .gangdong {
+
+    right: 140px;
+  }
+
+  .factory-title {
+    display: none;
+  }
+
+  .factory-list {
+    display: block;
+  }
+
+
+
+
 
 
 
