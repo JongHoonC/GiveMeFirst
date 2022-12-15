@@ -52,8 +52,8 @@
   background-color: #cbc6ad;
   border: none;
   padding: 10px;
-  height: 30px;
-  line-height: 30px;
+  height: 60px;
+  line-height: 45px;
   width: 300px;
   display: block;
   text-align: center;
@@ -90,7 +90,7 @@
   border: 0;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']+label {
+.form_txtInput .checkbox_wrap input[type='checkbox'] + label {
   display: inline-block;
   line-height: 14px;
   position: relative;
@@ -103,7 +103,7 @@
   -ms-user-select: none;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']+label:before {
+.form_txtInput .checkbox_wrap input[type='checkbox'] + label:before {
   content: '';
   position: absolute;
   top: 0px;
@@ -115,17 +115,17 @@
   border: 1px solid #c2c2c2;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']+label:active:before,
-.checkbox_wrap input[type='checkbox']:checked+label:active:before {
+.form_txtInput .checkbox_wrap input[type='checkbox'] + label:active:before,
+.checkbox_wrap input[type='checkbox']:checked + label:active:before {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']:checked+label:before {
+.form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:before {
   background: #fff;
   border-color: #ddd;
 }
 
-.form_txtInput .checkbox_wrap input[type='checkbox']:checked+label:after {
+.form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:after {
   content: '✓';
   color: rgba(51, 51, 51, 0.8);
   position: absolute;
@@ -473,7 +473,8 @@ tr {
 }
 
 /* 수정영역 */
-th {}
+th {
+}
 
 tr {
   display: flex;
