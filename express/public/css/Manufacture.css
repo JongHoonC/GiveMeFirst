@@ -59,6 +59,7 @@ main {
 
 #manu section {
   overflow: hidden;
+  position: relative;
 }
 
 /* 공통 */
@@ -73,7 +74,7 @@ main {
   width: 1200px;
   margin: 0 auto;
   border-bottom: 1px solid rgba(193, 190, 174, 0.8);
-  position: relative;
+  /* position: relative; */
 }
 
 #manu .manufacture-section__wrap > * {
@@ -145,6 +146,9 @@ main {
 }
 
 /* 섹션2 */
+/* #manu .manufacture-section__wrap.section2 {
+  position: relative;
+} */
 #manu .manufacture-section2__img {
   background-image: url(../img/ssfw.jpg);
 }
@@ -158,12 +162,15 @@ main {
   width: 561px;
   height: 561px;
 }
-@media(max-width:768px){
+/* #manu .manufacture-section__wrap.section3 {
+  position: relative;
+} */
+@media (max-width: 768px) {
   #manu .manufacture-section3__img {
-  background-image: url(../img/sub-sec3.jpg);
-  width: 361px;
-  height: 361px;
-}
+    background-image: url(../img/sub-sec3.jpg);
+    width: 361px;
+    height: 361px;
+  }
 }
 
 /* 섹션4 */
@@ -173,8 +180,7 @@ main {
 
 #manu .manufacture-section__wrap.section4 {
   flex-direction: row-reverse;
-  position: relative;
-
+  /* position: relative; */
 }
 @media (max-width: 1200px) {
   #manu .manufacture-section__wrap.section4 {
@@ -186,9 +192,9 @@ main {
 #manu .manufacture-section5__img {
   background-image: url(../img/286801393_1686415348376943_38524004765327719_n.jpg);
 }
-#manu .manufacture-section__wrap.section5 {
+/* #manu .manufacture-section__wrap.section5 {
   position: relative;
-}
+} */
 
 /* 섹션6 */
 #manu .manufacture-section6__img {
@@ -196,7 +202,9 @@ main {
 }
 #manu .manufacture-section__wrap.section6 {
   flex-direction: row-reverse;
+  /* position: relative; */
 }
+
 @media (max-width: 1200px) {
   #manu .manufacture-section__wrap.section6 {
     flex-direction: column;
@@ -207,6 +215,9 @@ main {
 #manu .manufacture-section7__img {
   background-image: url(../img/manufacture7.JPG);
 }
+/* #manu .manufacture-section__wrap.section7 {
+  position: relative;
+} */
 
 /* 섹션8 */
 #manu .manufacture-section8__img {
@@ -214,6 +225,7 @@ main {
 }
 #manu .manufacture-section__wrap.section8 {
   flex-direction: row-reverse;
+  /* position: relative; */
 }
 
 #manu section:nth-child(9) {
@@ -301,7 +313,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment:unset;
+    background-attachment: unset;
   }
 }
 
@@ -325,15 +337,15 @@ main {
 #manu .first-bori {
   position: absolute;
   z-index: 1;
-  left: -35px;
-  bottom: 0;
+  left: -20px;
+  top: 0;
   transition: all 0.3s;
 }
 
 #manu .second-bori {
   position: absolute;
   right: 0;
-bottom: 0;
+  top: 0;
   display: block;
   z-index: 1;
 }
@@ -342,7 +354,7 @@ bottom: 0;
   position: absolute;
   z-index: 1;
   left: -20px;
-bottom: 0;
+  top: 0;
   transition: all 0.3s;
 }
 #manu .third-bori > img {
@@ -353,15 +365,15 @@ bottom: 0;
 #manu .fourth-bori {
   position: absolute;
   z-index: 1;
-  right: 0;
-  bottom: 0;
+  right: 0px;
+  top: 0;
   transition: all 0.3s;
 }
 #manu .fivth-bori {
   position: absolute;
   z-index: 1;
-  left: 0;
-  bottom: 0;
+  left: 0px;
+  top: 0;
   transition: all 0.3s;
 }
 
