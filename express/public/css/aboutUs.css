@@ -29,11 +29,12 @@
 }
 
 .aboutUs-page P {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 strong {
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .aboutUs-wrap {
@@ -46,7 +47,7 @@ strong {
 
 /* 보리 */
 
-.aboutUs-background__bori>img:nth-child(1) {
+.aboutUs-background__bori > img:nth-child(1) {
   position: absolute;
   width: 15%;
   top: 1300px;
@@ -54,7 +55,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(2) {
+.aboutUs-background__bori > img:nth-child(2) {
   position: absolute;
   width: 13%;
   top: 2100px;
@@ -62,7 +63,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(3) {
+.aboutUs-background__bori > img:nth-child(3) {
   position: absolute;
   width: 15%;
   top: 3600px;
@@ -70,7 +71,7 @@ strong {
   opacity: 0.2;
 }
 
-.aboutUs-background__bori>img:nth-child(4) {
+.aboutUs-background__bori > img:nth-child(4) {
   position: absolute;
   width: 15%;
   bottom: 600px;
@@ -78,7 +79,7 @@ strong {
   opacity: 0.3;
 }
 
-.aboutUs-background__bori>img:nth-child(5) {
+.aboutUs-background__bori > img:nth-child(5) {
   position: absolute;
   width: 15%;
   left: 20px;
@@ -113,7 +114,7 @@ strong {
   background-color: #cbc6ad;
 }
 
-.aboutUs-subNav>ul {
+.aboutUs-subNav > ul {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -121,16 +122,16 @@ strong {
   justify-content: space-between;
 }
 
-.aboutUs-subNav>ul>li {
+.aboutUs-subNav > ul > li {
   font-size: 18px;
   position: relative;
 }
 
-.aboutUs-subNav>ul>li>a {
+.aboutUs-subNav > ul > li > a {
   display: block;
 }
 
-.aboutUs-subNav>ul>li::after {
+.aboutUs-subNav > ul > li::after {
   display: inline-block;
   content: '';
   width: 1px;
@@ -141,7 +142,7 @@ strong {
   top: 5px;
 }
 
-.aboutUs-subNav>ul>li:last-child::after {
+.aboutUs-subNav > ul > li:last-child::after {
   display: none;
 }
 
@@ -158,7 +159,7 @@ strong {
   justify-content: space-between;
 }
 
-.aboutUs-intro>div {
+.aboutUs-intro > div {
   width: calc(50% - 30px);
 }
 
@@ -290,7 +291,7 @@ strong {
 
 .factory-adress {
   background-color: #cbc6ad;
-  width: 230px;
+  width: 250px;
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
@@ -300,7 +301,6 @@ strong {
 
 .factory-adress strong {
   font-weight: bold;
-
 }
 
 .factory-adress p {
@@ -436,7 +436,7 @@ strong {
   justify-content: space-between;
 }
 
-.youtube-thumbnail__list>a {
+.youtube-thumbnail__list > a {
   display: inline-block;
   width: calc(33% - 10px);
   height: 215px;
@@ -555,7 +555,7 @@ strong {
     box-sizing: border-box;
   }
 
-  .aboutUs-background__bori>img:nth-child(1) {
+  .aboutUs-background__bori > img:nth-child(1) {
     top: 900px;
   }
 
@@ -564,7 +564,6 @@ strong {
   }
 
   .dobong {
-
     top: 30px;
     right: 370px;
   }
@@ -574,17 +573,14 @@ strong {
   }
 
   .guro {
-
     left: 200px;
   }
 
   .seongdong {
-
     right: 340px;
   }
 
   .gangdong {
-
     right: 140px;
   }
 
@@ -595,21 +591,9 @@ strong {
   .factory-list {
     display: block;
   }
-
-
-
-
-
-
-
-
 }
 
 @media (max-width: 1200px) {
-
-
-
-
   .aboutUs-page H1 {
     font-size: 36px;
     margin-bottom: 50px;
@@ -625,20 +609,20 @@ strong {
     box-sizing: border-box;
   }
 
-  .aboutUs-background__bori>img:nth-child(2) {
+  .aboutUs-background__bori > img:nth-child(2) {
     top: 1900px;
   }
 
-  .aboutUs-background__bori>img:nth-child(3) {
+  .aboutUs-background__bori > img:nth-child(3) {
     top: 3150px;
     left: -40px;
   }
 
-  .aboutUs-background__bori>img:nth-child(4) {
+  .aboutUs-background__bori > img:nth-child(4) {
     bottom: 470px;
   }
 
-  .aboutUs-background__bori>img:nth-child(5) {
+  .aboutUs-background__bori > img:nth-child(5) {
     display: none;
   }
 
@@ -650,8 +634,7 @@ strong {
     flex-wrap: wrap;
   }
 
-  .aboutUs-intro>div {
+  .aboutUs-intro > div {
     width: 100%;
   }
-
 }
