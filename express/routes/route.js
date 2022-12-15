@@ -15,6 +15,18 @@ router.get('/join', (req, res) => {
   res.render('join', {fullpages: false});
 });
 
+router.post('/joinUs', (req, res) => {
+  let param = JSON.parse(JSON.stringify(req.body));
+  let userName = param['userName'];
+  let userId = param['userId'];
+  let userPw = param['userPw'];
+  let userPwC = param['userPwC'];
+  let mail = param['mail'];
+  console.log(userName);
+  let address = param['address'];
+  // res.render('login');
+});
+
 router.get('/login', (req, res) => {
   res.render('login', {fullpages: false});
 });

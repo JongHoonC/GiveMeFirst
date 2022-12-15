@@ -1,7 +1,7 @@
 <main class="p200 ko">
   <div class="joinPage__wrap">
     <div class="joinPage__container">
-      <form class="form_txtInput joinForm" method="post" onsubmit="return Validation();">
+      <form action="/joinUs" class="form_txtInput joinForm" method="post" onsubmit="return Validation();">
         <h2 class="sub_tit_txt">회원가입</h2>
         <p class="star"><span>표시는 필수적으로 입력해주셔야 가입이 가능합니다.</span></p>
         <div class="join_form">
@@ -13,24 +13,24 @@
             <tbody>
               <tr>
                 <th><span>아이디</span></th>
-                <td><input type="text" placeholder="ID 를 입력하세요." required id="id" /></td>
+                <td><input type="text" name="userId" placeholder="ID 를 입력하세요." required id="id" /></td>
               </tr>
               <tr>
                 <th><span>이름</span></th>
-                <td><input type="text" placeholder="이름을 입력해주세요." required id="name" /></td>
+                <td><input type="text" name="userName" placeholder="이름을 입력해주세요." required id="name" /></td>
               </tr>
               <tr>
                 <th><span>비밀번호</span></th>
-                <td><input type="password" placeholder="비밀번호를 입력해주세요." required id="pwd" /></td>
+                <td><input type="password" name="userPw" placeholder="비밀번호를 입력해주세요." required id="pwd" /></td>
               </tr>
               <tr>
                 <th><span>비밀번호 확인</span></th>
-                <td><input type="password" placeholder="비밀번호를 확인하세요" required id="pwd2" /></td>
+                <td><input type="password" name="userPwC" placeholder="비밀번호를 확인하세요" required id="pwd2" /></td>
               </tr>
               <tr class="email">
                 <th><span>이메일</span></th>
                 <td>
-                  <input type="text" class="email" placeholder="" required id="mail" />
+                  <input type="text" name="userMail" class="email" placeholder="" required id="mail" />
                 </td>
               </tr>
               <tr>
