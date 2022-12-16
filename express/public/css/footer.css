@@ -15,10 +15,12 @@ footer {
   align-items: center;
   box-sizing: border-box;
 }
+
 .w1280wrap {
   width: 100%;
   display: flex;
 }
+
 /* 로고 */
 .footer__logo {
   width: 160px;
@@ -35,7 +37,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__text > ul > .en {
+.footer__text>ul>.en {
   margin-bottom: 15px;
 }
 
@@ -45,14 +47,17 @@ footer {
   display: flex;
   width: 500px;
 }
+
 .facebook {
   margin-bottom: 5px;
   width: 100%;
 }
+
 .insta {
   width: 100%;
   margin-top: 5px;
 }
+
 /* SNS 박스 */
 .footer__SNS {
   display: flex;
@@ -61,7 +66,8 @@ footer {
   align-items: center;
   width: 100%;
 }
-.footer__SNS > div {
+
+.footer__SNS>div {
   display: flex;
   padding: 13px 0;
   box-sizing: border-box;
@@ -73,10 +79,12 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.footer__SNS > div > p {
+
+.footer__SNS>div>p {
   display: block;
   margin-left: 10px;
 }
+
 /* 페이스북 */
 .facebook__img {
   background-image: url(../img/ft_facebook.png);
@@ -86,17 +94,20 @@ footer {
   width: 24px;
   height: 24px;
 }
-.footer__SNS > .facebook > p {
+
+.footer__SNS>.facebook>p {
   margin-left: 20px;
 }
+
 .facebook {
   width: 100%;
 }
+
 .insta {
   width: 100%;
 }
 
-.insta > i {
+.insta>i {
   font-size: 27px;
 }
 
@@ -112,6 +123,7 @@ footer {
   border-radius: 10px;
   justify-content: center;
 }
+
 .QR_img {
   background-image: url(../img/qrcode.png);
   width: 60px;
@@ -122,12 +134,13 @@ footer {
   background-size: cover;
 }
 
-.QR > p {
+.QR>p {
   margin-left: 10px;
   font-size: 14px;
   color: #333;
   font-weight: 600;
 }
+
 fp-enabled {
   overflow: hidden;
 }
@@ -136,32 +149,37 @@ fp-enabled {
   .footer__wrap {
     flex-direction: column;
   }
+
   .footer__wrap {
     align-items: start;
   }
+
   .footer__logo {
     margin-bottom: 20px;
   }
+
   .footer__joinMore {
     margin-top: 20px;
     width: 100%;
   }
 }
 
-@media (max-width: 1080px) {
-}
+@media (max-width: 1080px) {}
 
 @media (max-width: 768px) {
   .QR {
     padding: 16px 10px;
     box-sizing: border-box;
   }
-  .QR > p {
+
+  .QR>p {
     font-size: 12px;
   }
-  .footer__SNS > div {
+
+  .footer__SNS>div {
     font-size: 12px;
   }
+
   .facebook__img {
     background-image: url(../img/ft_facebook.png);
     background-repeat: no-repeat;
@@ -170,16 +188,19 @@ fp-enabled {
     width: 24px;
     height: 24px;
   }
+
   .QR_img {
     background-image: url(../img/qrcode.png);
     width: 50px;
     height: 50px;
   }
+
   .footer__text {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.6);
   }
+
   .footer__wrap {
-    padding: 0 10px;
+    padding: 0 20px;
   }
 }
