@@ -53,10 +53,12 @@
 
 .section3 .right-bg img {
   width: 40%;
+  opacity: 0.6;
 }
 
 .section3 .side-bg img {
   width: 80%;
+  opacity: 0.6;
 }
 
 .section3 .br-none {
