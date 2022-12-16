@@ -135,7 +135,7 @@ button {
 }
 
 
-@media (max-width: 450x) {
+@media (max-width: 450px) {
   .backgroun__bori img {
     display: none;
   }
@@ -146,5 +146,9 @@ button {
 
   .login-page__title h1 {
     font-size: 35px;
+  }
+
+  .login-page__wrap {
+    padding: 0 30px;
   }
 }
