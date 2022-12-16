@@ -1,12 +1,12 @@
 //비디오팝업
 
 $('.popupVideo a').click(function () {
-    $('.video-popup').addClass('reveal'),
-      $('.video-popup .video-wrapper').remove(),
-      $('.video-popup').append(
-        "<div class='video-wrapper'><iframe width='560' height='315' src='https://youtube.com/embed/" + $(this).data('video') + "?rel=0&playsinline=1&autoplay=1' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>",
-      );
-  }),
+  $('.video-popup').addClass('reveal'),
+    $('.video-popup .video-wrapper').remove(),
+    $('.video-popup').append(
+      "<div class='video-wrapper'><iframe width='560' height='315' src='https://youtube.com/embed/" + $(this).data('video') + "?rel=0&playsinline=1&autoplay=1' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>",
+    );
+}),
   $('.video-popup-closer').click(function () {
     $('.video-popup .video-wrapper').remove(), $('.video-popup').removeClass('reveal');
   });
@@ -37,30 +37,25 @@ factory.forEach(item => {
 //     e.preventDefault();
 //   })
 
-
-
 let listTitles = document.querySelectorAll('.factoryList-title');
 let wrap = document.querySelector('.factory-map__wrap');
-let listaddress = document.querySelectorAll('.factoryList-adress');
+let listaddress = document.querySelectorAll('.factoryList-address');
 
-
-wrap.addEventListener('click', (e) => {
+wrap.addEventListener('click', e => {
   const id = e.target.dataset.id;
   if (id) {
-
-    listTitles.forEach((listTitle) => {
+    listTitles.forEach(listTitle => {
       listTitle.classList.remove('show');
-    })
+    });
 
     e.target.classList.add('show');
 
-    listaddress.forEach((list) => {
+    listaddress.forEach(list => {
       list.classList.remove('show');
-    })
+    });
     const listId = document.getElementById(id);
     console.log(listId);
 
     listId.classList.add('show');
-
   }
-})
+});
