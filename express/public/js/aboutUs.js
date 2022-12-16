@@ -48,13 +48,19 @@ wrap.addEventListener('click', (e) => {
   const id = e.target.dataset.id;
   if (id) {
 
-    e.target.classList.add('active');
+    listTitles.forEach((listTitle) => {
+      listTitle.classList.remove('show');
+    })
+
+    e.target.classList.add('show');
 
     listaddress.forEach((list) => {
-      list.classList.remove('active');
+      list.classList.remove('show');
     })
     const listId = document.getElementById(id);
+    console.log(listId);
 
-    listId.classList.add('active');
+    listId.classList.add('show');
+
   }
 })

@@ -752,8 +752,9 @@ strong {
 
   .factoryList-address {
     width: 100%;
-    display: block;
     opacity: 0;
+    display: block;
+    visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -772,10 +773,12 @@ strong {
     position: relative;
   }
 
-  .factoryList-address.active {
+  .factoryList-address.show {
     opacity: 1;
     visibility: visible;
   }
+
+
 
 }
 

@@ -1,5 +1,5 @@
 .login-page__wrap {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
   position: relative;
 }
@@ -11,7 +11,7 @@
   margin-bottom: 15px;
 }
 
-.login-page__idpw > input {
+.login-page__idpw>input {
   width: 100%;
   height: 45px;
   background-color: transparent;
@@ -36,7 +36,7 @@ button {
   padding: 0;
 }
 
-.securityBtn > span {
+.securityBtn>span {
   display: inline-block;
   width: 13px;
   height: 13px;
@@ -45,7 +45,7 @@ button {
   margin-right: 5px;
 }
 
-.loginBtn > a {
+.loginBtn>a {
   display: block;
   background-color: #cbc6ad;
   width: 100%;
@@ -58,7 +58,8 @@ button {
   line-height: 45px;
   transition: all 0.5s;
 }
-.loginBtn > a:hover {
+
+.loginBtn>a:hover {
   background-color: #a6a28e;
 }
 
@@ -68,7 +69,7 @@ button {
   margin: 20px 0;
 }
 
-.login__sub-button > p {
+.login__sub-button>p {
   background-color: transparent;
   border: none;
   font-size: 14px;
@@ -130,5 +131,20 @@ button {
 @media (max-width: 768px) {
   .backgroun__bori img {
     display: none;
+  }
+}
+
+
+@media (max-width: 450x) {
+  .backgroun__bori img {
+    display: none;
+  }
+
+  .p200 {
+    padding: 150px 0 150px;
+  }
+
+  .login-page__title h1 {
+    font-size: 35px;
   }
 }
