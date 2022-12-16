@@ -36,3 +36,25 @@ factory.forEach(item => {
 //   link.addEventListener('click', e => {
 //     e.preventDefault();
 //   })
+
+
+
+let listTitles = document.querySelectorAll('.factoryList-title');
+let wrap = document.querySelector('.factory-map__wrap');
+let listaddress = document.querySelectorAll('.factoryList-adress');
+
+
+wrap.addEventListener('click', (e) => {
+  const id = e.target.dataset.id;
+  if (id) {
+
+    e.target.classList.add('active');
+
+    listaddress.forEach((list) => {
+      list.classList.remove('active');
+    })
+    const listId = document.getElementById(id);
+
+    listId.classList.add('active');
+  }
+})

@@ -47,15 +47,15 @@ strong {
 
 /* 보리 */
 
-.aboutUs-background__bori > img:nth-child(1) {
+.aboutUs-background__bori>img:nth-child(1) {
   position: absolute;
   width: 15%;
-  top: 1300px;
+  top: 1000px;
   left: -20px;
   opacity: 0.7;
 }
 
-.aboutUs-background__bori > img:nth-child(2) {
+.aboutUs-background__bori>img:nth-child(2) {
   position: absolute;
   width: 13%;
   top: 2100px;
@@ -63,7 +63,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-background__bori > img:nth-child(3) {
+.aboutUs-background__bori>img:nth-child(3) {
   position: absolute;
   width: 15%;
   top: 3600px;
@@ -71,7 +71,7 @@ strong {
   opacity: 0.2;
 }
 
-.aboutUs-background__bori > img:nth-child(4) {
+.aboutUs-background__bori>img:nth-child(4) {
   position: absolute;
   width: 15%;
   bottom: 600px;
@@ -79,7 +79,7 @@ strong {
   opacity: 0.3;
 }
 
-.aboutUs-background__bori > img:nth-child(5) {
+.aboutUs-background__bori>img:nth-child(5) {
   position: absolute;
   width: 15%;
   left: 20px;
@@ -97,13 +97,18 @@ strong {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
-.seoultakju-logo img {
+.seoultakju-logo {
+  background-image: url(../img/logo_wh.png);
+  background-size: cover;
   position: absolute;
-  top: 45%;
+  width: 26%;
+  padding-bottom: 10%;
+  top: 40%;
   left: 25%;
+  transform: translate(-50% -50%);
 }
 
 /* aboutUs sub-nav  */
@@ -114,7 +119,7 @@ strong {
   background-color: #cbc6ad;
 }
 
-.aboutUs-subNav > ul {
+.aboutUs-subNav>ul {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -122,16 +127,16 @@ strong {
   justify-content: space-between;
 }
 
-.aboutUs-subNav > ul > li {
+.aboutUs-subNav>ul>li {
   font-size: 18px;
   position: relative;
 }
 
-.aboutUs-subNav > ul > li > a {
+.aboutUs-subNav>ul>li>a {
   display: block;
 }
 
-.aboutUs-subNav > ul > li::after {
+.aboutUs-subNav>ul>li::after {
   display: inline-block;
   content: '';
   width: 1px;
@@ -142,13 +147,11 @@ strong {
   top: 5px;
 }
 
-.aboutUs-subNav > ul > li:last-child::after {
+.aboutUs-subNav>ul>li:last-child::after {
   display: none;
 }
 
-.aboutUs-wrap:last-child {
-  border: none;
-}
+
 
 /*  서울탁주제조협회 소개  */
 
@@ -159,7 +162,20 @@ strong {
   justify-content: space-between;
 }
 
-.aboutUs-intro > div {
+.intro-bori {
+  width: 100%;
+  position: relative;
+}
+
+.intro-bori img {
+  position: absolute;
+  top: 30px;
+  width: 15%;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.aboutUs-intro>div {
   width: calc(50% - 30px);
 }
 
@@ -176,6 +192,19 @@ strong {
 }
 
 /* 서울탁주제조협회 제조장  */
+
+.factory-bori {
+  position: relative;
+  width: 100%;
+}
+
+.factory-bori>img {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 10%;
+  opacity: 0.7;
+}
 
 .factory-map__img {
   text-align: center;
@@ -381,12 +410,32 @@ strong {
   visibility: hidden;
 }
 
+
 .active .gangdong-adress {
   opacity: 1;
   visibility: visible;
 }
 
+.factory-list {
+  display: none;
+}
+
+
+
 /* 서울탁주 홍보영상 */
+
+.video-bori {
+  width: 100%;
+  position: relative;
+}
+
+.video-bori>img {
+  position: absolute;
+  top: 100px;
+  width: 20%;
+  left: -60px;
+  opacity: 0.2;
+}
 
 .takju-youtube h1 {
   text-align: center;
@@ -398,13 +447,14 @@ strong {
 
 .youtube-mainThumbnail {
   width: 100%;
-  padding: 200px 0;
+  padding-bottom: 40%;
   box-sizing: border-box;
   background-image: url(../img/video-img.jpg);
   background-position: center center;
   border-radius: 7px;
   margin-bottom: 20px;
   position: relative;
+  background-size: cover;
 }
 
 .youtube-mainThumbnail .playBtn__large {
@@ -436,7 +486,7 @@ strong {
   justify-content: space-between;
 }
 
-.youtube-thumbnail__list > a {
+.youtube-thumbnail__list>a {
   display: inline-block;
   width: calc(33% - 10px);
   height: 215px;
@@ -543,6 +593,10 @@ strong {
   margin-bottom: 80px;
 }
 
+.factoryList-address {
+  display: none;
+}
+
 .takju-location h1 {
   text-align: center;
 }
@@ -555,7 +609,7 @@ strong {
     box-sizing: border-box;
   }
 
-  .aboutUs-background__bori > img:nth-child(1) {
+  .aboutUs-background__bori>img:nth-child(1) {
     top: 900px;
   }
 
@@ -584,16 +638,26 @@ strong {
     right: 140px;
   }
 
-  .factory-title {
-    display: none;
+
+}
+
+@media (max-width: 1400px) {
+  .aboutUs-background__bori>img:nth-child(1) {
+    top: 700px;
   }
 
-  .factory-list {
-    display: block;
+  .aboutUs-background__bori>img:nth-child(3) {
+    top: 3200px
   }
 }
 
 @media (max-width: 1200px) {
+  .video-bori>img {
+    top: 50px;
+  }
+
+
+
   .aboutUs-page H1 {
     font-size: 36px;
     margin-bottom: 50px;
@@ -604,27 +668,13 @@ strong {
     margin-bottom: 50px;
   }
 
-  .aboutUs-wrap {
+  .aboutUs-page section {
     padding: 150px 40px;
     box-sizing: border-box;
   }
 
-  .aboutUs-background__bori > img:nth-child(2) {
-    top: 1900px;
-  }
 
-  .aboutUs-background__bori > img:nth-child(3) {
-    top: 3150px;
-    left: -40px;
-  }
 
-  .aboutUs-background__bori > img:nth-child(4) {
-    bottom: 470px;
-  }
-
-  .aboutUs-background__bori > img:nth-child(5) {
-    display: none;
-  }
 
   .aboutUs-img {
     margin-top: 60px;
@@ -634,7 +684,195 @@ strong {
     flex-wrap: wrap;
   }
 
-  .aboutUs-intro > div {
+  .aboutUs-intro>div {
     width: 100%;
+  }
+
+  .factory-title {
+    display: none;
+  }
+
+  .factory-map__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .factory-list {
+    width: 25%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    background-color: #cbc6ad;
+    display: block;
+  }
+
+  .factoryList-title {
+    width: 100%;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .factoryList-title a {
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #3333;
+
+  }
+
+  .factory-map__img {
+    width: 70%;
+    position: relative;
+  }
+
+  .img-60th {
+    margin: 0 auto;
+    background-image: url(../img/60th.png);
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .factory-addressBox {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .factoryList-address {
+    width: 100%;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .factory-addressBox P {
+    font-weight: 350;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .factory-addressBox H2 {
+    margin-bottom: 5px;
+  }
+
+  .map-wrap {
+    position: relative;
+  }
+
+  .factoryList-address.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+}
+
+
+@media (max-width: 1000px) {
+  .youtube-thumbnail__list>a {
+    height: 160px;
+  }
+
+
+  .img-60th {
+    display: none;
+  }
+
+  .factory-map__wrap {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .factory-map__img {
+    width: 100%;
+  }
+
+  .factory-list {
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+  }
+
+  .factoryList-title a {
+    font-size: 15px;
+    border: none;
+  }
+
+  .factoryList-title {
+    margin-bottom: 0;
+  }
+
+  .location-wrap {
+    flex-wrap: wrap;
+  }
+
+  .location-map {
+    width: 100%;
+    padding-bottom: 40%;
+  }
+
+  .location-info {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+
+  }
+}
+
+@media (max-width: 900px) {
+  .factory-list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .factoryList-title {
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .factoryList-title {
+    width: 150px;
+  }
+
+  .factory-map__wrap {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .factory-list {
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  .video-bori>img {
+    left: -30px;
+
+  }
+
+
+
+  .youtube-thumbnail__list>a {
+    height: 130px;
   }
 }
