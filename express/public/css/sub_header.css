@@ -450,9 +450,9 @@
 }
 
 @media (max-width: 1000px) {
-  .h_right > ul > li > a {
+  /* .h_right > ul > li > a {
     font-size: 14px;
-  }
+  } */
   #mySidenav > ul > li > ul {
     display: none;
   }
