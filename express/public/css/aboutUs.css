@@ -798,6 +798,11 @@ strong {
     align-items: center;
     margin-bottom: 50px;
     padding: 20px 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .factoryList-title {
+    width: 250px;
   }
 
   .factoryList-title a {
@@ -826,17 +831,17 @@ strong {
 }
 
 @media (max-width: 900px) {
-  .factory-list {
+  /* .factory-list {
     flex-wrap: wrap;
     justify-content: space-around;
-  }
+  } */
 
-  .factoryList-title {
+  /* .factoryList-title {
     width: 200px;
-  }
+  } */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
   .factoryList-title {
     width: 150px;
   }
