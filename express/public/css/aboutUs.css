@@ -47,7 +47,7 @@ strong {
 
 /* 보리 */
 
-.aboutUs-background__bori>img:nth-child(1) {
+.aboutUs-background__bori > img:nth-child(1) {
   position: absolute;
   width: 15%;
   top: 1000px;
@@ -55,7 +55,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(2) {
+.aboutUs-background__bori > img:nth-child(2) {
   position: absolute;
   width: 13%;
   top: 2100px;
@@ -63,7 +63,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(3) {
+.aboutUs-background__bori > img:nth-child(3) {
   position: absolute;
   width: 15%;
   top: 3600px;
@@ -71,7 +71,7 @@ strong {
   opacity: 0.2;
 }
 
-.aboutUs-background__bori>img:nth-child(4) {
+.aboutUs-background__bori > img:nth-child(4) {
   position: absolute;
   width: 15%;
   bottom: 600px;
@@ -79,7 +79,7 @@ strong {
   opacity: 0.3;
 }
 
-.aboutUs-background__bori>img:nth-child(5) {
+.aboutUs-background__bori > img:nth-child(5) {
   position: absolute;
   width: 15%;
   left: 20px;
@@ -119,7 +119,7 @@ strong {
   background-color: #cbc6ad;
 }
 
-.aboutUs-subNav>ul {
+.aboutUs-subNav > ul {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -127,16 +127,16 @@ strong {
   justify-content: space-between;
 }
 
-.aboutUs-subNav>ul>li {
+.aboutUs-subNav > ul > li {
   font-size: 18px;
   position: relative;
 }
 
-.aboutUs-subNav>ul>li>a {
+.aboutUs-subNav > ul > li > a {
   display: block;
 }
 
-.aboutUs-subNav>ul>li::after {
+.aboutUs-subNav > ul > li::after {
   display: inline-block;
   content: '';
   width: 1px;
@@ -147,11 +147,9 @@ strong {
   top: 5px;
 }
 
-.aboutUs-subNav>ul>li:last-child::after {
+.aboutUs-subNav > ul > li:last-child::after {
   display: none;
 }
-
-
 
 /*  서울탁주제조협회 소개  */
 
@@ -175,7 +173,7 @@ strong {
   opacity: 0.7;
 }
 
-.aboutUs-intro>div {
+.aboutUs-intro > div {
   width: calc(50% - 30px);
 }
 
@@ -198,7 +196,7 @@ strong {
   width: 100%;
 }
 
-.factory-bori>img {
+.factory-bori > img {
   position: absolute;
   right: 0;
   top: 100px;
@@ -410,7 +408,6 @@ strong {
   visibility: hidden;
 }
 
-
 .active .gangdong-adress {
   opacity: 1;
   visibility: visible;
@@ -420,8 +417,6 @@ strong {
   display: none;
 }
 
-
-
 /* 서울탁주 홍보영상 */
 
 .video-bori {
@@ -429,7 +424,7 @@ strong {
   position: relative;
 }
 
-.video-bori>img {
+.video-bori > img {
   position: absolute;
   top: 100px;
   width: 20%;
@@ -486,7 +481,7 @@ strong {
   justify-content: space-between;
 }
 
-.youtube-thumbnail__list>a {
+.youtube-thumbnail__list > a {
   display: inline-block;
   width: calc(33% - 10px);
   height: 215px;
@@ -601,6 +596,12 @@ strong {
   text-align: center;
 }
 
+.factoryList-address.show {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
 /* 반응형 */
 
 @media (max-width: 1600px) {
@@ -609,7 +610,7 @@ strong {
     box-sizing: border-box;
   }
 
-  .aboutUs-background__bori>img:nth-child(1) {
+  .aboutUs-background__bori > img:nth-child(1) {
     top: 900px;
   }
 
@@ -637,26 +638,22 @@ strong {
   .gangdong {
     right: 140px;
   }
-
-
 }
 
 @media (max-width: 1400px) {
-  .aboutUs-background__bori>img:nth-child(1) {
+  .aboutUs-background__bori > img:nth-child(1) {
     top: 700px;
   }
 
-  .aboutUs-background__bori>img:nth-child(3) {
-    top: 3200px
+  .aboutUs-background__bori > img:nth-child(3) {
+    top: 3200px;
   }
 }
 
 @media (max-width: 1200px) {
-  .video-bori>img {
+  .video-bori > img {
     top: 50px;
   }
-
-
 
   .aboutUs-page H1 {
     font-size: 36px;
@@ -673,9 +670,6 @@ strong {
     box-sizing: border-box;
   }
 
-
-
-
   .aboutUs-img {
     margin-top: 60px;
   }
@@ -684,7 +678,7 @@ strong {
     flex-wrap: wrap;
   }
 
-  .aboutUs-intro>div {
+  .aboutUs-intro > div {
     width: 100%;
   }
 
@@ -719,7 +713,6 @@ strong {
     padding: 10px 0;
     box-sizing: border-box;
     border-bottom: 1px solid #3333;
-
   }
 
   .factory-map__img {
@@ -753,7 +746,7 @@ strong {
   .factoryList-address {
     width: 100%;
     opacity: 0;
-    display: block;
+    display: none;
     visibility: hidden;
     position: absolute;
     top: 0;
@@ -776,18 +769,14 @@ strong {
   .factoryList-address.show {
     opacity: 1;
     visibility: visible;
+    display: block;
   }
-
-
-
 }
 
-
 @media (max-width: 1000px) {
-  .youtube-thumbnail__list>a {
+  .youtube-thumbnail__list > a {
     height: 160px;
   }
-
 
   .img-60th {
     display: none;
@@ -833,7 +822,6 @@ strong {
     width: 100%;
     margin-left: 0;
     margin-top: 30px;
-
   }
 }
 
@@ -849,7 +837,6 @@ strong {
 }
 
 @media (max-width: 600px) {
-
   .factoryList-title {
     width: 150px;
   }
@@ -865,17 +852,12 @@ strong {
   }
 }
 
-
-
 @media (max-width: 800px) {
-  .video-bori>img {
+  .video-bori > img {
     left: -30px;
-
   }
 
-
-
-  .youtube-thumbnail__list>a {
+  .youtube-thumbnail__list > a {
     height: 130px;
   }
 }
