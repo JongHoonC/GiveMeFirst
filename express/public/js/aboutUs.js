@@ -54,7 +54,6 @@ wrap.addEventListener('click', e => {
       list.classList.remove('show');
     });
     const listId = document.getElementById(id);
-    console.log(listId);
 
     listId.classList.add('show');
   }
