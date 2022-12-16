@@ -63,11 +63,12 @@ button {
 }
 
 .login__sub-button {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin: 20px 0;
 }
 
-.login__sub-button > button {
+.login__sub-button > p {
   background-color: transparent;
   border: none;
   font-size: 14px;
@@ -87,7 +88,7 @@ button {
   height: 15px;
   background-color: #333;
   position: absolute;
-  right: -4px;
+  right: -2px;
   top: 4px;
 }
 
@@ -102,7 +103,7 @@ button {
   height: 15px;
   background-color: #333;
   position: absolute;
-  right: -4px;
+  right: -2px;
   top: 4px;
 }
 

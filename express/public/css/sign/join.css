@@ -58,6 +58,11 @@
   display: block;
   text-align: center;
   margin: 0 auto;
+  transition: all 0.3s;
+}
+.joinComfirm_Btn:hover {
+  background-color: #a9a27d;
+  color: #fff;
 }
 
 .btn_wrap a.wide {
@@ -296,6 +301,10 @@ tr {
   vertical-align: top;
   line-height: 56px;
   font-size: 13px;
+  transition: all 0.3s;
+}
+.join_form table td a.btn_confirm:hover {
+  background: rgba(159, 151, 95, 0.3);
 }
 
 .join_form table td input.btn_findPost {
@@ -310,12 +319,22 @@ tr {
   vertical-align: top;
   font-size: 13px;
   color: #333;
+  transition: all 0.3s;
+}
+
+.join_form table td input.btn_findPost:hover {
+  background: rgba(159, 151, 95, 0.3);
 }
 
 .join_form table td a.btn_confirm.send {
   background: transparent;
   border: 1px solid rgba(203, 198, 173, 0.3);
   background-color: rgba(203, 198, 173, 0.3);
+  transition: all 0.3s;
+}
+
+.join_form table td a.btn_confirm.send:hover {
+  background: rgba(159, 151, 95, 0.3);
 }
 
 .join_form.idpwFind table td select {
@@ -512,10 +531,8 @@ td {
 
   .join_form table td a.btn_confirm.send {
     height: 35px;
-    width: 30%;
+    width: 100px;
     line-height: 35px;
-    background: transparent;
-
     border: 1px solid rgba(203, 198, 173, 0.3);
   }
 
