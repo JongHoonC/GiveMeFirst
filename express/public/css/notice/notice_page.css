@@ -1,8 +1,38 @@
 .notice-page {
-  padding-bottom: 300px;
+  padding: 200px 0;
   box-sizing: border-box;
+  position: relative;
 }
 
+.notice-page .notice_bori__left {
+  position: absolute;
+  opacity: 0.3;
+  left: 0px;
+  top: 100px;
+  width: 17%;
+}
+
+.notice-page .notice_bori__right {
+  position: absolute;
+  opacity: 0.3;
+  right: 60px;
+  bottom: 15px;
+  width: 15%;
+  transform: rotate(30deg);
+}
+
+.notice-detail__wrap{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* margin-top: 200px; */
+
+}
+
+.notice-detail__wrap h2 {
+  font-weight: bold;
+
+}
 .notice-page__contents {
   margin-top: 70px;
 }
