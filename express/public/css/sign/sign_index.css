@@ -5,9 +5,9 @@
 @import url(../footer.css);
 
 main {
+  background-color: #f5f2e1;
   /* margin-top: 200px; */
   color: #333333;
-  background-color: #F5F2E1;
   /* padding: 200px 0; */
 }
 
@@ -19,6 +19,6 @@ main {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-input{
+input {
   outline: none;
 }

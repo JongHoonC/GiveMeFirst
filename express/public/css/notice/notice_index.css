@@ -15,9 +15,9 @@
 
 main.notice-main {
   width: 100%;
+  padding: 200px 0;
   background-color: #f5f2e1;
   color: #333333;
-  padding: 200px 0;
 }
 
 a {
@@ -44,7 +44,6 @@ h2 {
 p {
   font-size: 16px;
 }
-
 
 @media (max-width: 768px) {
   h1 {

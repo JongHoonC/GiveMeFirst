@@ -11,21 +11,21 @@
 }
 
 .aboutUs-page {
-  background-color: #f5f2e1;
-  width: 100%;
-  color: #333;
   position: relative;
+  width: 100%;
+  background-color: #f5f2e1;
+  color: #333;
 }
 
 .aboutUs-page H1 {
+  margin-bottom: 50px;
   font-size: 50px;
   font-weight: bold;
-  margin-bottom: 50px;
 }
 
 .aboutUs-page H2 {
-  font-size: 26px;
   margin-bottom: 50px;
+  font-size: 26px;
 }
 
 .aboutUs-page P {
@@ -33,16 +33,16 @@
 }
 
 strong {
-  font-weight: 500;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .aboutUs-wrap {
   max-width: 1200px;
   margin: 0 auto;
   padding: 150px 0;
-  box-sizing: border-box;
   border-bottom: 2px solid rgba(194, 191, 175, 0.7);
+  box-sizing: border-box;
 }
 
 .aboutUs-page section:last-child {
@@ -51,67 +51,67 @@ strong {
 
 /* 보리 */
 
-.aboutUs-background__bori>img:nth-child(1) {
+.aboutUs-background__bori > img:nth-child(1) {
   position: absolute;
-  width: 15%;
   top: 1000px;
   left: -20px;
+  width: 15%;
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(2) {
+.aboutUs-background__bori > img:nth-child(2) {
   position: absolute;
-  width: 13%;
   top: 2100px;
   right: 0px;
+  width: 13%;
   opacity: 0.7;
 }
 
-.aboutUs-background__bori>img:nth-child(3) {
+.aboutUs-background__bori > img:nth-child(3) {
   position: absolute;
-  width: 15%;
   top: 3600px;
   left: -65px;
+  width: 15%;
   opacity: 0.2;
 }
 
-.aboutUs-background__bori>img:nth-child(4) {
+.aboutUs-background__bori > img:nth-child(4) {
   position: absolute;
-  width: 15%;
-  bottom: 600px;
   right: 0px;
+  bottom: 600px;
+  width: 15%;
   opacity: 0.3;
 }
 
-.aboutUs-background__bori>img:nth-child(5) {
+.aboutUs-background__bori > img:nth-child(5) {
   position: absolute;
-  width: 15%;
-  left: 20px;
   bottom: -5px;
+  left: 20px;
+  width: 15%;
   opacity: 0.2;
 }
 
 /* aboutUs 메인이미지 */
 
 .aboutUs-img {
-  width: 100%;
-  background-image: url(../img/aboutUs_img.jpg);
-  padding-bottom: 50%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   position: relative;
+  width: 100%;
   margin-top: 70px;
+  padding-bottom: 50%;
+  background-image: url(../img/aboutUs_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .seoultakju-logo {
-  background-image: url(../img/logo_wh.png);
-  background-size: cover;
   position: absolute;
-  width: 26%;
-  padding-bottom: 10%;
   top: 40%;
   left: 25%;
+  width: 26%;
+  padding-bottom: 10%;
+  background-image: url(../img/logo_wh.png);
+  background-size: cover;
   transform: translate(-50% -50%);
 }
 
@@ -119,65 +119,65 @@ strong {
 .aboutUs-subNav {
   width: 100%;
   padding: 25px 0;
-  box-sizing: border-box;
   background-color: #cbc6ad;
+  box-sizing: border-box;
 }
 
-.aboutUs-subNav>ul {
+.aboutUs-subNav > ul {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
 }
 
-.aboutUs-subNav>ul>li {
-  font-size: 18px;
+.aboutUs-subNav > ul > li {
   position: relative;
+  font-size: 18px;
 }
 
-.aboutUs-subNav>ul>li>a {
+.aboutUs-subNav > ul > li > a {
   display: block;
 }
 
-.aboutUs-subNav>ul>li::after {
+.aboutUs-subNav > ul > li::after {
   display: inline-block;
-  content: '';
+  position: absolute;
+  top: 5px;
+  right: -90px;
   width: 1px;
   height: 17px;
   background-color: #333;
-  position: absolute;
-  right: -90px;
-  top: 5px;
+  content: '';
 }
 
-.aboutUs-subNav>ul>li:last-child::after {
+.aboutUs-subNav > ul > li:last-child::after {
   display: none;
 }
 
 /*  서울탁주제조협회 소개  */
 
 .aboutUs-intro {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .intro-bori {
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
 .intro-bori img {
   position: absolute;
   top: 30px;
-  width: 15%;
   left: 0px;
+  width: 15%;
   opacity: 0.7;
 }
 
-.aboutUs-intro>div {
+.aboutUs-intro > div {
   width: calc(50% - 30px);
 }
 
@@ -186,11 +186,11 @@ strong {
 }
 
 .aboutUs-intro__img {
+  width: 100%;
+  padding-bottom: 60%;
   background-image: url(../img/about_sec2_2.jpg);
   background-position: center center;
   background-size: cover;
-  padding-bottom: 60%;
-  width: 100%;
 }
 
 /* 서울탁주제조협회 제조장  */
@@ -200,10 +200,10 @@ strong {
   width: 100%;
 }
 
-.factory-bori>img {
+.factory-bori > img {
   position: absolute;
-  right: 0;
   top: 100px;
+  right: 0;
   width: 10%;
   opacity: 0.7;
 }
@@ -224,12 +224,12 @@ strong {
 }
 
 .subu::after {
-  content: '●';
-  font-size: 20px;
   position: absolute;
   bottom: -30px;
   left: 50%;
+  font-size: 20px;
   color: #333;
+  content: '●';
 }
 
 .dobong {
@@ -239,12 +239,12 @@ strong {
 }
 
 .dobong::after {
-  content: '●';
-  font-size: 20px;
   position: absolute;
   bottom: -30px;
   left: 50%;
+  font-size: 20px;
   color: #333;
+  content: '●';
 }
 
 .taereung {
@@ -254,12 +254,12 @@ strong {
 }
 
 .taereung::after {
-  content: '●';
-  font-size: 20px;
   position: absolute;
   bottom: -30px;
   left: 50%;
+  font-size: 20px;
   color: #333;
+  content: '●';
 }
 
 .guro {
@@ -269,64 +269,64 @@ strong {
 }
 
 .guro::after {
-  content: '●';
-  font-size: 20px;
   position: absolute;
   top: -30px;
   left: 50%;
+  font-size: 20px;
   color: #333;
+  content: '●';
 }
 
 .seongdong {
   position: absolute;
-  bottom: 280px;
   right: 380px;
+  bottom: 280px;
 }
 
 .seongdong::after {
-  content: '●';
-  font-size: 20px;
   position: absolute;
   top: -30px;
   left: 50%;
+  font-size: 20px;
   color: #333;
+  content: '●';
 }
 
 .gangdong {
   position: absolute;
-  bottom: 272px;
   right: 140px;
+  bottom: 272px;
 }
 
 .gangdong::after {
-  content: '●';
-  font-size: 20px;
   position: absolute;
   top: -30px;
   left: 50%;
+  font-size: 20px;
   color: #333;
+  content: '●';
 }
 
 /* 제조장 팝업 */
 
 .factory-title {
   display: block;
-  background-color: transparent;
   border: none;
+  background-color: transparent;
   font-size: 26px;
-  color: #333;
   font-weight: bold;
+  color: #333;
   /* z-index: 1; */
   /* border: 1px solid #000; */
 }
 
 .factory-adress {
-  background-color: #cbc6ad;
-  width: 250px;
-  border-radius: 10px;
-  padding: 20px;
-  box-sizing: border-box;
   z-index: 10;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #cbc6ad;
+  box-sizing: border-box;
   transition: all 0.3s;
 }
 
@@ -340,81 +340,81 @@ strong {
 }
 
 .active .subu-adress {
-  opacity: 1;
   visibility: visible;
+  opacity: 1;
 }
 
 .subu-adress {
   position: absolute;
   top: -160px;
   left: -5px;
-  opacity: 0;
   visibility: hidden;
+  opacity: 0;
 }
 
 .dobong-adress {
   position: absolute;
   top: -150px;
   left: -5px;
-  opacity: 0;
   visibility: hidden;
+  opacity: 0;
 }
 
 .active .dobong-adress {
-  opacity: 1;
   visibility: visible;
+  opacity: 1;
 }
 
 .taereung-adress {
   position: absolute;
   top: -150px;
   left: -5px;
-  opacity: 0;
   visibility: hidden;
+  opacity: 0;
 }
 
 .active .taereung-adress {
-  opacity: 1;
   visibility: visible;
+  opacity: 1;
 }
 
 .guro-adress {
   position: absolute;
   top: 50px;
   left: -5px;
-  opacity: 0;
   visibility: hidden;
+  opacity: 0;
 }
 
 .active .guro-adress {
-  opacity: 1;
   visibility: visible;
+  opacity: 1;
 }
 
 .seongdong-adress {
   position: absolute;
   top: 60px;
   left: -5px;
-  opacity: 0;
   visibility: hidden;
+  opacity: 0;
 }
 
 .active .seongdong-adress {
-  opacity: 1;
   visibility: visible;
+  opacity: 1;
 }
 
 .gangdong-adress {
   position: absolute;
   top: 60px;
   left: -5px;
-  opacity: 0;
   visibility: hidden;
+  opacity: 0;
 }
 
 .active .gangdong-adress {
-  opacity: 1;
   visibility: visible;
+  opacity: 1;
 }
 
 .factory-list {
@@ -424,15 +424,15 @@ strong {
 /* 서울탁주 홍보영상 */
 
 .video-bori {
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
-.video-bori>img {
+.video-bori > img {
   position: absolute;
   top: 100px;
-  width: 20%;
   left: -60px;
+  width: 20%;
   opacity: 0.2;
 }
 
@@ -445,39 +445,39 @@ strong {
 }
 
 .youtube-mainThumbnail {
+  position: relative;
   width: 100%;
+  margin-bottom: 20px;
   padding-bottom: 40%;
-  box-sizing: border-box;
+  border-radius: 7px;
   background-image: url(../img/video-img.jpg);
   background-position: center center;
-  border-radius: 7px;
-  margin-bottom: 20px;
-  position: relative;
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .youtube-mainThumbnail .playBtn__large {
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 50px;
   height: 50px;
-  background-color: #fff;
   border-radius: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  background-color: #fff;
   transform: translate(-50%, -50%);
 }
 
 .youtube-mainThumbnail .playBtn__large::after {
-  content: '';
   display: block;
-  border-left: 15px solid rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  border-left: 15px solid rgba(0, 0, 0, 0.7);
   transform: translate(-42%, -50%);
+  content: '';
 }
 
 .youtube-thumbnail__list {
@@ -485,14 +485,14 @@ strong {
   justify-content: space-between;
 }
 
-.youtube-thumbnail__list>a {
+.youtube-thumbnail__list > a {
   display: inline-block;
+  position: relative;
   width: calc(33% - 10px);
   height: 215px;
   border-radius: 7px;
   background-position: center center;
   background-size: cover;
-  position: relative;
 }
 
 .smallThumbnail-img1 {
@@ -509,45 +509,45 @@ strong {
 
 .youtube-thumbnail__list .playBtn__small {
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 38px;
   height: 38px;
-  background-color: #fff;
   border-radius: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  background-color: #fff;
   transform: translate(-50%, -50%);
 }
 
 .youtube-thumbnail__list .playBtn__small::after {
-  content: '';
   display: block;
-  border-left: 10px solid rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
   border-top: 7px solid transparent;
   border-bottom: 7px solid transparent;
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  border-left: 10px solid rgba(0, 0, 0, 0.7);
   transform: translate(-45%, -50%);
+  content: '';
 }
 
 .video-popup.reveal {
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
-  justify-content: center;
-  align-items: center;
+  left: 0;
   z-index: 9;
 }
 
 .video-popup .video-wrapper {
   position: relative;
+  z-index: 10;
   width: 60%;
   padding-bottom: 30%;
-  z-index: 10;
 }
 
 .video-popup .video-wrapper iframe {
@@ -559,18 +559,18 @@ strong {
 .video-popup.reveal .video-popup-closer {
   position: fixed;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  left: 0;
   z-index: 9;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /* 찾아오시는 길 */
 .location-wrap {
-  width: 100%;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .location-map {
@@ -584,8 +584,8 @@ strong {
 }
 
 .location-wrap .font-14px {
-  font-size: 14px;
   margin-top: 10px;
+  font-size: 14px;
 }
 
 .bus-info {
@@ -601,9 +601,9 @@ strong {
 }
 
 .factoryList-address.show {
-  opacity: 0;
-  visibility: hidden;
   display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
 /* 반응형 */
@@ -614,7 +614,7 @@ strong {
     box-sizing: border-box;
   }
 
-  .aboutUs-background__bori>img:nth-child(1) {
+  .aboutUs-background__bori > img:nth-child(1) {
     top: 900px;
   }
 
@@ -645,28 +645,28 @@ strong {
 }
 
 @media (max-width: 1400px) {
-  .aboutUs-background__bori>img:nth-child(1) {
+  .aboutUs-background__bori > img:nth-child(1) {
     top: 700px;
   }
 
-  .aboutUs-background__bori>img:nth-child(3) {
+  .aboutUs-background__bori > img:nth-child(3) {
     top: 3200px;
   }
 }
 
 @media (max-width: 1200px) {
-  .video-bori>img {
+  .video-bori > img {
     top: 50px;
   }
 
   .aboutUs-page H1 {
-    font-size: 36px;
     margin-bottom: 50px;
+    font-size: 36px;
   }
 
   .aboutUs-page H2 {
-    font-size: 20px;
     margin-bottom: 50px;
+    font-size: 20px;
   }
 
   .aboutUs-page section {
@@ -682,7 +682,7 @@ strong {
     flex-wrap: wrap;
   }
 
-  .aboutUs-intro>div {
+  .aboutUs-intro > div {
     width: 100%;
   }
 
@@ -696,65 +696,65 @@ strong {
   }
 
   .factory-list {
+    display: block;
     width: 25%;
     padding: 50px 30px;
-    box-sizing: border-box;
     background-color: #cbc6ad;
-    display: block;
+    box-sizing: border-box;
   }
 
   .factoryList-title {
     width: 100%;
+    margin-bottom: 20px;
     list-style: none;
     font-size: 20px;
     font-weight: 500;
     color: #333;
-    margin-bottom: 20px;
     text-align: center;
   }
 
   .factoryList-title a {
     padding: 10px 0;
-    box-sizing: border-box;
     border-bottom: 1px solid #3333;
+    box-sizing: border-box;
   }
 
   .factory-map__img {
-    width: 70%;
     position: relative;
+    width: 70%;
   }
 
   .img-60th {
-    margin: 0 auto;
-    background-image: url(../img/60th.png);
     width: 150px;
     height: 200px;
-    background-size: cover;
+    margin: 0 auto;
+    background-image: url(../img/60th.png);
     background-position: center;
+    background-size: cover;
   }
 
   .factory-addressBox {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 250px;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    font-size: 14px;
-    color: #fff;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    color: #fff;
+    box-sizing: border-box;
   }
 
   .factoryList-address {
-    width: 100%;
-    opacity: 0;
     display: none;
-    visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
+    visibility: hidden;
+    width: 100%;
+    opacity: 0;
   }
 
   .factory-addressBox P {
@@ -771,14 +771,14 @@ strong {
   }
 
   .factoryList-address.show {
-    opacity: 1;
-    visibility: visible;
     display: block;
+    visibility: visible;
+    opacity: 1;
   }
 }
 
 @media (max-width: 1000px) {
-  .youtube-thumbnail__list>a {
+  .youtube-thumbnail__list > a {
     height: 160px;
   }
 
@@ -787,8 +787,8 @@ strong {
   }
 
   .factory-map__wrap {
-    flex-wrap: wrap;
     flex-direction: column-reverse;
+    flex-wrap: wrap;
   }
 
   .factory-map__img {
@@ -796,14 +796,14 @@ strong {
   }
 
   .factory-list {
-    width: 100%;
-    border-radius: 5px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 100%;
     margin-bottom: 50px;
     padding: 20px 30px;
+    border-radius: 5px;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
 
   .factoryList-title {
@@ -811,8 +811,8 @@ strong {
   }
 
   .factoryList-title a {
-    font-size: 15px;
     border: none;
+    font-size: 15px;
   }
 
   .factoryList-title {
@@ -830,8 +830,8 @@ strong {
 
   .location-info {
     width: 100%;
-    margin-left: 0;
     margin-top: 30px;
+    margin-left: 0;
   }
 }
 
@@ -852,38 +852,33 @@ strong {
   }
 
   .factory-map__wrap {
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .factory-list {
-    margin-bottom: 0px;
     margin-top: 30px;
+    margin-bottom: 0px;
   }
-  
+
   .factory-map::before {
-    width: 100%;
-    content: '';
     display: block;
-    background-color: transparent;
+    width: 100%;
     padding: 30px 0;
+    background-color: transparent;
     box-sizing: border-box;
+    content: '';
   }
-
-
 }
 
 @media (max-width: 800px) {
-  .video-bori>img {
+  .video-bori > img {
     left: -30px;
   }
 
-
-
-
   .factory-addressBox {
-    width: 200px;
     top: -100px;
+    width: 200px;
   }
 
   .factory-addressBox H2 {
@@ -896,7 +891,6 @@ strong {
 
   .factory-list li {
     font-size: 16px;
-
   }
 
   .aboutUs-page section {

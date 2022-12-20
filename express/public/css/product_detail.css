@@ -56,23 +56,23 @@ main {
   background-color: #f5f2e1;
 }
 #product_detail section {
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
 
 /* 공통 */
 
 /* 섹션 묶기 */
 #product_detail .detail-section__wrap {
-  padding: 254px 0;
-  box-sizing: border-box;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
+  position: relative;
   width: 1200px;
   margin: 0 auto;
+  padding: 254px 0;
   border-bottom: 1px solid rgba(193, 190, 174, 0.8);
-  position: relative;
+  box-sizing: border-box;
 }
 #product_detail .detail-section__wrap > * {
   z-index: 5000;
@@ -80,8 +80,8 @@ main {
 
 @media (max-width: 1200px) {
   #product_detail .detail-section__wrap {
-    width: 100%;
     flex-direction: column;
+    width: 100%;
     padding: 50px 0;
   }
 }
@@ -93,9 +93,9 @@ main {
 }
 
 #product_detail .detail-section__wrap > article > h2 {
+  margin: 54px 0;
   font-weight: bold;
   color: #333;
-  margin: 54px 0;
 }
 
 #product_detail .detail-section__wrap > article > p {
@@ -115,18 +115,18 @@ main {
 
 /* 사진 */
 #product_detail .detail-section__img {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   width: 600px;
   height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 @media (max-width: 1200px) {
   #product_detail .detail-section__img {
-    margin-top: 50px;
     width: 400px;
     height: 400px;
+    margin-top: 50px;
   }
 }
 
@@ -134,40 +134,40 @@ main {
 
 /* 섹션1 */
 .w1920 > .detail__section1-bg {
+  width: 100%;
+  height: 583px;
   margin-top: 100px;
+  background-image: url(../img/detail_main-img.JPG);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 100%;
-  height: 583px;
-  background-image: url(../img/detail_main-img.JPG);
 }
 
 /* 섹션2 */
 #product_detail .detail-section2__img {
-  background-image: url(../img/jangsu.jpg);
   position: relative;
+  background-image: url(../img/jangsu.jpg);
 }
 
 #product_detail .detail-section__wrap > .detail-section2__img > p {
   position: absolute;
-  right: 107px;
   top: 90px;
+  right: 107px;
   color: #fff;
 }
 
 @media (max-width: 1200px) {
   #product_detail .detail-section__wrap > .detail-section2__img > p {
-    right: 68px;
     top: 60px;
+    right: 68px;
     font-size: 12px;
     font-weight: 300;
   }
 }
 @media (max-width: 1000px) {
   #product_detail .detail-section__wrap > .detail-section2__img > p {
-    right: 68px;
     top: 69px;
+    right: 68px;
     font-size: 12px;
     font-weight: 300;
   }
@@ -231,52 +231,52 @@ main {
 
 /* 섹션8 */
 .w1920 > .detail__section8-bg {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   width: 100%;
   height: 569px;
   background-image: url(../img/last.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 /* 보리 */
 #product_detail .bori {
+  width: 300px;
+  height: 300px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
   transition: all 0.3s;
 }
 #product_detail .bori > img {
   display: block;
-  height: auto;
   width: 100%;
-  opacity: 50%;
+  height: auto;
   height: 100%;
+  opacity: 50%;
   transition: all 0.3s;
 }
 #product_detail .first-bori {
   position: absolute;
-  z-index: 1;
-  left: -35px;
   bottom: 0;
+  left: -35px;
+  z-index: 1;
   transition: all 0.3s;
 }
 
 #product_detail .second-bori {
+  display: block;
   position: absolute;
   right: 0;
   bottom: 0;
-  display: block;
   z-index: 1;
 }
 
 #product_detail .third-bori {
   position: absolute;
-  z-index: 1;
-  left: -20px;
   bottom: 0;
+  left: -20px;
+  z-index: 1;
   transition: all 0.3s;
 }
 #product_detail .third-bori > img {
@@ -286,16 +286,16 @@ main {
 }
 #product_detail .fourth-bori {
   position: absolute;
-  z-index: 1;
   right: 0;
   bottom: 0;
+  z-index: 1;
   transition: all 0.3s;
 }
 #product_detail .fivth-bori {
   position: absolute;
-  z-index: 1;
-  left: 0;
   bottom: 0;
+  left: 0;
+  z-index: 1;
   transition: all 0.3s;
 }
 
@@ -320,13 +320,13 @@ main {
   }
 
   #product_detail .first-bori {
-    left: -20px;
     top: 0;
+    left: -20px;
   }
 
   #product_detail .second-bori {
-    right: -20px;
     top: 0;
+    right: -20px;
   }
 
   #product_detail .third-bori {

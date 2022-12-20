@@ -15,19 +15,19 @@
 
 /*헤더*/
 #h_wrap {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
   display: flex;
   justify-content: space-between;
-  padding: 0 45px;
-  height: 100px;
-  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 9999;
-  transition: 0.3s;
+  width: 100%;
+  height: 100px;
+  padding: 0 45px;
   border-bottom: 1px solid #cbc6ad;
   background-color: #fff;
+  box-sizing: border-box;
+  transition: 0.3s;
 }
 
 /*로고*/
@@ -37,13 +37,13 @@
 
 .logoIMG a {
   display: block;
-  box-sizing: border-box;
   width: 120px;
   height: 60px;
   background-image: url(../img/logo_blue.png);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 /*네비게이션 바*/
@@ -52,16 +52,16 @@
 }
 
 #gnb > ul {
-  width: 800px;
   display: flex;
   justify-content: space-between;
-  text-align: center;
   z-index: 9999;
+  width: 800px;
+  text-align: center;
 }
 
 #gnb > ul > li > a {
-  font-weight: 600;
   font-size: 18px;
+  font-weight: 600;
   color: #333;
 }
 
@@ -97,15 +97,15 @@
 /* 드롭다운 */
 .cont {
   display: block;
-  visibility: hidden;
-  opacity: 0;
-  width: 800px;
   position: absolute;
   top: 90px;
   left: 50%;
-  transform: translateX(-50%);
-  overflow: hidden;
   z-index: 8000;
+  visibility: hidden;
+  overflow: hidden;
+  width: 800px;
+  opacity: 0;
+  transform: translateX(-50%);
 }
 
 .cont > li {
@@ -118,21 +118,21 @@
   display: block;
   width: 100%;
   height: auto;
+  font-weight: 500;
+  color: #000;
   /* padding: 5px 10px; */
   box-sizing: border-box;
   transition: all 0.3s;
-  color: #000;
-  font-weight: 500;
 }
 
 .cont.active {
-  visibility: visible;
-  opacity: 1;
-  width: 1000px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  visibility: visible;
   overflow: hidden;
+  width: 1000px;
+  opacity: 1;
   transition: all 0.3s;
 }
 
@@ -142,13 +142,13 @@
 
 /*오른쪽 메뉴*/
 .h_right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100px;
   /* width: 312px; */
   padding: 35px 0;
-  height: 100px;
-  display: flex;
-  justify-content: flex-end;
   box-sizing: border-box;
-  align-items: center;
 }
 
 .h_right > ul {
@@ -157,17 +157,17 @@
 }
 
 .h_right ul li {
-  margin-left: 22px;
   height: 100%;
-  line-height: 30px;
+  margin-left: 22px;
   padding-top: 1px;
+  line-height: 30px;
   box-sizing: border-box;
 }
 
 .h_right > ul > li > a {
-  color: #333;
   font-size: 16px;
   font-weight: 600;
+  color: #333;
   transition: all 0.3s;
 }
 
@@ -177,20 +177,20 @@
 
 /* 드롭다운 */
 .dropbtn {
-  height: 100%;
-  margin-left: 20px;
-  background-color: transparent;
-  color: #000;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   z-index: 9999;
-  transition: all 0.3s;
-  text-align: center;
-  align-items: center;
+  height: 100%;
+  margin-left: 20px;
   padding: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .fp-viewing-1 > #h_wrap > .h_right > .dropdown > .dropbtn {
@@ -198,18 +198,18 @@
 }
 
 .dropbtn > p {
-  font-weight: 600;
   z-index: -1;
+  font-weight: 600;
 }
 
 .dropbtn > a {
-  font-weight: 600;
   z-index: -1;
+  font-weight: 600;
 }
 
 .dropbtn > i {
-  margin-left: 10px;
   z-index: -1;
+  margin-left: 10px;
 }
 
 .dropbtn:hover,
@@ -223,8 +223,8 @@
 }
 
 .dropdown {
-  position: relative;
   display: block;
+  position: relative;
   /* display: flex; */
   /* align-items: center; */
   transition: all 0.3s;
@@ -235,19 +235,19 @@
   position: absolute;
   top: 35px;
   right: 5px;
-  background-color: #f1f1f1;
-  min-width: 70px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  overflow: auto;
+  min-width: 70px;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
   display: block;
+  padding: 12px 16px;
+  color: black;
+  text-decoration: none;
 }
 
 .dropdown a:hover {
@@ -265,23 +265,23 @@
 }
 
 .nav-icon-5 {
-  width: 30px;
-  height: 30px;
-  margin-left: 20px;
-  position: relative;
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .nav-icon-5 span {
-  background-color: #fff;
   position: absolute;
-  border-radius: 2px;
-  transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
   width: 100%;
   height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
 }
 
 .nav-icon-5 span:nth-child(1) {
@@ -301,8 +301,8 @@
 }
 
 .nav-icon-5.open span:nth-child(1) {
-  transform: rotate(45deg);
   top: 13px;
+  transform: rotate(45deg);
 }
 
 .nav-icon-5.open span:nth-child(2) {
@@ -310,8 +310,8 @@
 }
 
 .nav-icon-5.open span:nth-child(3) {
-  transform: rotate(-45deg);
   top: 13px;
+  transform: rotate(-45deg);
 }
 #h_wrap > .h_right > .h_right_menu > .nav-icon-5 span {
   background-color: #333;
@@ -322,18 +322,18 @@
   width: 100%;
 }
 .sidenav {
-  height: 100%;
-  width: 0;
   position: fixed;
-  z-index: 1;
   top: 0;
   right: 0;
-  background-color: #fff;
+  z-index: 1;
   overflow-x: hidden;
-  transition: 0.5s;
+  width: 0;
+  height: 100%;
   margin-top: 100px;
   padding-top: 60px;
+  background-color: #fff;
   text-align: center;
+  transition: 0.5s;
 }
 #mySidenav > ul {
   display: flex;
@@ -342,14 +342,14 @@
 }
 #mySidenav > ul > li {
   display: block;
-  font-size: 24px;
   font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
   font-weight: bold;
 }
 #mySidenav > ul > li > ul {
-  margin-top: 30px;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 #mySidenav > ul > li > ul > li {
   margin: 7px auto;
@@ -360,10 +360,10 @@
 }
 
 .underMenu > li > a {
-  text-decoration: none;
+  display: block;
   font-size: 16px;
   color: #818181;
-  display: block;
+  text-decoration: none;
   transition: 0.3s;
 }
 
@@ -375,8 +375,8 @@
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
   margin-left: 50px;
+  font-size: 36px;
 }
 .fp-viewing-1 > #h_wrap.hamberger > .h_right > .h_right_menu > .nav-icon-5 span {
   background-color: #333;
@@ -420,8 +420,8 @@
   }
 
   .h_right {
-    padding: 15px 0;
     height: 60px;
+    padding: 15px 0;
   }
 
   .h_right_menu {

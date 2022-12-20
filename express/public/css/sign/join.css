@@ -3,9 +3,9 @@
 }
 
 .joinPage__wrap {
+  position: relative;
   max-width: 628px;
   margin: 0 auto;
-  position: relative;
 }
 
 .joinPage__container {
@@ -13,9 +13,9 @@
 }
 
 .sub_tit_txt {
+  padding-bottom: 15px;
   font-size: 25px;
   font-weight: 600;
-  padding-bottom: 15px;
 }
 
 .p200 {
@@ -24,19 +24,19 @@
 }
 
 .con_term .term_txt {
-  border: 1px solid #ececec;
-  padding: 30px;
-  height: 210px;
   overflow-y: auto;
+  height: 210px;
   margin: 0 0 15px;
+  padding: 30px;
+  border: 1px solid #ececec;
 }
 
 .con_term .term_txt ul li,
 .con_term .term_txt p,
 .con_term .term_txt div {
+  margin: 0 0 15px;
   font-size: 12px;
   line-height: 17px;
-  margin: 0 0 15px;
 }
 
 .left_margin {
@@ -44,20 +44,20 @@
 }
 
 .con_term .term_txt div.txt_bold {
-  font-weight: bold;
   margin: 0 0 25px;
+  font-weight: bold;
 }
 
 .joinComfirm_Btn {
-  background-color: #cbc6ad;
-  border: none;
-  padding: 10px;
-  height: 60px;
-  line-height: 45px;
-  width: 300px;
   display: block;
-  text-align: center;
+  width: 300px;
+  height: 60px;
   margin: 0 auto;
+  padding: 10px;
+  border: none;
+  background-color: #cbc6ad;
+  line-height: 45px;
+  text-align: center;
   transition: all 0.3s;
 }
 .joinComfirm_Btn:hover {
@@ -71,11 +71,11 @@
 }
 
 .find_txt ul li {
-  color: #9a9a9a;
-  font-size: 13px;
-  text-align: center;
-  line-height: 17px;
   margin: 0 0 20px;
+  font-size: 13px;
+  color: #9a9a9a;
+  line-height: 17px;
+  text-align: center;
 }
 
 .form_txtInput .checkbox_wrap {
@@ -86,22 +86,22 @@
 
 .form_txtInput .checkbox_wrap input[type='checkbox'] {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
   border: 0;
 }
 
 .form_txtInput .checkbox_wrap input[type='checkbox'] + label {
   display: inline-block;
-  line-height: 14px;
   position: relative;
   padding-left: 20px;
   font-size: 13px;
   color: rgba(51, 51, 51, 0.7);
+  line-height: 14px;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -109,15 +109,15 @@
 }
 
 .form_txtInput .checkbox_wrap input[type='checkbox'] + label:before {
-  content: '';
   position: absolute;
   top: 0px;
   left: 0;
   width: 12px;
   height: 12px;
-  text-align: center;
-  background: #fff;
   border: 1px solid #c2c2c2;
+  background: #fff;
+  text-align: center;
+  content: '';
 }
 
 .form_txtInput .checkbox_wrap input[type='checkbox'] + label:active:before,
@@ -126,13 +126,11 @@
 }
 
 .form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:before {
-  background: #fff;
   border-color: #ddd;
+  background: #fff;
 }
 
 .form_txtInput .checkbox_wrap input[type='checkbox']:checked + label:after {
-  content: '✓';
-  color: rgba(51, 51, 51, 0.8);
   position: absolute;
   top: 0px;
   left: 2px;
@@ -140,6 +138,8 @@
   height: 7px;
   font-size: 13px;
   font-weight: bold;
+  color: rgba(51, 51, 51, 0.8);
+  content: '✓';
 }
 
 .star {
@@ -156,12 +156,12 @@
 }
 
 .star span:after {
-  content: '*';
-  font-size: 16px;
-  color: #625b3a;
   position: absolute;
   top: 0;
   left: -10px;
+  font-size: 16px;
+  color: #625b3a;
+  content: '*';
 }
 
 .join_form {
@@ -169,38 +169,38 @@
 }
 
 .join_form table {
-  border-spacing: 0;
+  width: 100%;
   margin: 0;
   padding: 0;
+  border-spacing: 0;
   border: 0;
-  width: 100%;
 }
 
 .join_form table input {
+  float: left;
+  width: 100%;
+  height: 55px;
+  padding: 10px;
   border: 1px solid rgba(51, 51, 51, 0.2);
+  background-color: transparent;
   font-size: 14px;
   color: #4c4c4c;
-  height: 55px;
-  width: 100%;
-  padding: 10px;
-  float: left;
-  background-color: transparent;
   box-sizing: border-box;
 }
 
 .join_form table input.my_number {
-  width: 60%;
   display: inline-block;
+  width: 60%;
 }
 
 .join_form table input.my_number2 {
-  margin-left: 5px;
   width: 80px;
+  margin-left: 5px;
 }
 
 .join_form table input.my_number3 {
-  margin-left: 5px;
   width: 80px;
+  margin-left: 5px;
 }
 
 .join_form table input.my_adress {
@@ -209,8 +209,8 @@
 
 .join_form table input.my_adress2 {
   width: 130px;
-  margin-left: 5px;
   margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 .join_form table input.my_detailAdress {
@@ -222,8 +222,8 @@
 }
 
 .join_form table input.email2 {
-  margin-left: 5px;
   width: 150px;
+  margin-left: 5px;
 }
 
 .join_form.idpwFind table input {
@@ -258,12 +258,12 @@
 }
 
 .join_form table th span:after {
-  content: '*';
-  font-size: 13px;
-  color: #625b3a;
   position: absolute;
   top: 0;
   right: 0px;
+  font-size: 13px;
+  color: #625b3a;
+  content: '*';
 }
 
 .join_form table th,
@@ -273,17 +273,16 @@ tr {
 }
 
 .join_form table th {
+  padding-top: 10px;
   font-size: 15px;
   font-weight: 500;
   text-align: left;
-  padding-top: 10px;
   box-sizing: border-box;
 }
 
 .join_form table td {
-  padding: 6px 0;
-
   position: relative;
+  padding: 6px 0;
 }
 
 .join_form.idpwFind table th span:after {
@@ -294,13 +293,13 @@ tr {
   display: inline-block;
   width: 130px;
   height: 55px;
-  box-sizing: border-box;
-  background: rgba(203, 198, 173, 0.3);
   margin-left: 10px;
+  background: rgba(203, 198, 173, 0.3);
+  font-size: 13px;
+  line-height: 56px;
   text-align: center;
   vertical-align: top;
-  line-height: 56px;
-  font-size: 13px;
+  box-sizing: border-box;
   transition: all 0.3s;
 }
 .join_form table td a.btn_confirm:hover {
@@ -311,14 +310,14 @@ tr {
   display: inline-block;
   width: 130px;
   height: 55px;
-  box-sizing: border-box;
-  background: rgba(203, 198, 173, 0.3);
-  border: none;
   margin-left: 10px;
-  text-align: center;
-  vertical-align: top;
+  border: none;
+  background: rgba(203, 198, 173, 0.3);
   font-size: 13px;
   color: #333;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
   transition: all 0.3s;
 }
 
@@ -327,8 +326,8 @@ tr {
 }
 
 .join_form table td a.btn_confirm.send {
-  background: transparent;
   border: 1px solid rgba(203, 198, 173, 0.3);
+  background: transparent;
   background-color: rgba(203, 198, 173, 0.3);
   transition: all 0.3s;
 }
@@ -338,17 +337,17 @@ tr {
 }
 
 .join_form.idpwFind table td select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url(https://secsales.interparkb2b.co.kr/data/G94/main/sele_arr.gif) no-repeat 95% 50%;
-  text-indent: 20px;
+  float: left;
   width: 124px;
   height: 50px;
   border: 1px solid #ececec;
+  background: url(https://secsales.interparkb2b.co.kr/data/G94/main/sele_arr.gif) no-repeat 95% 50%;
   font-size: 14px;
   color: #ccc;
-  float: left;
+  text-indent: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .join_form.idpwFind table td select::-ms-expand {
@@ -364,9 +363,9 @@ tr {
 .mar10:after,
 .join_form.idpwFind table td select:after,
 .join_form table td a.btn_confirm:after {
-  content: '';
   display: block;
   clear: both;
+  content: '';
 }
 
 .agree_wrap {
@@ -391,10 +390,10 @@ tr {
 }
 
 .mar10 {
-  margin: 14px 5px 0 10px;
   display: inline-block;
-  padding: 0;
   float: left;
+  margin: 14px 5px 0 10px;
+  padding: 0;
 }
 
 .explan_txt {
@@ -402,24 +401,24 @@ tr {
 }
 
 .explan_txt li {
-  color: rgba(51, 51, 51, 0.3);
   font-size: 13px;
+  color: rgba(51, 51, 51, 0.3);
   line-height: 17px;
 }
 
 .popWrap {
-  border: 1px solid #ececec;
-  padding: 30px;
-  max-width: 400px;
-  width: 100%;
-  margin: 30px auto 0;
   display: none;
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
-  background: #fff;
   z-index: 5;
+  width: 100%;
+  max-width: 400px;
+  margin: 30px auto 0;
+  padding: 30px;
+  border: 1px solid #ececec;
+  background: #fff;
+  transform: translateX(-50%);
 }
 
 .popWrap.is-open {
@@ -441,14 +440,14 @@ tr {
 }
 
 .popWrap .pop_btnWrap a {
-  color: #fff;
+  display: block;
+  width: 103px;
+  height: 22px;
+  padding: 10px;
   background-color: #4380ce;
   font-weight: bold;
-  padding: 10px;
-  height: 22px;
+  color: #fff;
   line-height: 22px;
-  width: 103px;
-  display: block;
   text-align: center;
 }
 
@@ -465,16 +464,16 @@ tr {
 }
 
 .overlayer {
-  position: fixed;
   display: none;
-  width: 100%;
-  height: 100%;
+  position: fixed;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
   z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
@@ -483,12 +482,12 @@ tr {
 }
 
 .background__bori img {
-  width: 15%;
-  opacity: 0.3;
-  position: absolute;
   display: block;
+  position: absolute;
   right: 200px;
   bottom: -550px;
+  width: 15%;
+  opacity: 0.3;
 }
 
 /* 수정영역 */
@@ -512,55 +511,55 @@ td {
   }
 
   .join_form table input {
+    float: left;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    background-color: transparent;
     font-size: 13px;
     color: #4c4c4c;
-    height: 35px;
-    width: 100%;
-    padding: 10px;
-    float: left;
-    background-color: transparent;
     box-sizing: border-box;
   }
 
   .mar10 {
-    margin: 14px 5px 0 10px;
     display: inline-block;
-    padding: 0;
     float: left;
+    margin: 14px 5px 0 10px;
+    padding: 0;
   }
 
   .join_form table td a.btn_confirm.send {
-    height: 35px;
     width: 100px;
-    line-height: 35px;
+    height: 35px;
     border: 1px solid rgba(203, 198, 173, 0.3);
+    line-height: 35px;
   }
 
   .join_form table td a.btn_confirm {
     display: inline-block;
     width: 130px;
     height: 35px;
-    box-sizing: border-box;
-    background: rgba(203, 198, 173, 0.3);
     margin-left: 10px;
+    background: rgba(203, 198, 173, 0.3);
+    font-size: 13px;
+    line-height: 35px;
     text-align: center;
     vertical-align: top;
-    line-height: 35px;
-    font-size: 13px;
+    box-sizing: border-box;
   }
 
   .join_form table td input.btn_findPost {
     display: inline-block;
     width: 130px;
     height: 35px;
-    box-sizing: border-box;
-    background: rgba(203, 198, 173, 0.3);
-    border: none;
     margin-left: 10px;
-    text-align: center;
-    vertical-align: top;
+    border: none;
+    background: rgba(203, 198, 173, 0.3);
     font-size: 13px;
     color: #333;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
   }
 
   .background__bori img {

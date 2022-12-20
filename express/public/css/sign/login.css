@@ -1,22 +1,22 @@
 .login-page__wrap {
+  position: relative;
   max-width: 400px;
   margin: 0 auto;
-  position: relative;
 }
 
 .login-page__title h1 {
-  font-size: 50px;
-  text-align: center;
-  font-weight: bold;
   margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.login-page__idpw>input {
+.login-page__idpw > input {
   width: 100%;
   height: 45px;
-  background-color: transparent;
-  border: 1px solid rgba(51, 51, 51, 0.2);
   padding-left: 10px;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  background-color: transparent;
   box-sizing: border-box;
 }
 
@@ -25,41 +25,41 @@
 }
 
 .securityBtn {
-  background: transparent;
+  margin: 10px 0;
   border: none;
+  background: transparent;
   font-size: 13px;
   color: #333;
-  margin: 10px 0;
 }
 
 button {
   padding: 0;
 }
 
-.securityBtn>span {
+.securityBtn > span {
   display: inline-block;
   width: 13px;
   height: 13px;
+  margin-right: 5px;
   background-image: url(../../img/security.png);
   background-size: cover;
-  margin-right: 5px;
 }
 
-.loginBtn>a {
+.loginBtn > a {
   display: block;
-  background-color: #cbc6ad;
   width: 100%;
   height: 45px;
   border: none;
-  box-sizing: border-box;
+  background-color: #cbc6ad;
   font-size: 16px;
   color: #333;
-  text-align: center;
   line-height: 45px;
+  text-align: center;
+  box-sizing: border-box;
   transition: all 0.5s;
 }
 
-.loginBtn>a:hover {
+.loginBtn > a:hover {
   background-color: #a6a28e;
 }
 
@@ -69,12 +69,12 @@ button {
   margin: 20px 0;
 }
 
-.login__sub-button>p {
-  background-color: transparent;
+.login__sub-button > p {
+  padding: 0 8px;
   border: none;
+  background-color: transparent;
   font-size: 14px;
   color: #333;
-  padding: 0 8px;
   box-sizing: border-box;
 }
 
@@ -83,14 +83,14 @@ button {
 }
 
 .findID::after {
-  content: '';
   display: inline-block;
+  position: absolute;
+  top: 4px;
+  right: -2px;
   width: 1px;
   height: 15px;
   background-color: #333;
-  position: absolute;
-  right: -2px;
-  top: 4px;
+  content: '';
 }
 
 .findPW {
@@ -98,14 +98,14 @@ button {
 }
 
 .findPW::after {
-  content: '';
   display: inline-block;
+  position: absolute;
+  top: 4px;
+  right: -2px;
   width: 1px;
   height: 15px;
   background-color: #333;
-  position: absolute;
-  right: -2px;
-  top: 4px;
+  content: '';
 }
 
 .backgroun__bori {
@@ -113,18 +113,18 @@ button {
 }
 
 .backgroun__bori img {
-  width: 60%;
-  opacity: 0.3;
-  position: absolute;
   display: block;
+  position: absolute;
   right: -280px;
   bottom: -210px;
+  width: 60%;
+  opacity: 0.3;
 }
 
 @media (max-width: 1000px) {
   .backgroun__bori img {
-    width: 45%;
     right: -170px;
+    width: 45%;
   }
 }
 
@@ -133,7 +133,6 @@ button {
     display: none;
   }
 }
-
 
 @media (max-width: 450px) {
   .backgroun__bori img {

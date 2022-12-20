@@ -2,23 +2,23 @@ footer {
   width: 100%;
   height: auto;
   padding: 70px 0;
-  box-sizing: border-box;
   background-color: #625b3a;
+  box-sizing: border-box;
 }
 
 .footer__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
-  display: flex;
   padding: 0 45px;
-  justify-content: space-between;
-  align-items: center;
   box-sizing: border-box;
 }
 
 .w1280wrap {
-  width: 100%;
   display: flex;
+  width: 100%;
 }
 
 /* 로고 */
@@ -26,9 +26,9 @@ footer {
   width: 160px;
   height: 43px;
   background-image: url(../img/footer_logo.png);
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 /* footer 가운데 컨텐츠 */
@@ -37,7 +37,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__text>ul>.en {
+.footer__text > ul > .en {
   margin-bottom: 15px;
 }
 
@@ -49,8 +49,8 @@ footer {
 }
 
 .facebook {
-  margin-bottom: 5px;
   width: 100%;
+  margin-bottom: 5px;
 }
 
 .insta {
@@ -62,40 +62,40 @@ footer {
 .footer__SNS {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
 }
 
-.footer__SNS>div {
+.footer__SNS > div {
   display: flex;
-  padding: 13px 0;
-  box-sizing: border-box;
-  background-color: #cbc6ad;
-  border-radius: 10px;
-  font-size: 14px;
-  color: #333;
-  font-weight: 600;
   align-items: center;
   justify-content: center;
+  padding: 13px 0;
+  border-radius: 10px;
+  background-color: #cbc6ad;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  box-sizing: border-box;
 }
 
-.footer__SNS>div>p {
+.footer__SNS > div > p {
   display: block;
   margin-left: 10px;
 }
 
 /* 페이스북 */
 .facebook__img {
+  width: 24px;
+  height: 24px;
   background-image: url(../img/ft_facebook.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 24px;
-  height: 24px;
 }
 
-.footer__SNS>.facebook>p {
+.footer__SNS > .facebook > p {
   margin-left: 20px;
 }
 
@@ -107,38 +107,38 @@ footer {
   width: 100%;
 }
 
-.insta>i {
+.insta > i {
   font-size: 27px;
 }
 
 /* qr코드 */
 .QR {
-  width: 100%;
-  margin-left: 16px;
   display: flex;
   align-items: center;
-  padding: 16px 26px;
-  box-sizing: border-box;
-  background-color: #cbc6ad;
-  border-radius: 10px;
   justify-content: center;
+  width: 100%;
+  margin-left: 16px;
+  padding: 16px 26px;
+  border-radius: 10px;
+  background-color: #cbc6ad;
+  box-sizing: border-box;
 }
 
 .QR_img {
-  background-image: url(../img/qrcode.png);
   width: 60px;
   height: 60px;
+  background-image: url(../img/qrcode.png);
 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
-.QR>p {
+.QR > p {
   margin-left: 10px;
   font-size: 14px;
-  color: #333;
   font-weight: 600;
+  color: #333;
 }
 
 fp-enabled {
@@ -159,12 +159,13 @@ fp-enabled {
   }
 
   .footer__joinMore {
-    margin-top: 20px;
     width: 100%;
+    margin-top: 20px;
   }
 }
 
-@media (max-width: 1080px) {}
+@media (max-width: 1080px) {
+}
 
 @media (max-width: 768px) {
   .QR {
@@ -172,27 +173,27 @@ fp-enabled {
     box-sizing: border-box;
   }
 
-  .QR>p {
+  .QR > p {
     font-size: 12px;
   }
 
-  .footer__SNS>div {
+  .footer__SNS > div {
     font-size: 12px;
   }
 
   .facebook__img {
+    width: 24px;
+    height: 24px;
     background-image: url(../img/ft_facebook.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 24px;
-    height: 24px;
   }
 
   .QR_img {
-    background-image: url(../img/qrcode.png);
     width: 50px;
     height: 50px;
+    background-image: url(../img/qrcode.png);
   }
 
   .footer__text {

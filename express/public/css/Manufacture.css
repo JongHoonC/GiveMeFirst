@@ -58,22 +58,22 @@ main {
 }
 
 #manu section {
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
 
 /* 공통 */
 
 /* 섹션 묶기 */
 #manu .manufacture-section__wrap {
-  padding: 150px 0;
-  box-sizing: border-box;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
   width: 1200px;
   margin: 0 auto;
+  padding: 150px 0;
   border-bottom: 1px solid rgba(193, 190, 174, 0.8);
+  box-sizing: border-box;
   /* position: relative; */
 }
 
@@ -83,8 +83,8 @@ main {
 
 @media (max-width: 1200px) {
   #manu .manufacture-section__wrap {
-    width: 100%;
     flex-direction: column;
+    width: 100%;
     padding: 50px 20px;
     box-sizing: border-box;
   }
@@ -92,9 +92,9 @@ main {
 
 /* 텍스트 굵기 */
 #manu .manufacture-section__wrap > article > h1 {
+  margin: 54px 0;
   font-weight: bold;
   color: #333;
-  margin: 54px 0;
 }
 
 #manu .manufacture-section__wrap > article > h2 {
@@ -119,30 +119,30 @@ main {
 
 /* 사진 */
 #manu .manufacture-section__img {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   width: 600px;
   height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 @media (max-width: 1200px) {
   #manu .manufacture-section__img {
-    margin-top: 50px;
     width: 400px;
     height: 300px;
+    margin-top: 50px;
   }
 }
 
 /* 섹션1 */
 #manu .manufacture__section1-bg {
+  width: 100%;
+  height: 600px;
   margin-top: 100px;
   background-image: url(../img/right-table.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
-  width: 100%;
-  height: 600px;
+  background-size: cover;
 }
 
 /* 섹션2 */
@@ -158,18 +158,18 @@ main {
 
 /* 섹션3 */
 #manu .manufacture-section3__img {
-  background-image: url(../img/sub-sec3.jpg);
   width: 561px;
   height: 561px;
+  background-image: url(../img/sub-sec3.jpg);
 }
 /* #manu .manufacture-section__wrap.section3 {
   position: relative;
 } */
 @media (max-width: 768px) {
   #manu .manufacture-section3__img {
-    background-image: url(../img/sub-sec3.jpg);
     width: 361px;
     height: 361px;
+    background-image: url(../img/sub-sec3.jpg);
   }
 }
 
@@ -239,34 +239,34 @@ main {
 
 @media (max-width: 1200px) {
   #manu .manufacture__section1-bg {
-    margin-top: 60px;
     height: 300px;
+    margin-top: 60px;
   }
 }
 
 #manu .atech {
-  text-align: center;
-  border-bottom: 1px solid rgba(193, 190, 174, 0.8);
   z-index: 9999;
+  border-bottom: 1px solid rgba(193, 190, 174, 0.8);
+  text-align: center;
 }
 
 #manu .atech--bg {
-  background-image: url(../img/atech1.png);
-  margin: 100px auto;
+  z-index: 9999;
   width: 1200px;
   height: 400px;
+  margin: 100px auto;
+  background-image: url(../img/atech1.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
   background-attachment: fixed;
-  z-index: 9999;
+  background-position: center center;
+  background-size: cover;
 }
 
 /* 텍스트 굵기 */
 #manu .atech > article > h1 {
+  margin: 54px 0;
   font-weight: bold;
   color: #333;
-  margin: 54px 0;
 }
 
 #manu .atech > article > h2 {
@@ -301,52 +301,52 @@ main {
 
 @media (max-width: 768px) {
   #manu .atech--bg {
-    /* background-image: url(../img/atech1.png); */
-    margin: 0 auto;
     width: 100%;
     height: 300px;
+    /* background-image: url(../img/atech1.png); */
+    margin: 0 auto;
     background-attachment: scroll;
   }
 }
 
 /* 보리 */
 #manu .bori {
+  width: 300px;
+  height: 300px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
   transition: all 0.3s;
 }
 #manu .bori > img {
   display: block;
-  height: auto;
   width: 100%;
-  opacity: 50%;
+  height: auto;
   height: 100%;
+  opacity: 50%;
   transition: all 0.3s;
 }
 #manu .first-bori {
   position: absolute;
-  z-index: 1;
-  left: -20px;
   top: 0;
+  left: -20px;
+  z-index: 1;
   transition: all 0.3s;
 }
 
 #manu .second-bori {
-  position: absolute;
-  right: 0;
-  top: 0;
   display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
   z-index: 1;
 }
 
 #manu .third-bori {
   position: absolute;
-  z-index: 1;
-  left: -20px;
   top: 0;
+  left: -20px;
+  z-index: 1;
   transition: all 0.3s;
 }
 #manu .third-bori > img {
@@ -356,16 +356,16 @@ main {
 }
 #manu .fourth-bori {
   position: absolute;
-  z-index: 1;
-  right: 0px;
   top: 0;
+  right: 0px;
+  z-index: 1;
   transition: all 0.3s;
 }
 #manu .fivth-bori {
   position: absolute;
-  z-index: 1;
-  left: 0px;
   top: 0;
+  left: 0px;
+  z-index: 1;
   transition: all 0.3s;
 }
 
