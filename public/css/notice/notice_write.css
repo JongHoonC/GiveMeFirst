@@ -46,9 +46,7 @@
   background-color: #cbc6ad;
 }
 
-@media (max-width: 1200px) {
-  .notice-write {
-    padding: 200px 40px;
-    box-sizing: border-box;
-  }
+.notice-write {
+  padding: 200px 40px;
+  box-sizing: border-box;
 }

@@ -50,8 +50,6 @@
   background-color: #cbc6ad;
 }
 
-@media (max-width: 1200px) {
-  .notice-edit {
-    padding: 200px 40px;
-  }
+.notice-edit {
+  padding: 200px 40px;
 }
