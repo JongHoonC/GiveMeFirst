@@ -46,13 +46,13 @@
 
 .section3 .right-bg {
   position: absolute;
-  right: -360px;
+  right: 0px;
   bottom: 40px;
+  width: 20%;
   transition: all 0.4s;
 }
 
 .section3 .right-bg img {
-  width: 40%;
   opacity: 0.6;
 }
 
@@ -74,13 +74,6 @@
     width: 70%;
   }
 
-  .section3 .right-bg {
-    right: -420px;
-  }
-
-  .section3 .right-bg img {
-    width: 30%;
-  }
   .section3 .br-none {
     display: block;
   }
@@ -109,16 +102,6 @@
 
   .section3 .side-bg img {
     width: 60%;
-  }
-
-  .section3 .right-bg {
-    position: absolute;
-    right: -360px;
-    bottom: 40px;
-  }
-
-  .section3 .right-bg img {
-    width: 40%;
   }
 
   .btn-more {
@@ -163,10 +146,6 @@
   }
 
   .section3 .right-bg {
-    right: -430px;
-  }
-
-  .section3 .right-bg img {
     width: 30%;
   }
 
@@ -201,10 +180,6 @@
   }
 
   .section3 .right-bg {
-    right: -480px;
-  }
-
-  .section3 .right-bg img {
     width: 20%;
   }
 }

@@ -30,13 +30,10 @@
 
 .section5 .road {
   position: absolute;
-  right: -240px;
-  bottom: -20px;
+  right: 0px;
+  bottom: -30px;
   transition: all 0.4s;
-}
-
-.section5 .road img {
-  width: 80%;
+  width: 60%;
 }
 
 .section5 h2 {
@@ -198,12 +195,7 @@
   }
 
   .section5 .road {
-    right: -490px;
-    bottom: -10px;
-  }
-
-  .section5 .road img {
-    width: 60%;
+    bottom: 0px;
   }
 
   .section5 .bottles {
