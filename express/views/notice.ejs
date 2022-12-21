@@ -8,291 +8,30 @@
       <div class="swiper notice-swiper">
         <div class="swiper-wrapper">
           <ul class="notice-list swiper-slide">
+            <% rows.forEach((row,index) => { %>
             <div>
               <li>
-                <a href="">
+                <a onclick="javascript:location.href='/noticeDetail?id=<%= row.id %>'">
                   <div class="p10 notice-writer">
                     <p>서울탁주</p>
                   </div>
                   <div>
-                    <h2>서울 탁주제조협회 60년</h2>
+                    <h2><%= row.title %></h2>
                   </div>
                   <div class="notice-date">
-                    <p>2022-04-27</p>
+                    <p><%= row.create_time %></p>
                   </div>
                 </a>
               </li>
             </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>서울 탁주제조협회 60년 우리 막걸리 알릴 것</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2022-04-27</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>서울 장수에서 드라마 ‘꽃 피면 달 생각하고’에 제작지원</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2021-12-27</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>서울장수에서 드라마 ‘지리산’에 제작 지원</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2021-11-02</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>서울장수‘장수 생막걸리’ 친환경 무색 페트병으로 교체</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2020-01-10</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>19년 서울김장문화제</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2019-10-16</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-          </ul>
-          <ul class="notice-list swiper-slide">
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>
-                      <2018년 10월 16일> 인생막걸리 출시
-                    </h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2018-10-16</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>2017 대한민국 우리 술 대축제</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2017-11-15</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>가평 자라섬 전국 막걸리 페스티벌 2017</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2017-08-28</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>2016년 우리술 대축제 품평회</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2017-01-02</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>홈플러스 장홍삼장수막걸리 입점</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2015-06-08</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>장홍삼장수막걸리 이마트 34개점 입점.</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2015-04-16</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-          </ul>
-          <ul class="notice-list swiper-slide">
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>
-                      백화점 홍삼막걸리 출시
-                    </h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2014-04-14</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>농협전용 홍삼장수막걸리 출시</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2013-07-29</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>2013 대한민국 우리술 대축제</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2013-05-13</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>서울탁주 신제품 출시</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2012-11-10</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>홈플러스 장홍삼장수막걸리 입점</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2015-06-08</p>
-                  </div>
-                </a>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="">
-                  <div class="p10">
-                    <p>서울탁주</p>
-                  </div>
-                  <div>
-                    <h2>장홍삼장수막걸리 이마트 34개점 입점.</h2>
-                  </div>
-                  <div class="notice-date">
-                    <p>2015-04-16</p>
-                  </div>
-                </a>
-              </li>
-            </div>
+            <% }) %>
           </ul>
         </div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
     <div>
-      <button class="writeBtn" type="button"><a href="/noticeWrite">글쓰기</a></button>
+      <button class="writeBtn" type="button"><a onclick="location.href='/noticeWrite'">글쓰기</a></button>
     </div>
     <img class="notice_bori__left" src="img/move-bori.gif" alt="" />
     <img class="notice_bori__right" src="img/move-bori_5.gif" alt="" />
