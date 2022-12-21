@@ -196,6 +196,7 @@
 .dropbtn > p {
   z-index: -1;
   font-weight: 600;
+  font-size: 16px;
 }
 
 .dropbtn > a {
