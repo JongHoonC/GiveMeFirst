@@ -1,9 +1,9 @@
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-  host: 'localhost',
+  host: 'seoultakju.c1s9tr2yqxmc.ap-northeast-1.rds.amazonaws.com',
   user: 'root',
-  password: '1234',
-  database: 'giveMeFirst',
+  password: 'giveme1234',
+  database: 'seoultakju',
   dateStrings: 'date',
   multipleStatements: true,
 });
