@@ -3,7 +3,9 @@ const router = express.Router();
 const multer = require('multer');
 const fs = require('fs');
 const path = require('path');
-const {send} = require('process');
+const {
+  send
+} = require('process');
 const db = require('./../db.js');
 const upload = multer({
   storage: multer.diskStorage({
@@ -15,21 +17,30 @@ const upload = multer({
       done(null, path.basename(file.originalname, ext) + Date.now() + ext);
     },
   }),
-  limits: {fileSize: 1024 * 1024 * 10},
+  limits: {
+    fileSize: 1024 * 1024 * 10
+  },
 });
 
 router.get('/', (req, res) => {
   db.getMainNotice(rows => {
-    res.render('index', {rows: rows, fullpages: true});
+    res.render('index', {
+      rows: rows,
+      fullpages: true
+    });
   });
 });
 
 router.get('/aboutUs', (req, res) => {
-  res.render('aboutUs', {fullpages: false});
+  res.render('aboutUs', {
+    fullpages: false
+  });
 });
 
 router.get('/join', (req, res) => {
-  res.render('join', {fullpages: false});
+  res.render('join', {
+    fullpages: false
+  });
 });
 
 router.post('/joinUs', (req, res) => {
@@ -46,7 +57,9 @@ router.post('/joinUs', (req, res) => {
 });
 
 router.get('/login', (req, res) => {
-  res.render('login', {fullpages: false});
+  res.render('login', {
+    fullpages: false
+  });
 });
 
 router.post('/loginS', (req, res) => {
@@ -63,13 +76,18 @@ router.post('/loginS', (req, res) => {
 });
 
 router.get('/manu', (req, res) => {
-  res.render('Manufacture', {fullpages: false});
+  res.render('Manufacture', {
+    fullpages: false
+  });
 });
 
 router.get('/edit', (req, res) => {
   let id = req.query.id;
   db.getMemoById(id, row => {
-    res.render('notice_edit', {row: row[0], fullpages: false});
+    res.render('notice_edit', {
+      row: row[0],
+      fullpages: false
+    });
   });
 });
 
@@ -86,12 +104,17 @@ router.post('/edit', (req, res) => {
 router.get('/noticeDetail', (req, res) => {
   let id = req.query.id;
   db.getMemoById(id, row => {
-    res.render('notice_page', {row: row[0], fullpages: false});
+    res.render('notice_page', {
+      row: row[0],
+      fullpages: false
+    });
   });
 });
 
 router.get('/noticeWrite', (req, res) => {
-  res.render('notice_write', {fullpages: false});
+  res.render('notice_write', {
+    fullpages: false
+  });
 });
 
 router.post('/noticeWrite', (req, res, next) => {
@@ -105,7 +128,10 @@ router.post('/noticeWrite', (req, res, next) => {
 
 router.get('/notice', (req, res) => {
   db.getMemo(rows => {
-    res.render('notice', {rows: rows, fullpages: false});
+    res.render('notice', {
+      rows: rows,
+      fullpages: false
+    });
   });
 });
 
@@ -118,7 +144,16 @@ router.get('/delete', (req, res) => {
 });
 
 router.get('/productDetail', (req, res) => {
-  res.render('product_detail', {fullpages: false});
+  res.render('product_detail', {
+    fullpages: false
+  });
 });
+router.get('/news', (req, res) => {
+  res.render('news', {
+    fullpages: false
+  });
+});
+
+
 
 module.exports = router;
