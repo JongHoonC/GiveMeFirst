@@ -19,7 +19,9 @@ const upload = multer({
 });
 
 router.get('/', (req, res) => {
-  res.render('index', {fullpages: true});
+  db.getMainNotice(rows => {
+    res.render('index', {rows: rows, fullpages: true});
+  });
 });
 
 router.get('/aboutUs', (req, res) => {
@@ -45,6 +47,19 @@ router.post('/joinUs', (req, res) => {
 
 router.get('/login', (req, res) => {
   res.render('login', {fullpages: false});
+});
+
+router.post('/loginS', (req, res) => {
+  let param = JSON.parse(JSON.stringify(req.body));
+  let userId = param['userId'];
+  let userPw = param['userPw'];
+  db.checkLogin(userId, userPw, results => {
+    if (results.length > 0) {
+      res.redirect('/');
+    } else {
+      res.send(`<script>alert("로그인 정보가 일치하지 않습니다."); document.location.href="/login";</script>`);
+    }
+  });
 });
 
 router.get('/manu', (req, res) => {

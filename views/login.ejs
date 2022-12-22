@@ -3,16 +3,18 @@
     <div class="login-page__title">
       <h1>로그인</h1>
     </div>
-    <div class="login-page__idpw">
-      <input class="login-id" type="text" placeholder="아이디" />
-      <input class="login-pw" type="password" placeholder="비밀번호" />
-    </div>
-    <div>
-      <button class="securityBtn ko"><span></span>보안접속</button>
-    </div>
-    <p class="loginBtn ko">
-      <a href="">로그인</a>
-    </p>
+    <form action="/loginS" method="post">
+      <div class="login-page__idpw">
+        <input class="login-id" name="userId" type="text" placeholder="아이디" />
+        <input class="login-pw" name="userPw" type="password" placeholder="비밀번호" />
+      </div>
+      <div>
+        <button class="securityBtn ko"><span></span>보안접속</button>
+      </div>
+      <p class="loginBtn ko">
+        <input type="submit" value="로그인" />
+      </p>
+    </form>
     <div class="login__sub-button">
       <p class="findID ko">
         <a href="">아이디 찾기</a>

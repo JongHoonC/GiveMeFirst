@@ -243,31 +243,33 @@
             <h1 data-aos="fade-up" data-aos-duration="800">공지사항</h1>
           </li>
           <li class="board-list">
+            <% for(let i = 0; i < 2; i++) { %>
             <div class="board-wrap" data-aos="fade-up" data-aos-duration="800">
               <div class="board-list__title">
-                <a href="">
-                  <span>서울탁주협회 60년</span>
+                <a href="noticeDetail?id=<%= rows[i].id %>">
+                  <span><%= rows[i].title %> </span>
                 </a>
               </div>
               <div class="board-info">
                 <div class="board-list__title none">
-                  <a href="">
-                    <span>서울탁주협회 60년</span>
+                  <a href="noticeDetail?id=<%= rows[i].id %>">
+                    <span><%= rows[i].title %></span>
                   </a>
                 </div>
                 <div class="board-list__date">
-                  <a href="">
-                    <span>2022.04.27</span>
+                  <a href="noticeDetail?id=<%= rows[i].id %>">
+                    <span><%= rows[i].create_time %></span>
                   </a>
                 </div>
                 <div class="board-list__author">
-                  <a href="">
+                  <a href="noticeDetail?id=<%= rows[i].id %>">
                     <span>서울탁주</span>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="board-wrap" data-aos="fade-up" data-aos-duration="800">
+            <% } %>
+            <!-- <div class="board-wrap" data-aos="fade-up" data-aos-duration="800">
               <div class="board-list__title">
                 <a href="">
                   <span>60년의 우리 막걸리 알릴 것</span>
@@ -285,7 +287,7 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div class="btn-box" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
               <a class="btn-more" href="/notice">
                 <span>더 보기</span>

@@ -51,6 +51,20 @@ function insertJoin(userId, userName, userPw, userPwC, userMail, userNumber, cal
   });
 }
 
+function checkLogin(userId, userPw, callback) {
+  connection.query(`SELECT * FROM userList WHERE userId = '${userId}' and userPw = '${userPw}'`, (err, results) => {
+    if (err) throw err;
+    callback(results);
+  });
+}
+
+function getMainNotice(callback) {
+  connection.query('SELECT * FROM noticeTable ORDER BY id DESC', (err, rows, fields) => {
+    if (err) throw err;
+    callback(rows);
+  });
+}
+
 module.exports = {
   getMemo,
   insertMemo,
@@ -58,4 +72,6 @@ module.exports = {
   getMemoById,
   deleteById,
   insertJoin,
+  checkLogin,
+  getMainNotice,
 };

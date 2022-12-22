@@ -45,7 +45,7 @@ button {
   background-size: cover;
 }
 
-.loginBtn > a {
+.loginBtn > input {
   display: block;
   width: 100%;
   height: 45px;
