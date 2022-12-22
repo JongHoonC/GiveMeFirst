@@ -45,7 +45,7 @@ function deleteById(id, callback) {
 }
 
 function insertJoin(userId, userName, userPw, userPwC, userMail, userNumber, callback) {
-  connection.query(`INSERT INTO userList(userId,userName,userPw,userPwC,userMail,userNumbe,create_time) VALUES ('${userId}','${userName}' ,'${userPw}','${userPwC}','${userMail}','${userNumber}',NOW())`, err => {
+  connection.query(`INSERT INTO userList(userId,userName,userPw,userPwC,userMail,userNumber,create_time) VALUES ('${userId}','${userName}' ,'${userPw}','${userPwC}','${userMail}','${userNumber}',NOW())`, err => {
     if (err) throw err;
     callback();
   });
