@@ -32,14 +32,15 @@ router.get('/join', (req, res) => {
 
 router.post('/joinUs', (req, res) => {
   let param = JSON.parse(JSON.stringify(req.body));
-  let userName = param['userName'];
   let userId = param['userId'];
+  let userName = param['userName'];
   let userPw = param['userPw'];
   let userPwC = param['userPwC'];
-  let mail = param['mail'];
-  console.log(userName);
-  let address = param['address'];
-  // res.render('login');
+  let userMail = param['userMail'];
+  let userNumber = param['userNumber'];
+  db.insertJoin(userId, userName, userPw, userPwC, userMail, userNumber, () => {
+    res.redirect('/login');
+  });
 });
 
 router.get('/login', (req, res) => {
