@@ -100,6 +100,13 @@ function deleteNews(id, callback) {
   });
 }
 
+function welcomeUser(userId, callback) {
+  connection.query(`SELECT * FROM userList where userId='${userId}'`, (err, row, fields) => {
+    if (err) throw err;
+    callback(row);
+  });
+}
+
 module.exports = {
   getMemo,
   insertMemo,
@@ -114,4 +121,5 @@ module.exports = {
   updateNews,
   getNewsById,
   deleteNews,
+  welcomeUser,
 };

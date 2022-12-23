@@ -41,6 +41,16 @@ router.get('/join', (req, res) => {
   });
 });
 
+router.get('/welcome', (req, res) => {
+  let userId = req.query.userId;
+  db.welcomeUser(userId, row => {
+    res.render('welcome', {
+      row: row[0],
+      fullpages: false,
+    });
+  });
+});
+
 router.post('/joinUs', (req, res) => {
   let param = JSON.parse(JSON.stringify(req.body));
   let userId = param['userId'];
@@ -50,7 +60,7 @@ router.post('/joinUs', (req, res) => {
   let userMail = param['userMail'];
   let userNumber = param['userNumber'];
   db.insertJoin(userId, userName, userPw, userPwC, userMail, userNumber, () => {
-    res.redirect('/login');
+    res.render('welcome', {userId: userId, fullpages: false});
   });
 });
 
