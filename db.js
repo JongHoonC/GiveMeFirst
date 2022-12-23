@@ -65,6 +65,41 @@ function getMainNotice(callback) {
   });
 }
 
+function getNews(callback) {
+  connection.query('SELECT * FROM newsTable ORDER BY id DESC', (err, rows, fields) => {
+    if (err) throw err;
+    callback(rows);
+  });
+}
+
+function insertNews(img, title, content, callback) {
+  connection.query(`INSERT INTO newsTable(create_time,img,title,content) VALUE(NOW(),'${img}','${title}','${content}')`, err => {
+    if (err) throw err;
+    callback();
+  });
+}
+
+function updateNews(id, img, title, content, callback) {
+  connection.query(`UPDATE newsTable SET create_time = NOW() , img = '${img}' , title = '${title}' , content = '${content}' WHERE id = ${id}`, err => {
+    if (err) throw err;
+    callback();
+  });
+}
+
+function getNewsById(id, callback) {
+  connection.query(`SELECT * FROM newsTable WHERE id = ${id}`, (err, row) => {
+    if (err) throw err;
+    callback(row);
+  });
+}
+
+function deleteNews(id, callback) {
+  connection.query(`DELETE FROM newsTable WHERE id = ${id}`, err => {
+    if (err) throw err;
+    callback();
+  });
+}
+
 module.exports = {
   getMemo,
   insertMemo,
@@ -74,4 +109,9 @@ module.exports = {
   insertJoin,
   checkLogin,
   getMainNotice,
+  getNews,
+  insertNews,
+  updateNews,
+  getNewsById,
+  deleteNews,
 };
