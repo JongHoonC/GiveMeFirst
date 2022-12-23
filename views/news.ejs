@@ -1,21 +1,18 @@
 <main class="news_page ko">
-  <h1 style="padding-bottom: 10px;">보도자료</h1>
+  <h1 style="padding-bottom: 10px">보도자료</h1>
 
   <section class="news-wrap">
-
+    <% rows.forEach((row,index) => { %>
     <div class="news-content">
       <div class="news-img">
-        <img src="img/main-sec3-1.png">
+        <img src="<%= row.img %>" />
       </div>
       <div class="news-text">
-        <h1 class="news-title">'막걸리 외길 60년'…서울탁주 '막걸리의 기준' 됐다</h1>
-        <span class="news-writer"><label>출처 :</label>뉴스웍스</span>
-        <span class="news-date">2022-06-08</span>
+        <h1 class="news-title"><%= row.title %></h1>
+        <span class="news-writer">서울탁주</span>
+        <span class="news-date"><%= row.create_time %></span>
       </div>
     </div>
-
-
+    <% }) %>
   </section>
-
-
 </main>

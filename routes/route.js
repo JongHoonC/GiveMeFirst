@@ -158,8 +158,9 @@ router.get('/productDetail', (req, res) => {
 });
 
 router.get('/news', (req, res) => {
-  res.render('news', {
-    fullpages: false,
+  let img = req.query.img;
+  db.getNews(rows => {
+    res.render('news', {fullpages: false, rows: rows});
   });
 });
 
