@@ -1,16 +1,13 @@
 <div class="news-wrap">
   <form action="/newsWrite" method="post" enctype="multipart/form-data">
     <div>
-      <input type="file" name="productImg" />
+      <input type="file" name="img" />
     </div>
     <div>
-      <input type="text" name="productName" placeholder="상품 이름 입력" />
+      <input type="text" name="title" placeholder="제목을 입력해주세요." />
     </div>
     <div>
-      <input type="text" name="productPrice" placeholder="상품 가격 입력" />
-    </div>
-    <div>
-      <input type="text" name="productDetail" placeholder="상품 요약설명 입력" />
+      <textarea name="content" cols="50" rows="30"></textarea>
     </div>
     <div>
       <input type="submit" value="저장" />
