@@ -6,9 +6,6 @@
 @import url(../sub_header.css);
 @import url(../footer.css);
 
-
-
-
 .en {
   font-family: 'Roboto', sans-serif;
 }
@@ -28,4 +25,35 @@ h2 {
 
 p {
   font-size: 16px;
+}
+@media (max-width: 1200px) {
+  .w1640 {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
