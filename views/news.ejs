@@ -3,20 +3,20 @@
 
   <section class="news-wrap">
     <% rows.forEach((row,index) => { %>
-    <div class="news-content">
-      <div class="news-img">
-        <img src="<%= row.img %>" />
+    <a onclick="javascript:location.href='/detailNews?id=<%= row.id %>'">
+      <div class="news-content">
+        <div class="news-img">
+          <img src="<%= row.img %>" />
+        </div>
+        <div class="news-text">
+          <h1 class="news-title"><%= row.title %></h1>
+          <span class="news-writer">서울탁주</span>
+          <span class="news-date"><%= row.create_time %></span>
+        </div>
       </div>
-      <div class="news-text">
-        <h1 class="news-title"><%= row.title %></h1>
-        <span class="news-writer">서울탁주</span>
-        <span class="news-date"><%= row.create_time %></span>
-      </div>
-    </div>
+    </a>
     <% }) %>
 
     <button class="writeBtn" type="button"><a onclick="location.href='/newsWrite'">글쓰기</a></button>
-
-
   </section>
 </main>

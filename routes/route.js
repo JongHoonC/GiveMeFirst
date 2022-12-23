@@ -177,11 +177,41 @@ router.post('/newsWrite', upload.single('img'), (req, res) => {
     res.redirect('/news');
   });
 });
+try {
+  fs.readFileSync('public/uploads/', {encoding: 'utf8', flag: 'r'});
+} catch (err) {
+  console.log('폴더가 존재하지 않습니다.');
+  if (!fs.existsSync('public/uploads')) fs.mkdirSync('public/uploads');
+}
 
 router.get('/updateNews', (req, res) => {
   let id = req.query.id;
   db.getNewsById(id, row => {
-    res.render('updateNews', {row: row[0], fullpages: false});
+    res.render('news_edit', {row: row[0], fullpages: false});
+  });
+});
+
+router.post('/newsUpdate', (req, res) => {
+  let param = JSON.parse(JSON.stringify(req.body));
+  let id = param['id'];
+  let title = param['title'];
+  let content = param['content'];
+  db.updateNews(id, title, content, () => {
+    res.redirect('news');
+  });
+});
+
+router.get('/deleteNews', (req, res) => {
+  let id = req.query.id;
+  db.deleteNews(id, () => {
+    res.redirect('news', {fullpages: false});
+  });
+});
+
+router.get('/detailNews', (req, res) => {
+  let id = req.query.id;
+  db.getNewsById(id, row => {
+    res.render('news_detail', {row: row[0], fullpages: false});
   });
 });
 
