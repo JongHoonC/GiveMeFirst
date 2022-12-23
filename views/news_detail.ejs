@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="detail-buttons">
-        <input class="detail__listBtn" type="button" value="목록" />
+        <a href="/news" class="detail__listBtn">목록</a>
         <div>
           <input class="detail__editBtn" type="submit" value="수정" onclick="javascript:location.href='/updateNews?id=<%= row.id %>'" />
           <input class="detail__deleteBtn" type="button" value="삭제" onclick="javascript:location.href='/delete?id=<%= row.id %>'" />
