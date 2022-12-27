@@ -28,14 +28,6 @@
   opacity: 0.5;
 }
 
-.section5 .road {
-  position: absolute;
-  right: 0px;
-  bottom: -30px;
-  transition: all 0.4s;
-  width: 60%;
-}
-
 .section5 h2 {
   font-size: 26px;
   color: #333333;
@@ -137,6 +129,17 @@
 
 .swiper-slide {
   font-size: 14px;
+}
+
+.section5 .road {
+  position: absolute;
+  right: 0px;
+  bottom: -30px;
+  transition: all 0.4s;
+}
+
+.section5 .road img {
+  width: 52%;
 }
 
 .bottle-on {
