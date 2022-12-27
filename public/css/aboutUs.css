@@ -574,8 +574,8 @@ strong {
 }
 
 .location-map {
-  width: 65%;
-  background: url(../img/location.jpg) 50% / cover;
+  /* width: 100%; */
+  /* background: url(../img/location.jpg) 50% / cover; */
 }
 
 .location-info {
