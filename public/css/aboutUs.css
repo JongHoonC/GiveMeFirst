@@ -821,6 +821,7 @@ strong {
 
   .location-wrap {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .location-map {
