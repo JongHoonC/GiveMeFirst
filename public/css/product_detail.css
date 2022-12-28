@@ -51,6 +51,19 @@ h2 {
     font-size: 14px;
   }
 }
+@media (max-width: 465px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
 
 main {
   background-color: #f5f2e1;
@@ -85,6 +98,13 @@ main {
     padding: 50px 0;
   }
 }
+@media (max-width: 468px) {
+  #product_detail .detail-section__wrap {
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 0;
+  }
+}
 
 /* 텍스트 굵기 */
 #product_detail .detail-section__wrap > article > h1 {
@@ -110,6 +130,19 @@ main {
 
   #product_detail .detail-section__wrap > article > h2 {
     margin: 30px 0;
+  }
+}
+@media (max-width: 465px) {
+  #product_detail .detail-section__wrap > article > h1 {
+    font-weight: bold;
+    color: #333;
+    font-size: 28px;
+  }
+
+  #product_detail .detail-section__wrap > article > p {
+    font-weight: 500;
+    color: #333;
+    font-size: 12px;
   }
 }
 
@@ -143,7 +176,6 @@ main {
   background-position: center center;
   background-size: cover;
 }
-
 /* 섹션2 */
 #product_detail .detail-section2__img {
   position: relative;
@@ -193,6 +225,16 @@ main {
 #product_detail .detail-section4__img {
   background-image: url(../img/1.jpg);
 }
+@media (max-width: 1200px) {
+  .detail-section__wrap.section4 > article > h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .detail-section__wrap.section4 > article > h2 {
+    font-size: 15px;
+  }
+}
 
 /* 섹션5 */
 #product_detail .detail-section5__img {
@@ -209,10 +251,30 @@ main {
     flex-direction: column;
   }
 }
+@media (max-width: 1200px) {
+  .detail-section__wrap.section5 > article > h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .detail-section__wrap.section5 > article > h2 {
+    font-size: 15px;
+  }
+}
 
 /* 섹션6 */
 #product_detail .detail-section6__img {
   background-image: url(../img/302923_203210_231.jpg);
+}
+@media (max-width: 1200px) {
+  .detail-section__wrap.section6 > article > h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .detail-section__wrap.section6 > article > h2 {
+    font-size: 15px;
+  }
 }
 
 /* 섹션7 */
@@ -352,6 +414,10 @@ main {
     right: 50px;
     font-size: 10px;
     font-weight: 300;
+  }
+  .w1920 > .detail__section1-bg {
+    height: 383px;
+    margin-top: 60px;
   }
 }
 @media (max-width: 365px) {
