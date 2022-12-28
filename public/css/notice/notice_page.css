@@ -31,6 +31,7 @@
 .notice-detail__wrap h2 {
   font-weight: bold;
 }
+
 .notice-page__contents {
   margin-top: 70px;
 }
@@ -52,14 +53,10 @@
 }
 
 .notice-contents__text {
-  margin-bottom: 210px;
   padding: 30px 0;
   box-sizing: border-box;
 }
 
-/* .next-notice__title p {
-  font-weight: 500;
-} */
 
 .content-listLine:hover {
   background-color: rgba(203, 198, 173, 0.3);
