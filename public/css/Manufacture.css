@@ -77,7 +77,15 @@ main {
   /* position: relative; */
 }
 
-#manu .manufacture-section__wrap > * {
+#manu .manufacture-section__wrap.section3 {
+  border-top: 1px solid rgba(193, 190, 174, 0.8);
+}
+
+#manu .manufacture-section__wrap.section7 {
+  border-bottom: transparent;
+}
+
+#manu .manufacture-section__wrap>* {
   z-index: 5000;
 }
 
@@ -91,28 +99,28 @@ main {
 }
 
 /* 텍스트 굵기 */
-#manu .manufacture-section__wrap > article > h1 {
+#manu .manufacture-section__wrap>article>h1 {
   margin: 54px 0;
   font-weight: bold;
   color: #333;
 }
 
-#manu .manufacture-section__wrap > article > h2 {
+#manu .manufacture-section__wrap>article>h2 {
   font-weight: bold;
   color: #333;
 }
 
-#manu .manufacture-section__wrap > article > p {
+#manu .manufacture-section__wrap>article>p {
   font-weight: 500;
   color: #333;
 }
 
 @media (max-width: 1200px) {
-  #manu .manufacture-section__wrap > article {
+  #manu .manufacture-section__wrap>article {
     text-align: center;
   }
 
-  #manu .manufacture-section__wrap > article > h1 {
+  #manu .manufacture-section__wrap>article>h1 {
     margin: 30px 0;
   }
 }
@@ -152,6 +160,7 @@ main {
 #manu .manufacture-section2__img {
   background-image: url(../img/ssfw.jpg);
 }
+
 #manu section:nth-child(2) {
   background-color: #d1ceb3;
 }
@@ -162,6 +171,7 @@ main {
   height: 561px;
   background-image: url(../img/sub-sec3.jpg);
 }
+
 /* #manu .manufacture-section__wrap.section3 {
   position: relative;
 } */
@@ -182,6 +192,7 @@ main {
   flex-direction: row-reverse;
   /* position: relative; */
 }
+
 @media (max-width: 1200px) {
   #manu .manufacture-section__wrap.section4 {
     flex-direction: column;
@@ -192,6 +203,7 @@ main {
 #manu .manufacture-section5__img {
   background-image: url(../img/286801393_1686415348376943_38524004765327719_n.jpg);
 }
+
 /* #manu .manufacture-section__wrap.section5 {
   position: relative;
 } */
@@ -200,6 +212,7 @@ main {
 #manu .manufacture-section6__img {
   background-image: url(../img/business_01.jpg);
 }
+
 #manu .manufacture-section__wrap.section6 {
   flex-direction: row-reverse;
   /* position: relative; */
@@ -215,6 +228,7 @@ main {
 #manu .manufacture-section7__img {
   background-image: url(../img/manufacture7.JPG);
 }
+
 /* #manu .manufacture-section__wrap.section7 {
   position: relative;
 } */
@@ -223,6 +237,7 @@ main {
 #manu .manufacture-section8__img {
   background-image: url(../img/manufacture8.JPG);
 }
+
 #manu .manufacture-section__wrap.section8 {
   flex-direction: row-reverse;
   /* position: relative; */
@@ -231,6 +246,7 @@ main {
 #manu section:nth-child(9) {
   background-color: #e7d98c;
 }
+
 @media (max-width: 1200px) {
   #manu .manufacture-section__wrap.section8 {
     flex-direction: column;
@@ -246,7 +262,6 @@ main {
 
 #manu .atech {
   z-index: 9999;
-  border-bottom: 1px solid rgba(193, 190, 174, 0.8);
   text-align: center;
 }
 
@@ -263,28 +278,28 @@ main {
 }
 
 /* 텍스트 굵기 */
-#manu .atech > article > h1 {
+#manu .atech>article>h1 {
   margin: 54px 0;
   font-weight: bold;
   color: #333;
 }
 
-#manu .atech > article > h2 {
+#manu .atech>article>h2 {
   font-weight: bold;
   color: #333;
 }
 
-#manu .atech > article > p {
+#manu .atech>article>p {
   font-weight: 500;
   color: #333;
 }
 
 @media (max-width: 1200px) {
-  #manu .atech > article {
+  #manu .atech>article {
     text-align: center;
   }
 
-  #manu .atech > article > h1 {
+  #manu .atech>article>h1 {
     margin: 30px 0;
   }
 
@@ -318,7 +333,8 @@ main {
   background-size: cover;
   transition: all 0.3s;
 }
-#manu .bori > img {
+
+#manu .bori>img {
   display: block;
   width: 100%;
   height: auto;
@@ -326,6 +342,7 @@ main {
   opacity: 50%;
   transition: all 0.3s;
 }
+
 #manu .first-bori {
   position: absolute;
   top: 0;
@@ -349,11 +366,13 @@ main {
   z-index: 1;
   transition: all 0.3s;
 }
-#manu .third-bori > img {
+
+#manu .third-bori>img {
   transform: rotate(90deg);
   transform: scaleX(-1);
   filter: FlipH;
 }
+
 #manu .fourth-bori {
   position: absolute;
   top: 0;
@@ -361,6 +380,7 @@ main {
   z-index: 1;
   transition: all 0.3s;
 }
+
 #manu .fivth-bori {
   position: absolute;
   top: 0;
