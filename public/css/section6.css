@@ -270,3 +270,8 @@
     width: 40%;
   }
 }
+@media (max-width: 465px) {
+  .section6 .board-list {
+    text-align: left;
+  }
+}

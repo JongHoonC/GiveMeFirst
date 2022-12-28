@@ -162,3 +162,32 @@
     display: none;
   }
 }
+@media (max-width: 465px) {
+  .section1 {
+    display: block;
+    height: 500px;
+  }
+  .bgimg {
+    height: 500px;
+  }
+  .sec1__title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 200px;
+    height: 73px;
+    background-image: url(../img/logo_wh.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: translate(-50%);
+  }
+
+  .fp-tableCell {
+    height: 500px !important;
+  }
+  .fp-section.fp-table,
+  .fp-slide.fp-table {
+    height: 500px !important;
+  }
+}

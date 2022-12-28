@@ -25,31 +25,40 @@ h2 {
   .w1640 {
     width: 100%;
   }
-
-  h1 {
+  #manu .manufacture-section__wrap > article > h1 {
     font-size: 36px;
   }
-
-  h2 {
+  #manu .manufacture-section__wrap > article > h2 {
     font-size: 20px;
   }
-
-  p {
+  #manu .manufacture-section__wrap > article > p {
     font-size: 16px;
   }
 }
 
 @media (max-width: 768px) {
-  h1 {
+  #manu .manufacture-section__wrap > article > h1 {
     font-size: 35px;
   }
-
-  h2 {
+  #manu .manufacture-section__wrap > article > h2 {
     font-size: 15px;
   }
-
-  p {
+  #manu .manufacture-section__wrap > article > p {
     font-size: 14px;
+  }
+}
+@media (max-width: 465px) {
+  #manu .manufacture-section__wrap > article > h1 {
+    font-size: 26px;
+  }
+  #manu .manufacture-section__wrap > article > h2 {
+    font-size: 14px;
+  }
+  #manu .manufacture-section__wrap > article > p {
+    font-size: 12px;
+  }
+  .atech > article > h1 {
+    font-size: 26px;
   }
 }
 
@@ -85,7 +94,7 @@ main {
   border-bottom: transparent;
 }
 
-#manu .manufacture-section__wrap>* {
+#manu .manufacture-section__wrap > * {
   z-index: 5000;
 }
 
@@ -99,28 +108,28 @@ main {
 }
 
 /* 텍스트 굵기 */
-#manu .manufacture-section__wrap>article>h1 {
+#manu .manufacture-section__wrap > article > h1 {
   margin: 54px 0;
   font-weight: bold;
   color: #333;
 }
 
-#manu .manufacture-section__wrap>article>h2 {
+#manu .manufacture-section__wrap > article > h2 {
   font-weight: bold;
   color: #333;
 }
 
-#manu .manufacture-section__wrap>article>p {
+#manu .manufacture-section__wrap > article > p {
   font-weight: 500;
   color: #333;
 }
 
 @media (max-width: 1200px) {
-  #manu .manufacture-section__wrap>article {
+  #manu .manufacture-section__wrap > article {
     text-align: center;
   }
 
-  #manu .manufacture-section__wrap>article>h1 {
+  #manu .manufacture-section__wrap > article > h1 {
     margin: 30px 0;
   }
 }
@@ -132,6 +141,7 @@ main {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  transition: all 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -278,28 +288,28 @@ main {
 }
 
 /* 텍스트 굵기 */
-#manu .atech>article>h1 {
+#manu .atech > article > h1 {
   margin: 54px 0;
   font-weight: bold;
   color: #333;
 }
 
-#manu .atech>article>h2 {
+#manu .atech > article > h2 {
   font-weight: bold;
   color: #333;
 }
 
-#manu .atech>article>p {
+#manu .atech > article > p {
   font-weight: 500;
   color: #333;
 }
 
 @media (max-width: 1200px) {
-  #manu .atech>article {
+  #manu .atech > article {
     text-align: center;
   }
 
-  #manu .atech>article>h1 {
+  #manu .atech > article > h1 {
     margin: 30px 0;
   }
 
@@ -334,7 +344,7 @@ main {
   transition: all 0.3s;
 }
 
-#manu .bori>img {
+#manu .bori > img {
   display: block;
   width: 100%;
   height: auto;
@@ -367,7 +377,7 @@ main {
   transition: all 0.3s;
 }
 
-#manu .third-bori>img {
+#manu .third-bori > img {
   transform: rotate(90deg);
   transform: scaleX(-1);
   filter: FlipH;
@@ -401,5 +411,19 @@ main {
   #manu .bori {
     max-width: 150px;
     height: 150px;
+  }
+}
+@media (max-width: 465px) {
+  #manu .manufacture-section__img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 365px) {
+  #manu .manufacture-section__img {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
   }
 }
