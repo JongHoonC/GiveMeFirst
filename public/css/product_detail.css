@@ -120,6 +120,7 @@ main {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  transition: all 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -337,5 +338,32 @@ main {
   }
   #product_detail .fivth-bori {
     top: 0;
+  }
+}
+
+@media (max-width: 465px) {
+  #product_detail .detail-section__img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+  }
+  #product_detail .detail-section__wrap > .detail-section2__img > p {
+    top: 47px;
+    right: 50px;
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+@media (max-width: 365px) {
+  #product_detail .detail-section__img {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+  }
+  #product_detail .detail-section__wrap > .detail-section2__img > p {
+    top: 35px;
+    right: 40px;
+    font-size: 1px;
+    font-weight: 300;
   }
 }
