@@ -205,3 +205,37 @@ fp-enabled {
     padding: 0 20px;
   }
 }
+
+@media (max-width: 450px) {
+  .footer__SNS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__SNS > div > p {
+    font-size: 12px;
+  }
+  .footer__joinMore {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__SNS > div {
+    width: calc(50% - 5px);
+  }
+  .insta {
+    margin: 0;
+    height: 50px;
+  }
+  .facebook {
+    margin: 0;
+  }
+  .QR {
+    margin: 10px 0 0 0;
+  }
+  .footer__SNS > .facebook > p {
+    margin-left: 10px;
+  }
+  .footer__SNS > div > p > span {
+    display: none;
+  }
+}

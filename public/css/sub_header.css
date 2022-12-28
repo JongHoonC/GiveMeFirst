@@ -485,3 +485,30 @@
     background-color: #333;
   }
 }
+
+@media (max-width: 450px) {
+  .logoIMG a {
+    width: 80px;
+    height: 40px;
+  }
+  .dropbtn {
+    margin-left: 10px;
+  }
+  .logoIMG {
+    padding: 10px 0;
+  }
+  .dropbtn > p {
+    font-size: 12px;
+  }
+  .h_right > ul > li > a {
+    font-size: 12px;
+  }
+  .nav-icon-5 {
+    width: 25px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .dropdown-content a {
+    font-size: 12px;
+  }
+}
