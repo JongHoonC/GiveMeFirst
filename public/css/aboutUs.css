@@ -489,7 +489,7 @@ strong {
   display: inline-block;
   position: relative;
   width: calc(33% - 10px);
-  height: 215px;
+  padding-bottom: 20%;
   border-radius: 7px;
   background-position: center center;
   background-size: cover;
@@ -799,9 +799,7 @@ strong {
 }
 
 @media (max-width: 1000px) {
-  .youtube-thumbnail__list>a {
-    height: 160px;
-  }
+
 
   .img-60th {
     display: none;

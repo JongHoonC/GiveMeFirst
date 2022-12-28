@@ -177,11 +177,6 @@ router.post('/newsWrite', upload.single('img'), (req, res) => {
     res.redirect('/news');
   });
 });
-try {
-  fs.readFileSync('public/uploads/', {encoding: 'utf8', flag: 'r'});
-} catch (err) {
-  if (!fs.existsSync('public/uploads')) fs.mkdirSync('public/uploads');
-}
 
 router.get('/updateNews', (req, res) => {
   let id = req.query.id;
@@ -190,12 +185,13 @@ router.get('/updateNews', (req, res) => {
   });
 });
 
-router.post('/newsUpdate', (req, res) => {
+router.post('/newsUpdate', upload.single('img'), (req, res) => {
   let param = JSON.parse(JSON.stringify(req.body));
   let id = param['id'];
+  let img = 'uploads/' + req.file.filename;
   let title = param['title'];
   let content = param['content'];
-  db.updateNews(id, title, content, () => {
+  db.updateNews(id, img, title, content, () => {
     res.redirect('news');
   });
 });
@@ -203,7 +199,7 @@ router.post('/newsUpdate', (req, res) => {
 router.get('/deleteNews', (req, res) => {
   let id = req.query.id;
   db.deleteNews(id, () => {
-    res.redirect('news', {fullpages: false});
+    res.redirect('news');
   });
 });
 
@@ -213,5 +209,11 @@ router.get('/detailNews', (req, res) => {
     res.render('news_detail', {row: row[0], fullpages: false});
   });
 });
+
+try {
+  fs.readFileSync('public/uploads/', {encoding: 'utf8', flag: 'r'});
+} catch (err) {
+  if (!fs.existsSync('public/uploads')) fs.mkdirSync('public/uploads');
+}
 
 module.exports = router;
