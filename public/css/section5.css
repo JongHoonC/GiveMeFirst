@@ -139,7 +139,7 @@
 }
 
 .section5 .road img {
-  width: 52%;
+  width: 100%;
 }
 
 .bottle-on {
@@ -152,7 +152,7 @@
 }
 
 .bottle1 {
-  top: 140px;
+  top: 90px;
   right: 0;
 }
 .bottle2 {
@@ -215,23 +215,23 @@
   }
 
   .bottle1 {
-    top: 330px;
-    right: -20px;
+    top: 240px;
+    right: 0px;
   }
   .bottle2 {
-    top: 390px;
-    right: 100px;
+    top: 330px;
+    right: 130px;
   }
   .bottle3 {
-    top: 500px;
-    right: 0px;
+    top: 450px;
+    right: 10px;
   }
   .bottle4 {
     right: 160px;
-    bottom: 100px;
+    bottom: 140px;
   }
   .bottle5 {
-    right: 320px;
+    right: 360px;
     bottom: 30px;
   }
 }
