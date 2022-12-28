@@ -192,14 +192,14 @@ router.post('/newsUpdate', upload.single('img'), (req, res) => {
   let title = param['title'];
   let content = param['content'];
   db.updateNews(id, img, title, content, () => {
-    res.redirect('news');
+    res.redirect('/news');
   });
 });
 
 router.get('/deleteNews', (req, res) => {
   let id = req.query.id;
   db.deleteNews(id, () => {
-    res.redirect('news');
+    res.redirect('/news');
   });
 });
 
