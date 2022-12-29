@@ -52,3 +52,21 @@
   padding: 200px 40px;
   box-sizing: border-box;
 }
+.notice__search {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px 20px 10px;
+  box-sizing: border-box;
+}
+.notice__search > input {
+  background-color: transparent;
+}
+.notice__search a {
+  display: block;
+}
+.notice__search a img {
+  display: block;
+}
+.notice__search > input {
+  border: none;
+}
